@@ -1,0 +1,24 @@
+{
+    "otherCostList": [
+        {
+            "costType": "Labour",
+            "entries": [],
+            "total": 0
+        },
+        {
+            "costType": "SubContractor",
+            "entries": [],
+            "total": 0
+        },
+        {
+            "costType": "Overheads",
+            "entries": [],
+            "total": 0
+        },
+        {
+            "costType": "OtherCosts",
+            "entries": [],
+            "total": 0
+        }
+    ]
+}

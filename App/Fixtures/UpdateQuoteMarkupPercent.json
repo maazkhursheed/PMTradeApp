@@ -1,0 +1,60 @@
+{
+  "code": "00191001",
+  "consumerAddress": {
+    "country": {
+      "isocode": "NZ",
+      "name": "New Zealand"
+    },
+    "defaultAddress": false,
+    "email": "shashika.abeysuriya@fbu.com",
+    "firstName": "Test Allens Fence",
+    "formattedAddress": "Test_Tairua, Test_167 Duke St, Tairua, 3544",
+    "id": "8798190305303",
+    "line1": "Test_Tairua",
+    "line2": "Test_167 Duke St",
+    "phone": "1234567890",
+    "postalCode": "3544",
+    "shippingAddress": false,
+    "town": "Tairua",
+    "visibleInAddressBook": false
+  },
+  "createdby": "prasad.manakattil@fbu.com",
+  "creationTime": "2021-10-15T02:20:50+0000",
+  "estimateFlag": false,
+  "jobAddress": {
+    "country": {
+      "isocode": "NZ",
+      "name": "New Zealand"
+    },
+    "defaultAddress": false,
+    "firstName": "Prasad",
+    "formattedAddress": "Tairua, 167 Duke St, Tairua, 3544",
+    "id": "8798190272535",
+    "line1": "Tairua",
+    "line2": "167 Duke St",
+    "postalCode": "3544",
+    "shippingAddress": false,
+    "town": "Tairua",
+    "visibleInAddressBook": false
+  },
+  "jobName": "Prasad",
+  "markupPercentage": 15.0,
+  "markupPrice": 15.0,
+  "materialsAddedFlag": true,
+  "notes": "House end of the street",
+  "otherCostsAddedFlag": false,
+  "status": "NOTSENT",
+  "subTotal": {
+    "currencyIso": "NZD",
+    "formattedValue": "$100.00",
+    "priceType": "BUY",
+    "value": 100.0
+  },
+  "totalPrice": {
+    "currencyIso": "NZD",
+    "formattedValue": "$115.00",
+    "priceType": "BUY",
+    "value": 115.0
+  },
+  "updatedTime": "2021-10-18T16:11:20+0000"
+}

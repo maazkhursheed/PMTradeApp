@@ -1,0 +1,10 @@
+json_key_file("android/api.json")
+
+apple_id("syed.shahnawaz@royalcyber.com") # Your Apple email address
+
+itc_team_id("117350443") # App Store Connect Team ID
+team_id("3H49YJX8WY") # Developer Portal Team ID
+
+# Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
+#package_name("//:configuration = Release") # e.g. com.krausefx.app
+

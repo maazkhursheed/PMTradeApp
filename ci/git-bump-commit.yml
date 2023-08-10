@@ -1,0 +1,18 @@
+steps:
+  - checkout: self
+    persistCredentials: true
+  - script: |
+      GIT_COUNT=$(git rev-list $(git describe --match="sit-*" --abbrev=0 --tags)...HEAD --count)
+      if  [ $GIT_COUNT == 0 ]
+      then
+        echo "No need for update, There are no new commits"
+        exit 2
+      else
+        git config user.email "azure@placemakers.co.nz"
+        git config user.name "Azure Pipeline"
+        bundle update
+        git checkout -b ${{ variables['Build.SourceBranchName'] }}
+        yarn bump-sit
+        git push --follow-tags --set-upstream origin ${{ variables['Build.SourceBranchName'] }}
+      fi
+    displayName: "Bump version number and push"

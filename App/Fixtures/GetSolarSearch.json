@@ -1,0 +1,221 @@
+{
+  "type": "productCategorySearchPageWsDTO",
+  "currentQuery": {
+    "query": {
+      "value": "NAIL 30MM 3.15MM:Sort By"
+    },
+    "url": "/br-search?q=NAIL+30MM+3.15MM%3ASort+By"
+  },
+  "freeTextSearch": "NAIL 30MM 3.15MM",
+  "pagination": {
+    "currentPage": 0,
+    "pageSize": 5,
+    "sort": "Sort By",
+    "totalPages": 1,
+    "totalResults": 5
+  },
+  "products": [
+    {
+      "availableForPickup": true,
+      "barcodesPM": "9415343012800",
+      "code": "3521839",
+      "description": "",
+      "display": "NOT_PURCHASABLE",
+      "expressOrder": false,
+      "hasNoQuantity": 0.0,
+      "images": [
+        {
+          "format": "product",
+          "imageType": "PRIMARY",
+          "url": "https://pimstorageaueuat.blob.core.windows.net/placemakers/media-assets/No-image-found_v2.jpg"
+        }
+      ],
+      "manufacturer": "LUMBERLOK",
+      "manufacturerId": "PNS3002",
+      "name": "Product Nail Stainless Steel 30 x 3.15mm 2kg",
+      "price": {
+        "currencyIso": "NZD",
+        "formattedValue": "$92.40",
+        "priceType": "BUY",
+        "value": 92.4
+      },
+      "sellOrderMultiple": 0.0,
+      "stock": {
+        "pmStockQuantity": "0",
+        "statusCode": "3",
+        "stockLevelStatus": "outOfStock"
+      },
+      "timberProductFlag": false,
+      "hasAlternateProducts": true,
+      "unitCode": "BG",
+      "uomFormat": "11",
+      "url": "http://middleearthexpress.co.nz/Fastenings-%26-General-Hardware/Fastenings/Timber-Connectors/Product-Nails-Screws/Product-Nail-Stainless-Steel-30-x-3-15mm-2kg/p/3521839"
+    },
+    {
+      "availableForPickup": true,
+      "barcodesPM": "9415343012657",
+      "code": "3530474",
+      "description": "",
+      "display": "PURCHASABLE",
+      "expressOrder": false,
+      "hasNoQuantity": 0.0,
+      "images": [
+        {
+          "format": "product",
+          "imageType": "PRIMARY",
+          "url": "https://pimstorageaueuat.blob.core.windows.net/placemakers/media-assets/No-image-found_v2.jpg"
+        }
+      ],
+      "manufacturer": "LUMBERLOK",
+      "manufacturerId": "PN3005L",
+      "name": "Galvanised Product Nail 30mm 5kg PN3005L",
+      "price": {
+        "currencyIso": "NZD",
+        "formattedValue": "$69.54",
+        "priceType": "BUY",
+        "value": 69.54
+      },
+      "sellOrderMultiple": 0.0,
+      "stock": {
+        "pmStockQuantity": "3",
+        "statusCode": "2",
+        "stockLevelStatus": "lowStock"
+      },
+      "timberProductFlag": false,
+      "hasAlternateProducts": false,
+      "unitCode": "BX",
+      "uomFormat": "11",
+      "url": "http://middleearthexpress.co.nz/Fastenings-%26-General-Hardware/Fastenings/Timber-Connectors/Product-Nails-Screws/Galvanised-Product-Nail-30mm-5kg-PN3005L/p/3530474"
+    },
+    {
+      "availableForPickup": true,
+      "barcodesPM": "9416561000396",
+      "code": "3538345",
+      "description": "The NZ Nails Bracket Nail in grey colour, is suitable for fastening brackets. This nail measuring 3.15 mm Dia x 30 mm, features flat head that safely secures above the work surface. The steel construction and hot-dipped galvanised finish offers long-lasting durability and excellent corrosion protection.",
+      "display": "PURCHASABLE",
+      "expressOrder": false,
+      "pmExclusive": true,
+      "hasNoQuantity": 0.0,
+      "images": [
+        {
+          "format": "product",
+          "imageType": "PRIMARY",
+          "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1035231_Bremick_030315GBP.jpg"
+        }
+      ],
+      "manufacturer": "NZ NAILS",
+      "manufacturerId": "030315GBP",
+      "name": "NZ Nails Bracket Nail 3.15 x 30mm Flat Head Hot Dipped Galvanised Steel 030315GBP",
+      "price": {
+        "currencyIso": "NZD",
+        "formattedValue": "$11.28",
+        "priceType": "BUY",
+        "value": 11.28
+      },
+      "sellOrderMultiple": 0.0,
+      "stock": {
+        "pmStockQuantity": "0",
+        "statusCode": "3",
+        "stockLevelStatus": "outOfStock"
+      },
+      "timberProductFlag": false,
+      "hasAlternateProducts": true,
+      "unitCode": "PA",
+      "uomFormat": "11",
+      "url": "http://middleearthexpress.co.nz/c/NZ-Nails-Bracket-Nail-3-15-x-30mm-Flat-Head-Hot-Dipped-Galvanised-Steel-030315GBP/p/3538345"
+    },
+    {
+      "availableForPickup": true,
+      "barcodesPM": "9416561007357",
+      "code": "3521368",
+      "description": "The NZ Nails Bracket Nail in grey colour, is suitable for fastening brackets. This nail measuring 3.15 mm Dia x 30 mm, features flat head that safely secures above the work surface. The T316 stainless steel construction and galvanized finish offers long-lasting durability and excellent corrosion protection.",
+      "display": "PURCHASABLE",
+      "expressOrder": true,
+      "hasNoQuantity": 0.0,
+      "images": [
+        {
+          "format": "product",
+          "imageType": "PRIMARY",
+          "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1035411_NZ_Nails_030315SF2.jpg"
+        }
+      ],
+      "manufacturer": "NZ NAILS",
+      "manufacturerId": "030315SF2",
+      "name": "NZ Nails Bracket Nail 3.15 x 30mm Flat Head Galvanised T316 Stainless Steel 030315SF2",
+      "price": {
+        "currencyIso": "NZD",
+        "formattedValue": "$92.40",
+        "priceType": "BUY",
+        "value": 92.4
+      },
+      "sellOrderMultiple": 0.0,
+      "stock": {
+        "pmStockQuantity": "4",
+        "statusCode": "1",
+        "stockLevelStatus": "inStock"
+      },
+      "timberProductFlag": false,
+      "hasAlternateProducts": true,
+      "unitCode": "PA",
+      "uomFormat": "11",
+      "url": "http://middleearthexpress.co.nz/c/NZ-Nails-Bracket-Nail-3-15-x-30mm-Flat-Head-Galvanised-T316-Stainless-Steel-030315SF2/p/3521368"
+    },
+    {
+      "availableForPickup": true,
+      "barcodesPM": "9416561005070",
+      "code": "3532362",
+      "description": "The NZ Nails Bracket Nail in grey colour, is suitable for fastening brackets. This nail measuring 3.15 mm Dia x 30 mm, features flat head that safely secures above the work surface. The T316 stainless steel construction offers long-lasting durability and excellent corrosion protection.",
+      "display": "PURCHASABLE",
+      "expressOrder": false,
+      "hasNoQuantity": 0.0,
+      "images": [
+        {
+          "format": "product",
+          "imageType": "PRIMARY",
+          "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1035326_NZ_Nails_030315SFH.jpg"
+        }
+      ],
+      "manufacturer": "NZ NAILS",
+      "manufacturerId": "030315SFH",
+      "name": "NZ Nails Bracket Nail 3.15 x 30mm Flat Head T316 Stainless Steel 030315SFH",
+      "price": {
+        "currencyIso": "NZD",
+        "formattedValue": "$177.82",
+        "priceType": "BUY",
+        "value": 177.82
+      },
+      "sellOrderMultiple": 0.0,
+      "stock": {
+        "pmStockQuantity": "0",
+        "statusCode": "3",
+        "stockLevelStatus": "outOfStock"
+      },
+      "timberProductFlag": false,
+      "hasAlternateProducts": true,
+      "unitCode": "PA",
+      "uomFormat": "11",
+      "url": "http://middleearthexpress.co.nz/c/NZ-Nails-Bracket-Nail-3-15-x-30mm-Flat-Head-T316-Stainless-Steel-030315SFH/p/3532362"
+    }
+  ],
+  "sorts": [
+    {
+      "code": "title+asc",
+      "name": "Name A-Z",
+      "selected": false
+    },
+    {
+      "code": "title+desc",
+      "name": "Name Z-A",
+      "selected": false
+    },
+    {
+      "code": "Sort By",
+      "name": "Sort By",
+      "selected": true
+    }
+  ],
+  "spellingSuggestion": {
+    "query": "",
+    "suggestion": "autoCorrectQuery:null"
+  }
+}

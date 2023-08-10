@@ -1,0 +1,47 @@
+{
+  "entriesCount": 3,
+  "entry": {
+    "availableForPickup": true,
+    "configurationInfos": [],
+    "decimalQty": 33.0,
+    "deliveryOrder": true,
+    "entryNumber": 2,
+    "product": {
+      "availableForPickup": true,
+      "baseOptions": [],
+      "categories": [],
+      "code": "3250974",
+      "configurable": false,
+      "description": "The Firth Dricon Rapidset 25 kg Concrete Bag is designed to use on deck posts and fence posts. Pre-mixed concrete bag consists of special additives that cures the concrete set in just 15 minutes. The setting time is fast in warm conditions and slow in cold conditions.",
+      "expressOrder": true,
+      "hasNoQuantity": 25.0,
+      "manufacturer": "Dricon",
+      "manufacturerId": "RS25",
+      "name": "Rapidset 25kg",
+      "purchasable": true,
+      "sellOrderMultiple": 0.0,
+      "stock": {
+        "stockLevel": 0,
+        "stockLevelStatus": "outOfStock"
+      },
+      "timberProductFlag": false,
+      "unitCode": "BG",
+      "uomFormat": "11",
+      "url": "/c/Rapidset-25kg/p/3250974"
+    },
+    "quantity": 1,
+    "totalPrice": {
+      "currencyIso": "NZD",
+      "value": 125.0
+    },
+    "unit": "BG"
+  },
+  "isCustomProduct": false,
+  "quantity": 1,
+  "quantityAdded": 1,
+  "statusCode": "success",
+  "subTotal": {
+    "currencyIso": "NZD",
+    "value": 255.0
+  }
+}

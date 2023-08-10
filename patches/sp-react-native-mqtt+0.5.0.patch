@@ -1,0 +1,45 @@
+diff --git a/node_modules/sp-react-native-mqtt/android/src/main/java/com/tuanpm/RCTMqtt/RCTMqtt.java b/node_modules/sp-react-native-mqtt/android/src/main/java/com/tuanpm/RCTMqtt/RCTMqtt.java
+index 13dbfeb..ccbdcf4 100644
+--- a/node_modules/sp-react-native-mqtt/android/src/main/java/com/tuanpm/RCTMqtt/RCTMqtt.java
++++ b/node_modules/sp-react-native-mqtt/android/src/main/java/com/tuanpm/RCTMqtt/RCTMqtt.java
+@@ -1,6 +1,6 @@
+ package com.tuanpm.RCTMqtt;
+ 
+-import android.support.annotation.NonNull;
++import androidx.annotation.NonNull;
+ import android.util.Log;
+ 
+ import com.facebook.react.bridge.Arguments;
+@@ -59,7 +59,7 @@ public class RCTMqtt implements MqttCallbackExtended {
+         defaultOptions.putInt("port", 1883);
+         defaultOptions.putString("protocol", "tcp");
+         defaultOptions.putBoolean("tls", false);
+-        defaultOptions.putInt("keepalive", 60);
++        defaultOptions.putInt("keepalive", 120);
+         defaultOptions.putString("clientId", "react-native-mqtt");
+         defaultOptions.putInt("protocolLevel", 4);
+         defaultOptions.putBoolean("clean", true);
+@@ -148,8 +148,9 @@ public class RCTMqtt implements MqttCallbackExtended {
+         mqttOptions.setKeepAliveInterval(options.getInt("keepalive"));
+         mqttOptions.setMaxInflight(1000);
+         mqttOptions.setConnectionTimeout(10);
++        mqttOptions.setCleanSession(options.getBoolean("clean"));
+ 
+-        StringBuilder uri = new StringBuilder("tcp://");
++      StringBuilder uri = new StringBuilder("tcp://");
+         if (options.getBoolean("tls")) {
+             uri = new StringBuilder("ssl://");
+             try {
+diff --git a/node_modules/sp-react-native-mqtt/android/src/main/java/com/tuanpm/RCTMqtt/RCTMqttModule.java b/node_modules/sp-react-native-mqtt/android/src/main/java/com/tuanpm/RCTMqtt/RCTMqttModule.java
+index bef5c35..6193621 100644
+--- a/node_modules/sp-react-native-mqtt/android/src/main/java/com/tuanpm/RCTMqtt/RCTMqttModule.java
++++ b/node_modules/sp-react-native-mqtt/android/src/main/java/com/tuanpm/RCTMqtt/RCTMqttModule.java
+@@ -4,7 +4,7 @@
+ 
+ package com.tuanpm.RCTMqtt;
+ 
+-import android.support.annotation.NonNull;
++import androidx.annotation.NonNull;
+ import android.util.Log;
+ 
+ import com.facebook.react.bridge.Promise;

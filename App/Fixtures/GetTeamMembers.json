@@ -1,0 +1,317 @@
+{
+  "inviteUsers": [
+    {
+      "inviteStatus": "INVITE_ACCEPTED",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-11-14T23:24:47+0000",
+      "mobileNumber": "64274412146",
+      "name": "Nod Kininmont",
+      "permissionList": [
+        {
+          "name": "Account Admin Group",
+          "uid": "accountAdminGroup"
+        }
+      ],
+      "selectedTradeAccount": "3624SIAA",
+      "temporaryAccess": false,
+      "userType": "ADMIN"
+    },
+    {
+      "inviteStatus": "INVITE_ACCEPTED",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-11-14T23:46:07+0000",
+      "mobileNumber": "64212599012",
+      "name": "Mehdi The Third",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        },
+        {
+          "name": "Place Order User Group",
+          "uid": "placeOrderGroup"
+        },
+        {
+          "name": "Restrict Price Group",
+          "uid": "restrictPriceGroup"
+        }
+      ],
+      "selectedTradeAccount": "3624SIAA",
+      "temporaryAccess": false,
+      "userType": "TEAMMEMEBER"
+    },
+    {
+      "inviteStatus": "INVITE_ACCEPTED",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-11-14T23:48:19+0000",
+      "mobileNumber": "64210693619",
+      "name": "Brett Biddle",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        },
+        {
+          "name": "Place Order User Group",
+          "uid": "placeOrderGroup"
+        },
+        {
+          "name": "Restrict Price Group",
+          "uid": "restrictPriceGroup"
+        }
+      ],
+      "selectedTradeAccount": "3624SIAA",
+      "temporaryAccess": false,
+      "userType": "TEAMMEMEBER"
+    },
+    {
+      "inviteStatus": "INVITE_SENT",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-11-20T00:55:41+0000",
+      "mobileNumber": "646766675557",
+      "name": "Grub",
+      "permissionList": [
+        {
+          "name": "Account Admin Group",
+          "uid": "accountAdminGroup"
+        }
+      ],
+      "selectedTradeAccount": "362HADAA",
+      "temporaryAccess": false,
+      "userType": "ADMIN"
+    },
+    {
+      "inviteStatus": "INVITE_ACCEPTED",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-11-22T01:53:36+0000",
+      "mobileNumber": "642108180443",
+      "name": "Sheik the Sheik",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        }
+      ],
+      "selectedTradeAccount": "362HADAA",
+      "temporaryAccess": false,
+      "userType": "TEAMMEMEBER"
+    },
+    {
+      "inviteStatus": "INVITE_ACCEPTED",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-11-25T21:53:45+0000",
+      "mobileNumber": "64275507012",
+      "name": "Annette Rook",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        }
+      ],
+      "selectedTradeAccount": "362HADAA",
+      "temporaryAccess": false,
+      "userType": "TEAMMEMEBER"
+    },
+    {
+      "inviteStatus": "INVITE_SENT",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-11-27T02:32:17+0000",
+      "mobileNumber": "64212562543",
+      "name": "Wenbo Li",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        },
+        {
+          "name": "Place Order User Group",
+          "uid": "placeOrderGroup"
+        }
+      ],
+      "selectedTradeAccount": "362HADAA",
+      "temporaryAccess": false,
+      "userType": "TEAMMEMEBER"
+    },
+    {
+      "endDate": "2019-12-03T00:55:19+0000",
+      "inviteStatus": "INVITE_SENT",
+      "invitedBy": "naomi.kininmont@placemakers.co.nz",
+      "invitedByName": "Nod Kininmont",
+      "invitedOn": "2019-11-28T00:45:27+0000",
+      "mobileNumber": "6464273081802",
+      "name": "GB ",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        }
+      ],
+      "selectedTradeAccount": "362HADAA",
+      "startDate": "2019-12-03T00:55:19+0000",
+      "temporaryAccess": true,
+      "userType": "TEAMMEMEBER"
+    },
+    {
+      "inviteStatus": "INVITE_ACCEPTED",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-12-05T00:55:03+0000",
+      "mobileNumber": "64211859189",
+      "name": "Prasad The Seventh",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        }
+      ],
+      "selectedTradeAccount": "362HADAA",
+      "temporaryAccess": false,
+      "userType": "TEAMMEMEBER"
+    },
+    {
+      "endDate": "2019-12-08T23:35:14+0000",
+      "inviteStatus": "INVITE_SENT",
+      "invitedBy": "naomi.kininmont@placemakers.co.nz",
+      "invitedByName": "Nod Kininmont",
+      "invitedOn": "2019-12-08T23:35:14+0000",
+      "mobileNumber": "64273081802",
+      "name": "GB ",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        }
+      ],
+      "selectedTradeAccount": "362HADAA",
+      "startDate": "2019-12-08T23:35:14+0000",
+      "temporaryAccess": true,
+      "userType": "TEAMMEMEBER"
+    },
+    {
+      "endDate": "2019-12-08T23:36:34+0000",
+      "inviteStatus": "INVITE_SENT",
+      "invitedBy": "naomi.kininmont@placemakers.co.nz",
+      "invitedByName": "Nod Kininmont",
+      "invitedOn": "2019-12-08T23:36:34+0000",
+      "mobileNumber": "64278078131",
+      "name": "Steve - PMKRs ",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        }
+      ],
+      "selectedTradeAccount": "362HADAA",
+      "startDate": "2019-12-08T23:36:34+0000",
+      "temporaryAccess": true,
+      "userType": "TEAMMEMEBER"
+    },
+    {
+      "inviteStatus": "INVITE_ACCEPTED",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-12-10T05:07:31+0000",
+      "mobileNumber": "64276161494",
+      "name": "Tom",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        },
+        {
+          "name": "Place Order User Group",
+          "uid": "placeOrderGroup"
+        },
+        {
+          "name": "Restrict Price Group",
+          "uid": "restrictPriceGroup"
+        }
+      ],
+      "selectedTradeAccount": "3624SIAA",
+      "temporaryAccess": false,
+      "userType": "TEAMMEMEBER"
+    },
+    {
+      "endDate": "2019-12-13T08:05:35+0000",
+      "inviteStatus": "INVITE_SENT",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-12-11T08:03:53+0000",
+      "mobileNumber": "641234567",
+      "name": "User",
+      "permissionList": [
+        {
+          "name": "Account Admin Group",
+          "uid": "accountAdminGroup"
+        }
+      ],
+      "selectedTradeAccount": "3624SIAA",
+      "startDate": "2019-12-11T08:05:35+0000",
+      "temporaryAccess": true,
+      "userType": "ADMIN"
+    },
+    {
+      "inviteStatus": "INVITE_SENT",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-12-09T10:36:40+0000",
+      "mobileNumber": "919491610531",
+      "name": "sravan",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        }
+      ],
+      "selectedTradeAccount": "3624SIAA",
+      "temporaryAccess": false,
+      "userType": "TEAMMEMEBER"
+    },
+    {
+      "creditLimit": "5000",
+      "inviteStatus": "INVITE_SENT",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-12-11T07:02:22+0000",
+      "mobileNumber": "645678654",
+      "name": "Pri",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        },
+        {
+          "name": "Place Order User Group",
+          "uid": "placeOrderGroup"
+        }
+      ],
+      "selectedTradeAccount": "362HADAA",
+      "temporaryAccess": false,
+      "userType": "TEAMMEMEBER"
+    },
+    {
+      "inviteStatus": "INVITE_SENT",
+      "invitedBy": "chris.rook@placemakers.co.nz",
+      "invitedByName": "Chris Rook",
+      "invitedOn": "2019-12-11T07:02:51+0000",
+      "mobileNumber": "6456788756",
+      "name": "Kanchana",
+      "permissionList": [
+        {
+          "name": "View Orders group",
+          "uid": "viewOrderGroup"
+        }
+      ],
+      "selectedTradeAccount": "362HADAA",
+      "temporaryAccess": false,
+      "userType": "TEAMMEMEBER"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "TransactionId": "875426935",
+  "Customer": {
+    "AccountCode": "TENEA",
+    "BranchId": "362",
+    "Products": [
+      {
+        "Sku": "3200029",
+        "Description": "CEMENT GP PREMIUM               40KG BAG",
+        "UnitOfMeasure": "BG",
+        "UnitofMeasureFormat": "z,zzz9.999",
+        "SellOrderMultiple": 0,
+        "ExpressOrder": "N",
+        "TimberProductFlag": "N"
+      },
+      {
+        "Sku": "1002021",
+        "Description": "100 X 50 (90X45) RAD NO1 H1.2 PG",
+        "UnitOfMeasure": "LM",
+        "UnitofMeasureFormat": "z,zzz9.999",
+        "SellOrderMultiple": 3.6,
+        "ExpressOrder": "N",
+        "TimberProductFlag": "N"
+      },
+      {
+        "Sku": "2800043",
+        "Description": "GIB STANDARD 3000X1200 10MM WALLBOARD",
+        "UnitOfMeasure": "ST",
+        "UnitofMeasureFormat": "z,zzz9.999",
+        "SellOrderMultiple": 2.4,
+        "ExpressOrder": "N",
+        "TimberProductFlag": "N"
+      }
+    ]
+  },
+  "ServiceResult": {
+    "Code": 0,
+    "Message": ""
+  }
+}

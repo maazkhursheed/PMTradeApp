@@ -1,0 +1,34 @@
+{
+  "pointOfServices": [
+    {
+      "address": {
+        "email": "test@test.com",
+        "country": {
+          "isocode": "NZ"
+        },
+        "defaultAddress": false,
+        "formattedAddress": "102 LUNN AVE, P O BOX 18 449, Auckland, MT WELLINGTON",
+        "id": "8796093186071",
+        "line1": "102 LUNN AVE",
+        "line2": "P O BOX 18 449",
+        "phone": "(09)5708300",
+        "region": {
+          "isocode": "NZ-AKL"
+        },
+        "town": "MT WELLINGTON"
+      },
+      "branchID": "P485",
+      "branchCode": "P485",
+      "branchLegalName": "PLACEMAKERS MT WELLINGTON",
+      "branchRegionalCode": "NZ-AKL",
+      "geoPoint": {
+        "latitude": 0.0,
+        "longitude": 0.0
+      },
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS MT WELLINGTON",
+      "parentBranchID": "P485"
+    }
+  ]
+}

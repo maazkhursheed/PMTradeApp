@@ -1,0 +1,18 @@
+steps:
+  - template: dependencies.yml
+  #- script: npm run test
+  #  displayName: "Run tests"
+  #  continueOnError: true
+  - script: |
+      sed -i '' 's/useFixtures: false/useFixtures: true/g' ./App/Config/DebugConfig.ts
+      sed -i '' 's/testPathIgnorePatterns: \[/testPathIgnorePatterns: [".\/App\/Components", ".\/App\/Containers", /g' jest.config.js
+      npm run test
+  - script: |
+      COMMIT_LINT=$(node bin/commitlint --token=$(AZURE_PAT_TOKEN) --pr=$(System.PullRequest.PullRequestId))
+      echo $COMMIT_LINT
+      if  [[ "$COMMIT_LINT" != "true" ]] ;
+      then
+          echo "\nCommit lint failed please check the message above for details"
+          exit 2
+      fi
+    displayName: "Run linting check"

@@ -1,0 +1,86 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+# default_platform(:ios)
+
+platform :ios do
+  private_lane :ios_deploy do |options|
+    scheme_name = case options[:env]
+                  when "dev"
+                    "DEV"
+                  when "sit"
+                    "SIT"
+                  when "uat"
+                    "UAT"
+                  when "bau"
+                    "BAU"
+                  when "prod"
+                    "FletcherBuilderTradeApp"
+                  end
+
+    config_name = case options[:env]
+                  when "dev"
+                    "DEV.Release"
+                  when "sit"
+                    "SIT.Release"
+                  when "uat"
+                    "UAT.Release"
+                  when "bau"
+                    "BAU.Release"
+                  when "prod"
+                    "Release"
+                  end
+
+    groups_name = case options[:env]
+                  when "dev"
+                    "External Testers"
+                  when "sit"
+                    "External Testers"
+                  when "uat"
+                    "External Testers"
+                  when "bau"
+                    "FB Testers"
+                  when "prod"
+                    `-g "Placemakers Testing Team", "External Focus Group"`
+                  end
+
+    case options[:deploy_type]
+    when "security"
+      update_project_provisioning(
+        xcodeproj: "ios/FletcherBuilderTradeApp.xcodeproj",
+        profile: "ios/fastlane/provisions/security-" + options[:env] + ".mobileprovision",
+        build_configuration: config_name,
+        code_signing_identity: "iPhone Development" # optionally specify the codesigning identity
+      )
+      build_app(workspace: "ios/FletcherBuilderTradeApp.xcworkspace", clean: true, export_method: "development", scheme: scheme_name, configuration: config_name, include_bitcode: true,)
+    when "automation"
+      update_project_provisioning(
+        xcodeproj: "ios/FletcherBuilderTradeApp.xcodeproj",
+        profile: "ios/fastlane/provisions/" + options[:env] + "-adhoc.mobileprovision",
+        build_configuration: config_name,
+        code_signing_identity: "Apple Distribution" # optionally specify the codesigning identity
+      )
+      build_app(workspace: "ios/FletcherBuilderTradeApp.xcworkspace", clean: true, export_method: "ad-hoc", scheme: scheme_name, configuration: config_name, include_bitcode: true,)
+    when "deploy"
+
+      build_app(workspace: "ios/FletcherBuilderTradeApp.xcworkspace", clean: true, export_method: "app-store", scheme: scheme_name, configuration: config_name, include_bitcode: true,)
+      upload_to_testflight(distribute_external: true, changelog: File.read("./change_request.txt"), groups: groups_name)
+      upload_symbols_to_crashlytics(
+        dsym_path: lane_context[SharedValues::DSYM_OUTPUT_PATH],
+        gsp_path: lane_context[SharedValues::XCODEBUILD_ARCHIVE] + ENV['GOOGLE_SERVICES_INFO_PLIST_PATH_POST_FIX']
+      )
+    end
+  end
+end

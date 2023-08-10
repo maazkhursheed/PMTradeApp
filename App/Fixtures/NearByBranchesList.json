@@ -1,0 +1,304 @@
+{
+  "boundEastLongitude": 174.75535598,
+  "boundNorthLatitude": -36.755780200000004,
+  "boundSouthLatitude": -36.8508286,
+  "boundWestLongitude": 174.64044222,
+  "pagination": {
+    "currentPage": 0,
+    "pageSize": 2,
+    "totalPages": 10,
+    "totalResults": 19
+  },
+  "sourceLatitude": -36.8033044,
+  "sourceLongitude": 174.6978991,
+  "stores": [
+    {
+      "address": {
+        "country": {
+          "isocode": "NZ",
+          "name": "New Zealand"
+        },
+        "defaultAddress": false,
+        "email": "angelin.nayagam@royalcyber.com",
+        "formattedAddress": "P O BOX 100 241, 3 LINK DR, Auckland",
+        "id": "8796093120535",
+        "line1": "P O BOX 100 241",
+        "line2": "3 LINK DR",
+        "phone": "(09)444-5155",
+        "region": {
+          "countryIso": "NZ",
+          "isocode": "NZ-AKL",
+          "isocodeShort": "AKL",
+          "name": "Auckland"
+        },
+        "shippingAddress": false,
+        "town": "Auckland",
+        "visibleInAddressBook": true
+      },
+      "branchCode": "471",
+      "branchID": "P471",
+      "branchLegalName": "STEVEN MARSHALL BUILDING SUPPLIES LTD",
+      "branchRegionalCode": "NZ-AKL",
+      "features": {},
+      "formattedDistance": "5.3 Km",
+      "geoPoint": {
+        "latitude": -36.7687735,
+        "longitude": 174.73815926
+      },
+      "isActive": true,
+      "isBranch": true,
+      "name": "Wairau Park",
+      "openingHours": {
+        "code": "471-Working Hours",
+        "specialDayOpeningList": [],
+        "weekDayOpeningList": [
+          {
+            "closingTime": {
+              "formattedHour": "17:30",
+              "hour": 5,
+              "minute": 30
+            },
+            "openingTime": {
+              "formattedHour": "07:00",
+              "hour": 7,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Mon"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:30",
+              "hour": 5,
+              "minute": 30
+            },
+            "openingTime": {
+              "formattedHour": "07:00",
+              "hour": 7,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Tue"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:30",
+              "hour": 5,
+              "minute": 30
+            },
+            "openingTime": {
+              "formattedHour": "07:00",
+              "hour": 7,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Wed"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:30",
+              "hour": 5,
+              "minute": 30
+            },
+            "openingTime": {
+              "formattedHour": "07:00",
+              "hour": 7,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Thu"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:30",
+              "hour": 5,
+              "minute": 30
+            },
+            "openingTime": {
+              "formattedHour": "07:00",
+              "hour": 7,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Fri"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:00",
+              "hour": 5,
+              "minute": 0
+            },
+            "openingTime": {
+              "formattedHour": "07:30",
+              "hour": 7,
+              "minute": 30
+            },
+            "closed": false,
+            "weekDay": "Sat"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:00",
+              "hour": 5,
+              "minute": 0
+            },
+            "openingTime": {
+              "formattedHour": "09:00",
+              "hour": 9,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Sun"
+          }
+        ]
+      },
+      "parentBranchID": "P471",
+      "storeImages": [],
+      "url": "/store/Wairau Park?lat=-36.8033044&long=174.6978991"
+    },
+    {
+      "address": {
+        "country": {
+          "isocode": "NZ",
+          "name": "New Zealand"
+        },
+        "defaultAddress": false,
+        "email": "cookstorders@placemakers.co.nz",
+        "formattedAddress": "P O BOX 1095, 106 COOK ST WEST, Auckland",
+        "id": "8796125822999",
+        "line1": "P O BOX 1095",
+        "line2": "106 COOK ST WEST",
+        "phone": "(09)303-2099",
+        "region": {
+          "countryIso": "NZ",
+          "isocode": "NZ-AKL",
+          "isocodeShort": "AKL",
+          "name": "Auckland"
+        },
+        "shippingAddress": false,
+        "town": "Auckland",
+        "visibleInAddressBook": true
+      },
+      "branchCode": "481",
+      "branchID": "P481",
+      "branchLegalName": "PLACEMAKERS COOK STREET",
+      "branchRegionalCode": "NZ-AKL",
+      "features": {},
+      "formattedDistance": "7.4 Km",
+      "geoPoint": {
+        "latitude": -36.8508286,
+        "longitude": 174.75535598
+      },
+      "isActive": true,
+      "isBranch": true,
+      "name": "Cook St",
+      "openingHours": {
+        "code": "481-Working Hours",
+        "specialDayOpeningList": [],
+        "weekDayOpeningList": [
+          {
+            "closingTime": {
+              "formattedHour": "17:30",
+              "hour": 5,
+              "minute": 30
+            },
+            "openingTime": {
+              "formattedHour": "06:30",
+              "hour": 6,
+              "minute": 30
+            },
+            "closed": false,
+            "weekDay": "Mon"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:30",
+              "hour": 5,
+              "minute": 30
+            },
+            "openingTime": {
+              "formattedHour": "06:30",
+              "hour": 6,
+              "minute": 30
+            },
+            "closed": false,
+            "weekDay": "Tue"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:30",
+              "hour": 5,
+              "minute": 30
+            },
+            "openingTime": {
+              "formattedHour": "06:30",
+              "hour": 6,
+              "minute": 30
+            },
+            "closed": false,
+            "weekDay": "Wed"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:30",
+              "hour": 5,
+              "minute": 30
+            },
+            "openingTime": {
+              "formattedHour": "06:30",
+              "hour": 6,
+              "minute": 30
+            },
+            "closed": false,
+            "weekDay": "Thu"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:30",
+              "hour": 5,
+              "minute": 30
+            },
+            "openingTime": {
+              "formattedHour": "06:30",
+              "hour": 6,
+              "minute": 30
+            },
+            "closed": false,
+            "weekDay": "Fri"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "16:30",
+              "hour": 4,
+              "minute": 30
+            },
+            "openingTime": {
+              "formattedHour": "08:00",
+              "hour": 8,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Sat"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "16:00",
+              "hour": 4,
+              "minute": 0
+            },
+            "openingTime": {
+              "formattedHour": "09:00",
+              "hour": 9,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Sun"
+          }
+        ]
+      },
+      "parentBranchID": "P481",
+      "storeImages": [],
+      "url": "/store/Cook St?lat=-36.8033044&long=174.6978991"
+    }
+  ]
+}

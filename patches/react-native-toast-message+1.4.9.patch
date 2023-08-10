@@ -1,0 +1,15 @@
+diff --git a/node_modules/react-native-toast-message/src/index.js b/node_modules/react-native-toast-message/src/index.js
+index 3f14bb5..0e4fd6a 100644
+--- a/node_modules/react-native-toast-message/src/index.js
++++ b/node_modules/react-native-toast-message/src/index.js
+@@ -81,7 +81,9 @@ class Toast extends Component {
+   }
+ 
+   static show(options = {}) {
+-    Toast._ref.show(options);
++    if (Toast._ref) {
++      Toast._ref.show(options);
++    }
+   }
+ 
+   static hide() {

@@ -1,0 +1,77 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+import org.apache.tools.ant.taskdefs.condition.Os
+
+buildscript {
+    ext {
+        buildToolsVersion = "31.0.0"
+        minSdkVersion = 21
+        compileSdkVersion = 31
+        targetSdkVersion = 31
+        supportLibVersion = "29.0.0"
+        marketingCloudVersion = "8.0.7"
+        ndkVersion = "20.1.5948944"
+        kotlinVersion = "1.6.0"
+
+        googlePlayServicesVersion = "19.0.0" // default: "+"
+        firebaseVersion = "20.1.7" // default: "+"
+        reactnativeVersion = "0.70.5"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:7.2.1")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("de.undercouch:gradle-download-task:5.0.1")
+
+        // All others
+        classpath 'com.google.firebase:perf-plugin:1.4.2'
+        classpath 'com.google.gms:google-services:4.3.10'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.6.1'
+        classpath 'com.newrelic.agent.android:agent-gradle-plugin:6.8.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        mavenLocal()
+        gradlePluginPortal()
+
+        exclusiveContent {
+            // We get React Native's Android binaries exclusively through npm,
+            // from a local Maven repo inside node_modules/react-native/.
+            // (The use of exclusiveContent prevents looking elsewhere like Maven Central
+            // and potentially getting a wrong version.)
+            filter {
+                includeGroup "com.facebook.react"
+            }
+            forRepository {
+                maven {
+                    // NOTE: if you are in a monorepo, you may have "$rootDir/../../../node_modules/react-native/android"
+                    url "$rootDir/../node_modules/react-native/android"
+                }
+            }
+        }
+
+        // maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            // url("$rootDir/../node_modules/react-native/android")
+        // }
+        maven {
+            // Android JSC is installed from npm
+            url("$rootDir/../node_modules/jsc-android/dist")
+        }
+        // maven { url "https://jcenter.bintray.com" }
+        maven { url "https://salesforce-marketingcloud.github.io/MarketingCloudSDK-Android/repository" }
+        maven {
+            url "https://software.mobile.pendo.io/artifactory/androidx-release"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Ben Johnson",
+    "phone": "021 1942 1827",
+    "status": "INVITE SENT"
+  },
+  {
+    "name": "Ian Murray",
+    "phone": "021 1942 1827",
+    "status": "EXPIRED"
+  },
+  {
+    "name": "Roger Mackenzie",
+    "phone": "021 1942 1827",
+    "status": "ACCEPTED"
+  }
+]

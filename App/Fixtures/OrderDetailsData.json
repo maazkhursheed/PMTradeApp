@@ -1,0 +1,1051 @@
+{
+  "TransactionId": "00000000000000000001581423499470",
+  "BranchId": "362",
+  "Customer": {
+    "AccountId": "HADAA",
+    "AccountName": "Aaron Haddon Builders Limited",
+    "Address": {
+      "Address1": "12 Ridgeview Drive",
+      "Address2": "RD 2",
+      "Address3": "",
+      "Address4": "",
+      "Address5": "",
+      "Suburb": "",
+      "City": "Te Aroha",
+      "Postcode": "3392"
+    },
+    "Orders": [
+      {
+        "OrderNumber": "1401678",
+        "PDONumber": "1401678-1",
+        "RequestDate": "2020-02-29T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Pickup",
+        "DeliveryType": "",
+        "DirectShip": "Y",
+        "SupplierDirectMessage": "Collect (includes special items from supplier)",
+        "CustomerPOReference": "timaru",
+        "OrderTotalExclGST": 3527.58,
+        "OrderGSTAmt": 529.14,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 4,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": ["1x Winstone Gib Plstr P - Timber Yard"],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "lgerrie",
+          "When": "2020-02-28T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [
+          {
+            "Name": "Louise ",
+            "Email": "",
+            "Phone": "0274196059"
+          }
+        ],
+        "DeliveryAddress": {
+          "Address_1": "79 KOPU RD",
+          "Address_2": "P O BOX 510",
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": "",
+          "City": "THAMES"
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "2800027",
+            "Description": "GIB STANDARD 2400X1200 10MM WALLBOARD",
+            "QtyOrdered": 50,
+            "UnitOfMeasure": "ST",
+            "UnitDescription": "SHEET",
+            "UnitPrice": "22.8702",
+            "ExtLineTotalExcl": 1143.51,
+            "GSTAmount": 171.53,
+            "Supplier": {
+              "SupplierName": "WINSTONE WALLBOARDS LTD",
+              "SupplierPODate": "2019-11-05T00:00:00"
+            }
+          },
+          {
+            "LineNumber": 2,
+            "SKU": "2800025",
+            "Description": "GIB BRACE&NOISELINE 10MMX 1.35M WIDE PER M2 DTS CHC AREA 1",
+            "QtyOrdered": 5,
+            "UnitOfMeasure": "MTK",
+            "UnitDescription": "SQUARE METRE",
+            "UnitPrice": "14.7500",
+            "ExtLineTotalExcl": 73.75,
+            "GSTAmount": 11.06,
+            "Supplier": {
+              "SupplierName": "WINSTONE WALLBOARDS LTD",
+              "SupplierPODate": "2019-11-05T00:00:00"
+            }
+          },
+          {
+            "LineNumber": 3,
+            "SKU": "2801884",
+            "Description": "GIB AQUALINE 2400X1200 10MM WALLBOARD",
+            "QtyOrdered": 50,
+            "UnitOfMeasure": "ST",
+            "UnitDescription": "SHEET",
+            "UnitPrice": "44.7064",
+            "ExtLineTotalExcl": 2235.32,
+            "GSTAmount": 335.3,
+            "Supplier": {
+              "SupplierName": "WINSTONE WALLBOARDS LTD",
+              "SupplierPODate": "2019-11-05T00:00:00"
+            }
+          },
+          {
+            "LineNumber": 4,
+            "SKU": "2260016",
+            "Description": "WINSTONE GIB PLSTR PALLET 1.2 - 3.6 X 1.2M",
+            "QtyOrdered": 1,
+            "UnitOfMeasure": "EA",
+            "UnitDescription": "EACH",
+            "UnitPrice": "75.0000",
+            "ExtLineTotalExcl": 75,
+            "GSTAmount": 11.25,
+            "Supplier": {
+              "SupplierName": "WINSTONE WALLBOARDS LTD",
+              "SupplierPODate": "2019-11-05T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1401813",
+        "PDONumber": "1401813-1",
+        "RequestDate": "2020-02-29T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Pickup",
+        "DeliveryType": "",
+        "DirectShip": "N",
+        "SupplierDirectMessage": "",
+        "CustomerPOReference": "Test 131",
+        "OrderTotalExclGST": 96.03,
+        "OrderGSTAmt": 14.4,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "nkinimon",
+          "When": "2019-11-21T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [],
+        "DeliveryAddress": {
+          "Address_1": "79 KOPU RD",
+          "Address_2": "P O BOX 510",
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": "",
+          "City": "THAMES"
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "3400017",
+            "Description": "PINK BATTS R1.8 CEILING INSULATION 13.7m2/BALE",
+            "QtyOrdered": 1,
+            "UnitOfMeasure": "BL",
+            "UnitDescription": "BALE",
+            "UnitPrice": "96.0276",
+            "ExtLineTotalExcl": 96.03,
+            "GSTAmount": 14.4,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1401815",
+        "PDONumber": "1401815-1",
+        "RequestDate": "2020-02-29T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Pickup",
+        "DeliveryType": "",
+        "DirectShip": "N",
+        "SupplierDirectMessage": "",
+        "CustomerPOReference": "Test 133",
+        "OrderTotalExclGST": 96.03,
+        "OrderGSTAmt": 14.4,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "nkinimon",
+          "When": "2019-11-21T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [],
+        "DeliveryAddress": {
+          "Address_1": "79 KOPU RD",
+          "Address_2": "P O BOX 510",
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": "",
+          "City": "THAMES"
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "3400017",
+            "Description": "PINK BATTS R1.8 CEILING INSULATION 13.7m2/BALE",
+            "QtyOrdered": 1,
+            "UnitOfMeasure": "BL",
+            "UnitDescription": "BALE",
+            "UnitPrice": "96.0276",
+            "ExtLineTotalExcl": 96.03,
+            "GSTAmount": 14.4,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1401816",
+        "PDONumber": "1401816-1",
+        "RequestDate": "2019-11-21T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Pickup",
+        "DeliveryType": "",
+        "DirectShip": "N",
+        "SupplierDirectMessage": "",
+        "CustomerPOReference": "Test 134",
+        "OrderTotalExclGST": 96.03,
+        "OrderGSTAmt": 14.4,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "nkinimon",
+          "When": "2019-11-21T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [],
+        "DeliveryAddress": {
+          "Address_1": "79 KOPU RD",
+          "Address_2": "P O BOX 510",
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": "",
+          "City": "THAMES"
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "3400017",
+            "Description": "PINK BATTS R1.8 CEILING INSULATION 13.7m2/BALE",
+            "QtyOrdered": 1,
+            "UnitOfMeasure": "BL",
+            "UnitDescription": "BALE",
+            "UnitPrice": "96.0276",
+            "ExtLineTotalExcl": 96.03,
+            "GSTAmount": 14.4,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1401820",
+        "PDONumber": "1401820-1",
+        "RequestDate": "2019-11-21T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Pickup",
+        "DeliveryType": "",
+        "DirectShip": "N",
+        "SupplierDirectMessage": "",
+        "CustomerPOReference": "test 138",
+        "OrderTotalExclGST": 96.03,
+        "OrderGSTAmt": 14.4,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "nkinimon",
+          "When": "2019-11-21T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [],
+        "DeliveryAddress": {
+          "Address_1": "79 KOPU RD",
+          "Address_2": "P O BOX 510",
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": "",
+          "City": "THAMES"
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "3400017",
+            "Description": "PINK BATTS R1.8 CEILING INSULATION 13.7m2/BALE",
+            "QtyOrdered": 1,
+            "UnitOfMeasure": "BL",
+            "UnitDescription": "BALE",
+            "UnitPrice": "96.0276",
+            "ExtLineTotalExcl": 96.03,
+            "GSTAmount": 14.4,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1401821",
+        "PDONumber": "1401821-1",
+        "RequestDate": "2019-11-21T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Pickup",
+        "DeliveryType": "",
+        "DirectShip": "N",
+        "SupplierDirectMessage": "",
+        "CustomerPOReference": "",
+        "OrderTotalExclGST": 96.03,
+        "OrderGSTAmt": 14.4,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "nkinimon",
+          "When": "2019-11-21T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [],
+        "DeliveryAddress": {
+          "Address_1": "79 KOPU RD",
+          "Address_2": "P O BOX 510",
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": "",
+          "City": "THAMES"
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "3400017",
+            "Description": "PINK BATTS R1.8 CEILING INSULATION 13.7m2/BALE",
+            "QtyOrdered": 1,
+            "UnitOfMeasure": "BL",
+            "UnitDescription": "BALE",
+            "UnitPrice": "96.0276",
+            "ExtLineTotalExcl": 96.03,
+            "GSTAmount": 14.4,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1401824",
+        "PDONumber": "1401824-1",
+        "RequestDate": "2019-11-21T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Pickup",
+        "DeliveryType": "",
+        "DirectShip": "N",
+        "SupplierDirectMessage": "",
+        "CustomerPOReference": "Test 142",
+        "OrderTotalExclGST": 96.03,
+        "OrderGSTAmt": 14.4,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "nkinimon",
+          "When": "2019-11-21T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [],
+        "DeliveryAddress": {
+          "Address_1": "79 KOPU RD",
+          "Address_2": "P O BOX 510",
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": "",
+          "City": "THAMES"
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "3400017",
+            "Description": "PINK BATTS R1.8 CEILING INSULATION 13.7m2/BALE",
+            "QtyOrdered": 1,
+            "UnitOfMeasure": "BL",
+            "UnitDescription": "BALE",
+            "UnitPrice": "96.0276",
+            "ExtLineTotalExcl": 96.03,
+            "GSTAmount": 14.4,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1401827",
+        "PDONumber": "1401827-1",
+        "RequestDate": "2019-11-21T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Pickup",
+        "DeliveryType": "",
+        "DirectShip": "N",
+        "SupplierDirectMessage": "",
+        "CustomerPOReference": "Test 145",
+        "OrderTotalExclGST": 96.03,
+        "OrderGSTAmt": 14.4,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "nkinimon",
+          "When": "2019-11-21T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [],
+        "DeliveryAddress": {
+          "Address_1": "79 KOPU RD",
+          "Address_2": "P O BOX 510",
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": "",
+          "City": "THAMES"
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "3400017",
+            "Description": "PINK BATTS R1.8 CEILING INSULATION 13.7m2/BALE",
+            "QtyOrdered": 1,
+            "UnitOfMeasure": "BL",
+            "UnitDescription": "BALE",
+            "UnitPrice": "96.0276",
+            "ExtLineTotalExcl": 96.03,
+            "GSTAmount": 14.4,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1401981",
+        "PDONumber": "1401981-1",
+        "RequestDate": "2019-12-05T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Pickup",
+        "DeliveryType": "",
+        "DirectShip": "Y",
+        "SupplierDirectMessage": "Collect (includes special items from supplier)",
+        "CustomerPOReference": "",
+        "OrderTotalExclGST": 480.14,
+        "OrderGSTAmt": 72.02,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 2,
+        "OrderStatus": "READY TO PICKUP",
+        "StagingAreas": ["1x Other Package - Drive Thru"],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "nkinimon",
+          "When": "2019-12-05T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [
+          {
+            "Name": "grumpy ",
+            "Email": "",
+            "Phone": "0274412146"
+          }
+        ],
+        "DeliveryAddress": {
+          "Address_1": "79 KOPU RD",
+          "Address_2": "P O BOX 510",
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": "",
+          "City": "THAMES"
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "3400017",
+            "Description": "PINK BATTS R1.8 CEILING INSULATION 13.7m2/BALE",
+            "QtyOrdered": 5,
+            "UnitOfMeasure": "BL",
+            "UnitDescription": "BALE",
+            "UnitPrice": "96.0276",
+            "ExtLineTotalExcl": 480.14,
+            "GSTAmount": 72.02,
+            "Supplier": {
+              "SupplierName": "WINSTONE WALLBOARDS LTD",
+              "SupplierPODate": "2019-12-05T00:00:00"
+            }
+          },
+          {
+            "LineNumber": 2,
+            "SKU": "1111843",
+            "Description": "OTHER PACKAGE",
+            "QtyOrdered": 1,
+            "UnitOfMeasure": "EA",
+            "UnitDescription": "EACH",
+            "UnitPrice": "0.0000",
+            "ExtLineTotalExcl": 0,
+            "GSTAmount": 0,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1402136",
+        "PDONumber": "1402136-1",
+        "RequestDate": "2020-01-20T00:00:00",
+        "DeliveryDate": "2020-01-20T08:07:55",
+        "DSP": "",
+        "FulfilmentType": "Delivery",
+        "DeliveryType": "Standard Delivery",
+        "DirectShip": "Y",
+        "SupplierDirectMessage": "",
+        "CustomerPOReference": "",
+        "OrderTotalExclGST": 114.35,
+        "OrderGSTAmt": 17.15,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ON TRUCK, LEFT BRANCH",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "nkinimon",
+          "When": "2020-01-20T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [
+          {
+            "Name": "Bashful ",
+            "Email": "",
+            "Phone": ""
+          }
+        ],
+        "DeliveryAddress": {
+          "Address_1": "15 Campbell Close",
+          "Address_2": "",
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": "Whangamata",
+          "City": "Thames-Coromandel District"
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "2800027",
+            "Description": "GIB STANDARD 2400X1200 10MM WALLBOARD",
+            "QtyOrdered": 5,
+            "UnitOfMeasure": "ST",
+            "UnitDescription": "SHEET",
+            "UnitPrice": "22.8702",
+            "ExtLineTotalExcl": 114.35,
+            "GSTAmount": 17.15,
+            "Supplier": {
+              "SupplierName": "WINSTONE WALLBOARDS LTD",
+              "SupplierPODate": "2020-01-20T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1402138",
+        "PDONumber": "1402138-1",
+        "RequestDate": "2020-01-20T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "Same Day",
+        "FulfilmentType": "Pickup",
+        "DeliveryType": "Standard Delivery",
+        "DirectShip": "Y",
+        "SupplierDirectMessage": "Collect (includes special items from supplier)",
+        "CustomerPOReference": "",
+        "OrderTotalExclGST": 114.35,
+        "OrderGSTAmt": 17.15,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "nkinimon",
+          "When": "2020-01-20T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [
+          {
+            "Name": "Bashful ",
+            "Email": "",
+            "Phone": ""
+          }
+        ],
+        "DeliveryAddress": {
+          "Address_1": "79 KOPU RD",
+          "Address_2": "P O BOX 510",
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": "",
+          "City": "THAMES"
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "2800027",
+            "Description": "GIB STANDARD 2400X1200 10MM WALLBOARD",
+            "QtyOrdered": 5,
+            "UnitOfMeasure": "ST",
+            "UnitDescription": "SHEET",
+            "UnitPrice": "22.8702",
+            "ExtLineTotalExcl": 114.35,
+            "GSTAmount": 17.15,
+            "Supplier": {
+              "SupplierName": "WINSTONE WALLBOARDS LTD",
+              "SupplierPODate": "2020-01-20T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1402190",
+        "PDONumber": "1402190-1",
+        "RequestDate": "2020-01-29T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Delivery",
+        "DeliveryType": "",
+        "DirectShip": "Y",
+        "SupplierDirectMessage": "Delivery (Direct from Supplier)",
+        "CustomerPOReference": "",
+        "OrderTotalExclGST": 141.02,
+        "OrderGSTAmt": 17.15,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "wwiniata",
+          "When": "2020-01-29T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [],
+        "DeliveryAddress": {
+          "Address_1": null,
+          "Address_2": null,
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": null,
+          "City": null
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "2800027",
+            "Description": "GIB STANDARD 2400X1200 10MM WALLBOARD",
+            "QtyOrdered": 5,
+            "UnitOfMeasure": "ST",
+            "UnitDescription": "SHEET",
+            "UnitPrice": "22.8702",
+            "ExtLineTotalExcl": 114.35,
+            "GSTAmount": 17.15,
+            "Supplier": {
+              "SupplierName": "WINSTONE WALLBOARDS LTD",
+              "SupplierPODate": "2020-01-29T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1402204",
+        "PDONumber": "1402204-1",
+        "RequestDate": "2020-02-04T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Delivery",
+        "DeliveryType": "",
+        "DirectShip": "Y",
+        "SupplierDirectMessage": "Delivery (Direct from Supplier)",
+        "CustomerPOReference": "",
+        "OrderTotalExclGST": 141.02,
+        "OrderGSTAmt": 17.15,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "wwiniata",
+          "When": "2020-02-04T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [],
+        "DeliveryAddress": {
+          "Address_1": null,
+          "Address_2": null,
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": null,
+          "City": null
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "2800027",
+            "Description": "GIB STANDARD 2400X1200 10MM WALLBOARD",
+            "QtyOrdered": 5,
+            "UnitOfMeasure": "ST",
+            "UnitDescription": "SHEET",
+            "UnitPrice": "22.8702",
+            "ExtLineTotalExcl": 114.35,
+            "GSTAmount": 17.15,
+            "Supplier": {
+              "SupplierName": "WINSTONE WALLBOARDS LTD",
+              "SupplierPODate": "2020-02-04T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1402205",
+        "PDONumber": "1402205-1",
+        "RequestDate": "2020-02-04T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Delivery",
+        "DeliveryType": "",
+        "DirectShip": "Y",
+        "SupplierDirectMessage": "Delivery (Direct from Supplier)",
+        "CustomerPOReference": "",
+        "OrderTotalExclGST": 141.02,
+        "OrderGSTAmt": 17.15,
+        "LinkedInvoice": "",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "wwiniata",
+          "When": "2020-02-04T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [],
+        "DeliveryAddress": {
+          "Address_1": null,
+          "Address_2": null,
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": null,
+          "City": null
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "2800027",
+            "Description": "GIB STANDARD 2400X1200 10MM WALLBOARD",
+            "QtyOrdered": 5,
+            "UnitOfMeasure": "ST",
+            "UnitDescription": "SHEET",
+            "UnitPrice": "22.8702",
+            "ExtLineTotalExcl": 114.35,
+            "GSTAmount": 17.15,
+            "Supplier": {
+              "SupplierName": "WINSTONE WALLBOARDS LTD",
+              "SupplierPODate": "2020-02-04T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1402232",
+        "PDONumber": "1402232-1",
+        "RequestDate": "2020-02-13T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Delivery",
+        "DeliveryType": "",
+        "DirectShip": "N",
+        "SupplierDirectMessage": "",
+        "CustomerPOReference": "",
+        "OrderTotalExclGST": 1046.97,
+        "OrderGSTAmt": 157.05,
+        "LinkedInvoice": "1386874",
+        "TotalOrderLines": 4,
+        "OrderStatus": "PICKED, READY FOR DELIVERY",
+        "StagingAreas": ["1x Other Package - Drive Thru"],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "nkinimon",
+          "When": "2020-02-11T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [],
+        "DeliveryAddress": {
+          "Address_1": null,
+          "Address_2": null,
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": null,
+          "City": null
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "2800035",
+            "Description": "GIB STANDARD 2700X1200 10MM WALLBOARD",
+            "QtyOrdered": 12,
+            "UnitOfMeasure": "ST",
+            "UnitDescription": "SHEET",
+            "UnitPrice": "25.7184",
+            "ExtLineTotalExcl": 308.62,
+            "GSTAmount": 46.29,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          },
+          {
+            "LineNumber": 2,
+            "SKU": "2800027",
+            "Description": "GIB STANDARD 2400X1200 10MM WALLBOARD",
+            "QtyOrdered": 10,
+            "UnitOfMeasure": "ST",
+            "UnitDescription": "SHEET",
+            "UnitPrice": "22.8702",
+            "ExtLineTotalExcl": 228.7,
+            "GSTAmount": 34.31,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          },
+          {
+            "LineNumber": 3,
+            "SKU": "3980190",
+            "Description": "LIVINGPROOF CEILING FLAT WHITE 4L",
+            "QtyOrdered": 7,
+            "UnitOfMeasure": "EA",
+            "UnitDescription": "EACH",
+            "UnitPrice": "61.7848",
+            "ExtLineTotalExcl": 432.49,
+            "GSTAmount": 64.87,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          },
+          {
+            "LineNumber": 4,
+            "SKU": "1111843",
+            "Description": "OTHER PACKAGE",
+            "QtyOrdered": 1,
+            "UnitOfMeasure": "EA",
+            "UnitDescription": "EACH",
+            "UnitPrice": "0.0000",
+            "ExtLineTotalExcl": 0,
+            "GSTAmount": 0,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "OrderNumber": "1402232",
+        "PDONumber": "1402232-2",
+        "RequestDate": "2020-02-13T00:00:00",
+        "DeliveryDate": "0001-01-01T00:00:00",
+        "DSP": "",
+        "FulfilmentType": "Delivery",
+        "DeliveryType": "",
+        "DirectShip": "N",
+        "SupplierDirectMessage": "",
+        "CustomerPOReference": "",
+        "OrderTotalExclGST": 1046.97,
+        "OrderGSTAmt": 57.87,
+        "LinkedInvoice": "1386874",
+        "TotalOrderLines": 1,
+        "OrderStatus": "ORDER CONFIRMED",
+        "StagingAreas": [],
+        "PickupTime": "11:00:00",
+        "OrderProcessed": {
+          "By": "nkinimon",
+          "When": "2020-02-11T00:00:00",
+          "Branch": "PLACEMAKERS THAMES"
+        },
+        "SiteContact": [],
+        "DeliveryAddress": {
+          "Address_1": null,
+          "Address_2": null,
+          "Address_3": null,
+          "Address_4": null,
+          "Address_5": null,
+          "Suburb": null,
+          "City": null
+        },
+        "DeliveryRequirements": {
+          "SiteRequirements": [],
+          "TruckRequirements": null,
+          "AdditionalInformation": null
+        },
+        "OrderLines": [
+          {
+            "LineNumber": 1,
+            "SKU": "2800035",
+            "Description": "GIB STANDARD 2700X1200 10MM WALLBOARD",
+            "QtyOrdered": 3,
+            "UnitOfMeasure": "ST",
+            "UnitDescription": "SHEET",
+            "UnitPrice": "25.7184",
+            "ExtLineTotalExcl": 77.16,
+            "GSTAmount": 11.57,
+            "Supplier": {
+              "SupplierName": "",
+              "SupplierPODate": "0001-01-01T00:00:00"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "JobAccountIds": "",
+  "Job": [],
+  "ServiceResult": {
+    "Code": 0,
+    "Message": ""
+  }
+}

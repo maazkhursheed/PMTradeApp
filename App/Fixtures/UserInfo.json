@@ -1,0 +1,117 @@
+{
+  "type": "userWsDTO",
+  "name": "abc2@royalcyber.com",
+  "uid": "abc2@royalcyber.com",
+  "companies": [
+    {
+      "name": "Hybris Company",
+      "tradeAccounts": [
+        {
+          "branch": {
+            "branchID": "P2891",
+            "branchCode": "P2891",
+            "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+            "name": "PLACEMAKERS HUTT CITY 1"
+          },
+          "custId": "BROMA1",
+          "name": "HA and QM Browne Builders 1",
+          "uid": "289BROMA1"
+        },
+        {
+          "branch": {
+            "branchID": "P2891",
+            "branchCode": "P2891",
+            "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+            "name": "PLACEMAKERS HUTT CITY 1"
+          },
+          "custId": "BROMA2",
+          "name": "HA and S Browne Builders 2",
+          "uid": "289BROMA2"
+        },
+        {
+          "branch": {
+            "branchID": "P2893",
+            "branchCode": "P2893",
+            "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+            "name": "PLACEMAKERS HUTT CITY 3"
+          },
+          "custId": "BROMA3",
+          "name": "HA and QM Browne Builders 3",
+          "uid": "289BROMA3"
+        },
+        {
+          "branch": {
+            "branchID": "P2894",
+            "branchCode": "P2894",
+            "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+            "name": "PLACEMAKERS HUTT CITY 4"
+          },
+          "custId": "BROMA4",
+          "name": "HA and S Browne Builders 4",
+          "uid": "289BROMA4"
+        }
+      ],
+      "uid": "HYB000005"
+    },
+    {
+      "name": "ACE Company",
+      "tradeAccounts": [
+        {
+          "branch": {
+            "branchID": "P2891",
+            "branchCode": "P2891",
+            "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+            "name": "PLACEMAKERS HUTT CITY 1"
+          },
+          "custId": "BROMA5",
+          "name": "A and QM Browne Builders 1",
+          "uid": "289BROMA5"
+        },
+        {
+          "branch": {
+            "branchID": "P2891",
+            "branchCode": "P2891",
+            "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+            "name": "PLACEMAKERS HUTT CITY 1"
+          },
+          "custId": "BROMA6",
+          "name": "A and S Browne Builders 2",
+          "uid": "289BROMA6"
+        },
+        {
+          "branch": {
+            "branchID": "P2893",
+            "branchCode": "P2893",
+            "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+            "name": "PLACEMAKERS HUTT CITY 3"
+          },
+          "custId": "BROMA7",
+          "name": "A and QM Browne Builders 3",
+          "uid": "289BROMA7"
+        },
+        {
+          "branch": {
+            "branchID": "P2894",
+            "branchCode": "P2894",
+            "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+            "name": "PLACEMAKERS HUTT CITY 4"
+          },
+          "custId": "BROMA8",
+          "name": "A and S Browne Builders 4",
+          "uid": "289BROMA8"
+        }
+      ],
+      "uid": "HYB000006"
+    }
+  ],
+  "currency": {
+    "active": false,
+    "isocode": "NZD",
+    "name": "New Zeland Dollar",
+    "symbol": "$"
+  },
+  "displayUid": "abc2@royalcyber.com",
+  "isLicenseUpdated": true,
+  "mobileNumber": "0272236709",
+  "roles": ["b2bcustomergroup"]
+}

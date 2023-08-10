@@ -1,0 +1,26 @@
+{
+  "quoteMedia": [
+    {
+      "catalogId": "Default",
+      "catalogVersion": "Online",
+      "code": "02481041-test.pdf",
+      "description": "quoteMedia",
+      "downloadUrl": "/medias/sys_master/quotes/h09/h1d/9030777929758/02481041-test/02481041-test.pdf?attachment=true",
+      "mediaSelected": "true",
+      "mime": "application/pdf",
+      "quoteMediaPK": "9030777896990",
+      "url": "/medias/sys_master/quotes/h09/h1d/9030777929758/02481041-test/02481041-test.pdf"
+    },
+    {
+      "catalogId": "Default",
+      "catalogVersion": "Online",
+      "code": "02481041-image.png",
+      "description": "quoteMedia",
+      "downloadUrl": "/medias/sys_master/quotes/h48/h1c/9030777995294/02481041-image/02481041-image.png?attachment=true",
+      "mediaSelected": "false",
+      "mime": "image/png",
+      "quoteMediaPK": "9030777962526",
+      "url": "/medias/sys_master/quotes/h48/h1c/9030777995294/02481041-image/02481041-image.png"
+    }
+  ]
+}

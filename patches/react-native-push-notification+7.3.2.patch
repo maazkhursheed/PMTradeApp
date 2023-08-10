@@ -1,0 +1,49 @@
+diff --git a/node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNPushNotificationHelper.java b/node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNPushNotificationHelper.java
+index ad3527b..fe2e0e0 100644
+--- a/node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNPushNotificationHelper.java
++++ b/node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNPushNotificationHelper.java
+@@ -580,7 +580,7 @@ public class RNPushNotificationHelper {
+                 editor.apply();
+             }
+ 
+-            if (!(this.isApplicationInForeground() && bundle.getBoolean("ignoreInForeground"))) {
++            // if (!(this.isApplicationInForeground() && bundle.getBoolean("ignoreInForeground"))) {
+                 Notification info = notification.build();
+                 info.defaults |= Notification.DEFAULT_LIGHTS;
+ 
+@@ -590,7 +590,7 @@ public class RNPushNotificationHelper {
+                 } else {
+                     notificationManager.notify(notificationID, info);
+                 }
+-            }
++            // }
+ 
+             // Can't use setRepeating for recurring notifications because setRepeating
+             // is inexact by default starting API 19 and the notifications are not fired
+diff --git a/node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNReceivedMessageHandler.java b/node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNReceivedMessageHandler.java
+index 721ca40..3bfed97 100644
+--- a/node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNReceivedMessageHandler.java
++++ b/node_modules/react-native-push-notification/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNReceivedMessageHandler.java
+@@ -125,6 +125,8 @@ public class RNReceivedMessageHandler {
+         }
+ 
+         bundle.putParcelable("data", dataBundle);
++        bundle.putString("title", dataBundle.getString("title"));
++        bundle.putString("message", dataBundle.getString("alert"));
+ 
+         Log.v(LOG_TAG, "onMessageReceived: " + bundle);
+ 
+@@ -182,11 +184,11 @@ public class RNReceivedMessageHandler {
+             jsDelivery.notifyRemoteFetch(bundle);
+         }
+ 
+-        if (config.getNotificationForeground() || !isForeground) {
++        // if (config.getNotificationForeground() || !isForeground) {
+             Log.v(LOG_TAG, "sendNotification: " + bundle);
+ 
+             pushNotificationHelper.sendToNotificationCentre(bundle);
+-        }
++        // }
+     }
+ 
+     private String getLocalizedString(String text, String locKey, String[] locArgs) {

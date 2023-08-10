@@ -1,0 +1,2127 @@
+{
+  "branchId": "362",
+  "customerId": "ANTGA",
+  "estimateList": [
+    {
+      "accountId": "ANTGA000",
+      "accountName": "Ants General Job0",
+      "custPo": "Davoren - Yvonne",
+      "estimateDate": "2021-04-07T00:00:00",
+      "estimateExpire": "2021-05-07T00:00:00",
+      "estimateNumber": "35397",
+      "estimateTotal": "13774.49",
+      "projectName": "Ants General Job0",
+      "projectNumber": "555blah-blah555",
+      "section": [
+        {
+          "lineCount": 26,
+          "lines": [
+            {
+              "availableForPickup": true,
+              "code": "5814101",
+              "configurable": false,
+              "estimateCustProdDescription": "[Some description]",
+              "estimateDescription": "T MEL TALL PANTRY CABINET 0300MM A/L  ACL ASS",
+              "estimateExtLineTotalExcl": "$499.25",
+              "estimateGstAmount": "74.89",
+              "estimateLineNumber": "1",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "1.0000",
+              "estimateReconId": "100181816",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$499.25",
+              "expressOrder": false,
+              "kitProductFlag": false,
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": false,
+              "qtyLengthBreakdowns": [],
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "uomFormat": "5"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420040377039",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.006"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.wels",
+                      "comparable": true,
+                      "featureValues": [
+                        {
+                          "value": "Not Required"
+                        }
+                      ],
+                      "name": "WELS code",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "3.75"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5732404",
+              "configurable": false,
+              "estimateCustProdDescription": "",
+              "estimateDescription": "300MM S/CPULL-OUT PANTRY CHROME",
+              "estimateExtLineTotalExcl": "$998.66",
+              "estimateGstAmount": "149.80",
+              "estimateLineNumber": "2",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "1.0000",
+              "estimateReconId": "100090040",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$998.66",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PH.A017.0300.01.002",
+              "name": "300MM S/CPULL-OUT PANTRY CHROME",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420061961781",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "60"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "220"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "59"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.7788"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "81.0"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5814113",
+              "configurable": false,
+              "estimateCustProdDescription": "[Some other description]",
+              "estimateDescription": "T MEL OVEN TOWER 0600MM A  N/STANDARD  ACL ASS",
+              "estimateExtLineTotalExcl": "$1,703.83",
+              "estimateGstAmount": "255.57",
+              "estimateLineNumber": "3",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "1.0000",
+              "estimateReconId": "100181779",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$1,703.83",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "T",
+              "manufacturerId": "TM.A020.0600.HN.014",
+              "name": "T MEL OVEN TOWER 0600MM A  N/STANDARD  ACL ASS",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420061961491",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "96"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "59"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "37"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.2096"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "30.0"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5814084",
+              "configurable": false,
+              "estimateCustProdDescription": "",
+              "estimateDescription": "T MEL OVERFRIDGE 0960MM A DOOR ACL ASS",
+              "estimateExtLineTotalExcl": "$516.39",
+              "estimateGstAmount": "77.46",
+              "estimateLineNumber": "4",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "1.0000",
+              "estimateReconId": "100181815",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$516.39",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "T",
+              "manufacturerId": "TM.A014.0960.2D.014",
+              "name": "T MEL OVERFRIDGE 0960MM A DOOR ACL ASS",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "code": "SPECIAL KITCHENS",
+              "estimateCustProdDescription": "",
+              "estimateDescription": "SPECIAL KITCHENS",
+              "estimateExtLineTotalExcl": "$2,046.80",
+              "estimateGstAmount": "307.02",
+              "estimateLineNumber": "5",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "2.0000",
+              "estimateReconId": "1056420",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$1,023.40",
+              "qtyLengthBreakdowns": [],
+              "specialProdWithAlphaSkuFlag": true,
+              "specialProduct": true
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420040372171",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "60"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "72"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "58.8"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.254"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "30.4"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5724431",
+              "configurable": false,
+              "estimateCustProdDescription": "",
+              "estimateDescription": "MEL BASE CAB 600MM 1DR RH AC ASS",
+              "estimateExtLineTotalExcl": "$285.13",
+              "estimateGstAmount": "42.77",
+              "estimateLineNumber": "6",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "1.0000",
+              "estimateReconId": "100089121",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$285.13",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PM.A001.0600.1R.014",
+              "name": "MEL BASE CAB 600MM 1DR RH AC ASS",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420040372188",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "60"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "72"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "58.8"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.254"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "30.4"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5724432",
+              "configurable": false,
+              "estimateCustProdDescription": "",
+              "estimateDescription": "MEL BASE CAB 600MM 2DR AC ASS",
+              "estimateExtLineTotalExcl": "$306.84",
+              "estimateGstAmount": "46.03",
+              "estimateLineNumber": "7",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "1.0000",
+              "estimateReconId": "100089122",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$306.84",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PM.A001.0600.2D.014",
+              "name": "MEL BASE CAB 600MM 2DR AC ASS",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420059123139",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.8"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.72"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.59"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.339"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "51.4"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5809848",
+              "configurable": false,
+              "estimateCustProdDescription": "",
+              "estimateDescription": "MEL BASE CAB 800MM 3DRAWER ANYCL ASS",
+              "estimateExtLineTotalExcl": "$2,987.35",
+              "estimateGstAmount": "448.10",
+              "estimateLineNumber": "8",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "4.0000",
+              "estimateReconId": "100136857",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$746.84",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PM.A004.0800.H3.014",
+              "name": "MEL BASE CAB 800MM 3DRAWER ANYCL ASS",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420059123092",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.6"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.72"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.59"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.254"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "37.0"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5809844",
+              "configurable": false,
+              "estimateCustProdDescription": "yep yep",
+              "estimateDescription": "MEL BASE CAB 600MM 2DRAWER ANYCL ASS",
+              "estimateExtLineTotalExcl": "$535.44",
+              "estimateGstAmount": "80.32",
+              "estimateLineNumber": "9",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "1.0000",
+              "estimateReconId": "100136846",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$535.44",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PM.A004.0600.H2.014",
+              "name": "MEL BASE CAB 600MM 2DRAWER ANYCL ASS",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420059123078",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.45"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.72"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.59"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.191"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "36.3"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5809842",
+              "configurable": false,
+              "estimateCustProdDescription": "",
+              "estimateDescription": "MEL BASE CAB 450MM 4DRAWER ANYCL ASS",
+              "estimateExtLineTotalExcl": "$619.63",
+              "estimateGstAmount": "92.94",
+              "estimateLineNumber": "10",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "1.0000",
+              "estimateReconId": "100136844",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$619.63",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PM.A004.0450.H4.014",
+              "name": "MEL BASE CAB 450MM 4DRAWER ANYCL ASS",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420061961989",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "10"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "220"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "2"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.0044"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "3.0"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5814133",
+              "configurable": false,
+              "estimateCustProdDescription": "",
+              "estimateDescription": "T MEL PANEL FILLER 2200X0100X016MM C/1L  ACL ASS",
+              "estimateExtLineTotalExcl": "$149.27",
+              "estimateGstAmount": "22.39",
+              "estimateLineNumber": "11",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "3.0000",
+              "estimateReconId": "100181814",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$49.76",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "T",
+              "manufacturerId": "TM.F120.0100.01.014",
+              "name": "T MEL PANEL FILLER 2200X0100X016MM C/1L  ACL ASS",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420061961965",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "70"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "235"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "2"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.0329"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "19.0"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5814131",
+              "configurable": false,
+              "estimateCustProdDescription": "This one has a pipe character in it, between here:and-here.",
+              "estimateDescription": "T MEL PANEL TALL END 2350X0700X016MM C/1L  ACL ASS",
+              "estimateExtLineTotalExcl": "$459.96",
+              "estimateGstAmount": "68.99",
+              "estimateLineNumber": "12",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "3.0000",
+              "estimateReconId": "100181765",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$153.32",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "T",
+              "manufacturerId": "TM.F117.0700.02.014",
+              "name": "T MEL PANEL TALL END 2350X0700X016MM C/1L  ACL ASS",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420040371976",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "10.5"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "2"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "73"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.002"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.9"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5730769",
+              "configurable": false,
+              "estimateCustProdDescription": ":)",
+              "estimateDescription": "MEL PANEL FILLER 720X0100X16MM C1LC1S AC",
+              "estimateExtLineTotalExcl": "$83.14",
+              "estimateGstAmount": "12.47",
+              "estimateLineNumber": "13",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "2.0000",
+              "estimateReconId": "100089097",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$41.57",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PM.F119.0100.01.014",
+              "name": "MEL PANEL FILLER 720X0100X16MM C1LC1S AC",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420040372003",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "88"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "2"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "61.5"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.011"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "6.8"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5730772",
+              "configurable": false,
+              "estimateCustProdDescription": "",
+              "estimateDescription": "MEL PANEL ISLAND 870X0607X16MM C2L AC",
+              "estimateExtLineTotalExcl": "$206.13",
+              "estimateGstAmount": "30.92",
+              "estimateLineNumber": "14",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "2.0000",
+              "estimateReconId": "100089100",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$103.06",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PM.F122.0607.01.014",
+              "name": "MEL PANEL ISLAND 870X0607X16MM C2L AC",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420040372041",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "88"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "2"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "212.3"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.037"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "21.85"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5730776",
+              "configurable": false,
+              "estimateCustProdDescription": ":D",
+              "estimateDescription": "MEL PANEL BARBACK 870X2118X16MM C1LC2S AC",
+              "estimateExtLineTotalExcl": "$264.52",
+              "estimateGstAmount": "39.68",
+              "estimateLineNumber": "15",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "1.0000",
+              "estimateReconId": "100089104",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$264.52",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PM.F123.2118.01.014",
+              "name": "MEL PANEL BARBACK 870X2118X16MM C1LC2S AC",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420040371914",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "59.5"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "2"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "87.5"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.01"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "6.1"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5730763",
+              "configurable": false,
+              "estimateCustProdDescription": "",
+              "estimateDescription": "MEL PANEL BASE END 870X588X16MM C1L AC",
+              "estimateExtLineTotalExcl": "$173.00",
+              "estimateGstAmount": "25.95",
+              "estimateLineNumber": "16",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "2.0000",
+              "estimateReconId": "100089091",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$86.50",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PM.F115.0588.01.014",
+              "name": "MEL PANEL BASE END 870X588X16MM C1L AC",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420040377053",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.006"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.wels",
+                      "comparable": true,
+                      "featureValues": [
+                        {
+                          "value": "Not Required"
+                        }
+                      ],
+                      "name": "WELS code",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "3.75"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5732406",
+              "configurable": false,
+              "estimateCustProdDescription": ":)",
+              "estimateDescription": "300MM S/CPULL-OUT PANTRY EXTRA BASKET",
+              "estimateExtLineTotalExcl": "$80.77",
+              "estimateGstAmount": "12.12",
+              "estimateLineNumber": "17",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "1.0000",
+              "estimateReconId": "100090042",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$80.77",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PH.A017.0300.01.012",
+              "name": "300MM S/CPULL-OUT PANTRY EXTRA BASKET",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420040372058",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "15.5"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "2"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "212.3"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.006"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "3.75"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5730777",
+              "configurable": false,
+              "estimateCustProdDescription": "",
+              "estimateDescription": "MEL PANEL TOEKICK 148X2118X16MM AC",
+              "estimateExtLineTotalExcl": "$530.29",
+              "estimateGstAmount": "79.54",
+              "estimateLineNumber": "18",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "10.0000",
+              "estimateReconId": "100089105",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$53.03",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PM.F124.2118.01.014",
+              "name": "MEL PANEL TOEKICK 148X2118X16MM AC",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420040372195",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "80"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "72"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "58.8"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.339"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "37.9"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5724433",
+              "configurable": false,
+              "estimateCustProdDescription": ":D",
+              "estimateDescription": "MEL BASE CAB 800MM 2DR AC ASS",
+              "estimateExtLineTotalExcl": "$337.65",
+              "estimateGstAmount": "50.65",
+              "estimateLineNumber": "19",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "1.0000",
+              "estimateReconId": "100089123",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$337.65",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PM.A001.0800.2D.014",
+              "name": "MEL BASE CAB 800MM 2DR AC ASS",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            },
+            {
+              "availableForPickup": true,
+              "barcodesPM": "9420040377206",
+              "classifications": [
+                {
+                  "code": "Specification",
+                  "features": [
+                    {
+                      "code": "placemakersClassification/1.0/Specification.width",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0"
+                        }
+                      ],
+                      "name": "Width",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.height",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0"
+                        }
+                      ],
+                      "name": "Height",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.depth",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Centimetre",
+                        "symbol": "CMT"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0"
+                        }
+                      ],
+                      "name": "Depth",
+                      "range": false
+                    },
+                    {
+                      "code": "placemakersClassification/1.0/Specification.volume",
+                      "comparable": true,
+                      "featureUnit": {
+                        "name": "Cubic metre",
+                        "symbol": "MTQ"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.006"
+                        }
+                      ],
+                      "name": "Volume",
+                      "range": false
+                    },
+                    {
+                      "code": "Weight",
+                      "comparable": false,
+                      "featureUnit": {
+                        "name": "Kilogram",
+                        "symbol": "KGM",
+                        "unitType": "KGM"
+                      },
+                      "featureValues": [
+                        {
+                          "value": "0.0"
+                        }
+                      ],
+                      "name": "Weight",
+                      "range": false
+                    }
+                  ],
+                  "name": "Product Specifications"
+                }
+              ],
+              "code": "5732421",
+              "configurable": false,
+              "estimateCustProdDescription": "",
+              "estimateDescription": "BASE/WALL/OFRDG CUT-DOWN CHARGE WIDTH ONLY",
+              "estimateExtLineTotalExcl": "$78.72",
+              "estimateGstAmount": "11.81",
+              "estimateLineNumber": "20",
+              "estimateProductFlag": true,
+              "estimateQtyEstimated": "2.0000",
+              "estimateReconId": "100090057",
+              "estimateSoh": 0,
+              "estimateUnitDescription": "EACH",
+              "estimateUnitOfMeasure": "EA",
+              "estimateUnitPrice": "$39.36",
+              "expressOrder": false,
+              "hasNoQuantity": 0,
+              "kitProductFlag": false,
+              "manufacturer": "PLACEMAKERS",
+              "manufacturerId": "PH.F040.0001.01.001",
+              "name": "BASE/WALL/OFRDG CUT-DOWN CHARGE WIDTH ONLY",
+              "perpetualFlag": false,
+              "productTypeCodeEnum": "N",
+              "purchasable": true,
+              "qtyLengthBreakdowns": [],
+              "sellOrderMultiple": 0,
+              "specialProdWithAlphaSkuFlag": false,
+              "specialProduct": false,
+              "timberProductFlag": false,
+              "unitCode": "EA",
+              "uomFormat": "11"
+            }
+          ],
+          "sectionDescription": "Kitchen Joinery and Cabinetry",
+          "sectionId": "38000"
+        }
+      ]
+    }
+  ]
+}

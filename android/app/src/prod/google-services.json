@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "383722755317",
+    "firebase_url": "https://placemakers-trade-app.firebaseio.com",
+    "project_id": "placemakers-trade-app",
+    "storage_bucket": "placemakers-trade-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383722755317:android:7fb2941810e7925322e1bc",
+        "android_client_info": {
+          "package_name": "com.fbu.placemakerstrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383722755317-epkub5cnvhtj3ovh7g7u7md44g9hqag7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbbVrwvyCX9aE3-Wymboh-B_ADZ6ob5B4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383722755317-epkub5cnvhtj3ovh7g7u7md44g9hqag7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "383722755317-ssptipn76gcpuam3to9scr5fh2i8nsl7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fbu.placemakerstrade"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383722755317:android:145101989bc4c3c1",
+        "android_client_info": {
+          "package_name": "com.fletcherbuildertradeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383722755317-epkub5cnvhtj3ovh7g7u7md44g9hqag7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbbVrwvyCX9aE3-Wymboh-B_ADZ6ob5B4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383722755317-epkub5cnvhtj3ovh7g7u7md44g9hqag7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "383722755317-ssptipn76gcpuam3to9scr5fh2i8nsl7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fbu.placemakerstrade"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

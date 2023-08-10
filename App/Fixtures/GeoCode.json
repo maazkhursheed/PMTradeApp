@@ -1,0 +1,47 @@
+{
+  "spatialReference": {
+    "wkid": 2193,
+    "latestWkid": 2193
+  },
+  "locations": [
+    {
+      "address": "810 GREAT SOUTH ROAD, PENROSE, AUCKLAND, 1061",
+      "location": {
+        "x": -36.9112867,
+        "y": 174.8169036
+      },
+      "score": 100,
+      "attributes": {
+        "ResultID": -1,
+        "Status": "M",
+        "Score": 100,
+        "Match_addr": "810 GREAT SOUTH ROAD, PENROSE, AUCKLAND, 1061",
+        "Descr": "",
+        "PlaceName": "810 GREAT SOUTH ROAD, PENROSE, AUCKLAND, 1061",
+        "StAddr": "",
+        "Place_addr": "",
+        "Nbrhd": "",
+        "City": "",
+        "County": "",
+        "State": "",
+        "StateAbbr": "",
+        "Country": "",
+        "LangCode": "",
+        "Phone": "",
+        "URL": "",
+        "Distance": 0,
+        "X": -36.9112867,
+        "Y": 174.8169036,
+        "DisplayX": 0,
+        "DisplayY": 0,
+        "Xmin": 0,
+        "Xmax": 0,
+        "Ymin": 0,
+        "Ymax": 0,
+        "Type": "",
+        "Rank": "",
+        "Addr_type": "POI"
+      }
+    }
+  ]
+}

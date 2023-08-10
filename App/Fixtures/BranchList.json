@@ -1,0 +1,364 @@
+{
+  "pointOfServices": [
+    {
+      "branchID": "P485",
+      "branchLegalName": "PLACEMAKERS MT WELLINGTON",
+      "branchRegionalCode": "NZ-AKL",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS MT WELLINGTON",
+      "parentBranchID": "P485"
+    },
+    {
+      "branchID": "P491",
+      "branchLegalName": "PLACEMAKERS PAKURANGA",
+      "branchRegionalCode": "NZ-AKL",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS PAKURANGA",
+      "parentBranchID": "P491"
+    },
+    {
+      "branchID": "P473",
+      "branchLegalName": "PLACEMAKERS WESTGATE",
+      "branchRegionalCode": "NZ-AKL",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS WESTGATE",
+      "parentBranchID": "P473"
+    },
+    {
+      "branchID": "P427",
+      "branchLegalName": "PLACEMAKERS SILVERDALE",
+      "branchRegionalCode": "NZ-AKL",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS SILVERDALE",
+      "parentBranchID": "P427"
+    },
+    {
+      "branchID": "P499",
+      "branchLegalName": "PLACEMAKERS PUKEKOHE",
+      "branchRegionalCode": "NZ-AKL",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS PUKEKOHE",
+      "parentBranchID": "P499"
+    },
+    {
+      "branchID": "P405",
+      "branchLegalName": "Stickland Building Supplies Ltd",
+      "branchRegionalCode": "NZ-AKL",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS WAIHEKE IS",
+      "parentBranchID": "P405"
+    },
+    {
+      "branchID": "P439",
+      "branchLegalName": "PLACEMAKERS TAKANINI",
+      "branchRegionalCode": "NZ-AKL",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS TAKANINI",
+      "parentBranchID": "P439"
+    },
+    {
+      "branchID": "P422",
+      "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+      "branchRegionalCode": "NZ-AKL",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS ALBANY",
+      "parentBranchID": "P422"
+    },
+    {
+      "branchID": "P481",
+      "branchLegalName": "PLACEMAKERS COOK STREET",
+      "branchRegionalCode": "NZ-AKL",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS COOK ST",
+      "parentBranchID": "P481"
+    },
+    {
+      "branchID": "P479",
+      "branchLegalName": "SULLIVAN & ARMSTRONG BUILDING SUPPLIES",
+      "branchRegionalCode": "NZ-AKL",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS NEW LYNN",
+      "parentBranchID": "P479"
+    },
+    {
+      "branchID": "P471",
+      "branchLegalName": "STEVEN MARSHALL BUILDING SUPPLIES LTD",
+      "branchRegionalCode": "NZ-AKL",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS WAIRAU PARK",
+      "parentBranchID": "P471"
+    },
+    {
+      "branchID": "P173",
+      "branchLegalName": "JOHN COCKBURN BUILDING SUPPLIES",
+      "branchRegionalCode": "NZ-CAN",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS ASHBURTON",
+      "parentBranchID": "P173"
+    },
+    {
+      "branchID": "P175",
+      "branchLegalName": "EVANS BUILDING SUPPLIES LTD",
+      "branchRegionalCode": "NZ-CAN",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS TIMARU",
+      "parentBranchID": "P175"
+    },
+    {
+      "branchID": "P276",
+      "branchLegalName": "PLACEMAKERS PALMERSTON NORTH",
+      "branchRegionalCode": "NZ-CNI",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS PALMERSTON NTH",
+      "parentBranchID": "P276"
+    },
+    {
+      "branchID": "P262",
+      "branchLegalName": "PLACEMAKERS TARANAKI",
+      "branchRegionalCode": "NZ-CNI",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS NEW PLYMOUTH",
+      "parentBranchID": "P262"
+    },
+    {
+      "branchID": "P221",
+      "branchLegalName": "PLACEMAKERS HAWKES BAY",
+      "branchRegionalCode": "NZ-CNI",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS NAPIER",
+      "parentBranchID": "P221"
+    },
+    {
+      "branchID": "P169",
+      "branchLegalName": "Southbound Building Supplies Limited",
+      "branchRegionalCode": "NZ-CHC",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS CRANFORD ST",
+      "parentBranchID": "P169"
+    },
+    {
+      "branchID": "P151",
+      "branchLegalName": "PLACEMAKERS HORNBY",
+      "branchRegionalCode": "NZ-CHC",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS HORNBY",
+      "parentBranchID": "P151"
+    },
+    {
+      "branchID": "P167",
+      "branchLegalName": "BUILDING CHOICES LIMITED",
+      "branchRegionalCode": "NZ-CHC",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS RICCARTON",
+      "parentBranchID": "P167"
+    },
+    {
+      "branchID": "P415",
+      "branchLegalName": "PLACEMAKERS WHANGAREI",
+      "branchRegionalCode": "NZ-NTH",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS WHANGAREI",
+      "parentBranchID": "P415"
+    },
+    {
+      "branchID": "P463",
+      "branchLegalName": "NOCK BUILDING SUPPLIES LTD",
+      "branchRegionalCode": "NZ-NTH",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS KERIKERI",
+      "parentBranchID": "P463"
+    },
+    {
+      "branchID": "P146",
+      "branchLegalName": "DAVIS AND CASEY BUILDING SUPPLIES",
+      "branchRegionalCode": "NZ-OTS",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS WANAKA",
+      "parentBranchID": "P146"
+    },
+    {
+      "branchID": "P179",
+      "branchLegalName": "GEOFF BROWN BUILDING SUPPLIES LTD",
+      "branchRegionalCode": "NZ-OTS",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS OAMARU",
+      "parentBranchID": "P179"
+    },
+    {
+      "branchID": "P181",
+      "branchLegalName": "Macready Building Supplies Limited",
+      "branchRegionalCode": "NZ-OTS",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS DUNEDIN",
+      "parentBranchID": "P181"
+    },
+    {
+      "branchID": "P187",
+      "branchLegalName": "SOUTHBOUND BUILDING SUPPLIES LIMITED",
+      "branchRegionalCode": "NZ-OTS",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS INVERCARGILL",
+      "parentBranchID": "P187"
+    },
+    {
+      "branchID": "P191",
+      "branchLegalName": "CLEAVER BUILDING SUPPLIES LIMITED",
+      "branchRegionalCode": "NZ-OTS",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS QUEENSTOWN",
+      "parentBranchID": "P191"
+    },
+    {
+      "branchID": "P195",
+      "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+      "branchRegionalCode": "NZ-OTS",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS ALEXANDRA",
+      "parentBranchID": "P195"
+    },
+    {
+      "branchID": "P161",
+      "branchLegalName": "Fletcher Distribution Limited",
+      "branchRegionalCode": "NZ-USI",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS PORT NELSON",
+      "parentBranchID": "P161"
+    },
+    {
+      "branchID": "P165",
+      "branchLegalName": "CULLEN BUILDING SUPPLIES LIMITED",
+      "branchRegionalCode": "NZ-USI",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS BLENHEIM",
+      "parentBranchID": "P165"
+    },
+    {
+      "branchID": "P363",
+      "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+      "branchRegionalCode": "NZ-BOP",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS WHITIANGA",
+      "parentBranchID": "P363"
+    },
+    {
+      "branchID": "P362",
+      "branchLegalName": "MCGILL BUILDING SUPPLIES LTD",
+      "branchRegionalCode": "NZ-BOP",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS THAMES",
+      "parentBranchID": "P362"
+    },
+    {
+      "branchID": "P377",
+      "branchLegalName": "MINNELL BUILDING SUPPLIES LTD",
+      "branchRegionalCode": "NZ-BOP",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS MT MAUNGANUI",
+      "parentBranchID": "P377"
+    },
+    {
+      "branchID": "P367",
+      "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+      "branchRegionalCode": "NZ-BOP",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS CLARENCE STREET HAMILTON",
+      "parentBranchID": "P367"
+    },
+    {
+      "branchID": "P368",
+      "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+      "branchRegionalCode": "NZ-BOP",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS TE RAPA",
+      "parentBranchID": "P368"
+    },
+    {
+      "branchID": "P385",
+      "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+      "branchRegionalCode": "NZ-BOP",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS TAUPO",
+      "parentBranchID": "P385"
+    },
+    {
+      "branchID": "P382",
+      "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+      "branchRegionalCode": "NZ-BOP",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS WHAKATANE",
+      "parentBranchID": "P382"
+    },
+    {
+      "branchID": "P283",
+      "branchLegalName": "KUSABS BUILDING SUPPLIES LIMITED",
+      "branchRegionalCode": "NZ-WLG",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS KAPITI",
+      "parentBranchID": "P283"
+    },
+    {
+      "branchID": "P289",
+      "branchLegalName": "FLETCHER DISTRIBUTION LIMITED",
+      "branchRegionalCode": "NZ-WLG",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS HUTT CITY",
+      "parentBranchID": "P289"
+    },
+    {
+      "branchID": "P292",
+      "branchLegalName": "Fletcher Distribution Ltd",
+      "branchRegionalCode": "NZ-WLG",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS KAIWHARAWHARA",
+      "parentBranchID": "P292"
+    },
+    {
+      "branchID": "P293",
+      "branchLegalName": "GRAEME JOY BUILDING SUPPLIES LTD",
+      "branchRegionalCode": "NZ-WLG",
+      "isActive": true,
+      "isBranch": true,
+      "name": "PLACEMAKERS EVANS BAY",
+      "parentBranchID": "P293"
+    }
+  ]
+}

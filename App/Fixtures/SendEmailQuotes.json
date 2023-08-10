@@ -1,0 +1,71 @@
+[
+  {
+    "otherCostList": [
+      {
+        "costAdded": true,
+        "costType": "Labour",
+        "entries": [
+          {
+            "name": "test",
+            "notes": "",
+            "price": 1,
+            "quantity": 100,
+            "subTotal": {
+              "currencyIso": "NZD",
+              "formattedValue": "$100.00",
+              "value": 100
+            },
+            "type": "Labour"
+          },
+          {
+            "name": "test2",
+            "notes": "",
+            "price": 200,
+            "quantity": 1,
+            "subTotal": {
+              "currencyIso": "NZD",
+              "formattedValue": "$200.00",
+              "value": 200
+            },
+            "type": "Labour"
+          }
+        ],
+        "total": {
+          "currencyIso": "NZD",
+          "formattedValue": "$300.00",
+          "value": 300
+        }
+      },
+      {
+        "costAdded": false,
+        "costType": "SubContractor",
+        "entries": [],
+        "total": {
+          "currencyIso": "NZD",
+          "formattedValue": "$0.00",
+          "value": 0
+        }
+      },
+      {
+        "costAdded": false,
+        "costType": "Overheads",
+        "entries": [],
+        "total": {
+          "currencyIso": "NZD",
+          "formattedValue": "$0.00",
+          "value": 0
+        }
+      },
+      {
+        "costAdded": false,
+        "costType": "OtherCosts",
+        "entries": [],
+        "total": {
+          "currencyIso": "NZD",
+          "formattedValue": "$0.00",
+          "value": 0
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "listName": "Test List",
+  "productCount": 3,
+  "productList": [
+    {
+      "code": "5151020",
+      "name": "LAWNMASTER 139CC PETROL LAWNMOWER GMP1822N2GNMU",
+      "barcodesPM": "9421019763181",
+      "expressOrder": false,
+      "kitProductFlag": false,
+      "perpetualFlag": true,
+      "productTypeCodeEnum": "N",
+      "sellOrderMultiple": 0.0,
+      "timberProductFlag": true,
+      "uomFormat": "zzzzzzzzzz9-"
+    },
+    {
+      "code": "3986619",
+      "name": "LIVINGPROOF INTERIOR  SATIN WHITE 4L",
+      "barcodesPM": "9419090001063",
+      "expressOrder": false,
+      "hasNoQuantity": 30.0,
+      "hasNoUOM": {
+        "format": "9.2"
+      },
+      "kitProductFlag": false,
+      "perpetualFlag": true,
+      "productTypeCodeEnum": "N",
+      "sellOrderMultiple": 0.0,
+      "timberProductFlag": true,
+      "uomFormat": "zzzzzzzzzz9-"
+    },
+    {
+      "code": "2329162",
+      "name": "SWISS KRONO EURO LAM FLOOR 8MM IMPRESSION CHESTNUT",
+      "barcodesPM": "5901940280598",
+      "expressOrder": false,
+      "kitProductFlag": false,
+      "perpetualFlag": true,
+      "productTypeCodeEnum": "N",
+      "sellOrderMultiple": 0.0,
+      "timberProductFlag": true,
+      "uomFormat": "zzzzzzzzzz9-"
+    }
+  ],
+  "userID": "abc2@royalcyber.com"
+}

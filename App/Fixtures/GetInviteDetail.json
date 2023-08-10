@@ -1,0 +1,21 @@
+{
+  "creditLimit": "10000",
+  "endDate": "2020-12-08T12:44:01+0000",
+  "invitedOn": "2019-11-14T23:48:19+0000",
+  "mobileNumber": "64210693619",
+  "name": "kumaresan mahalingam",
+  "permissionList": [
+    {
+      "name": "View Orders group",
+      "uid": "viewOrderGroup"
+    },
+    {
+      "name": "Place Order User Group",
+      "uid": "placeOrderGroup"
+    }
+  ],
+  "selectedTradeAccount": "3624SIAA",
+  "startDate": "2019-11-13T12:44:01+0000",
+  "temporaryAccess": true,
+  "userType": "TEAMMEMEBER"
+}

@@ -1,0 +1,21 @@
+parameters:
+  - name: env
+    default: "sit"
+    type: string
+    values:
+      - "sit"
+      - "uat"
+      - "bau"
+      - "dev"
+      - "prod"
+steps:
+  - download: current
+    patterns: |
+      **/*.apk
+      **/*.ipa
+  - script: |
+      echo $GIT_TICKETS_NUMBER
+      NOTIFY_LOG=$(node bin/notify-teams.js --tickets=$(GIT_TICKETS_NUMBER) --vname=$(VERSION_NAME_ANDROID) --vcodeios=$(VERSION_BUILD_IOS) --vcodeandroid=$(VERSION_CODE_ANDROID) --url=$(TeamsURL) --env=${{ parameters.env }} --jiratoken=$(JIRA_PAT_TOKEN))
+      echo "JIRA Log:"
+      echo $NOTIFY_LOG
+    displayName: "Notify"

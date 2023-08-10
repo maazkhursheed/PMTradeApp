@@ -1,0 +1,73 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+# default_platform(:android)
+
+platform :android do
+
+  private_lane :build do |options|
+    task_name = case options[:env]
+                when "dev"
+                  "assembleDev"
+                when "sit"
+                  "assembleSit"
+                when "uat"
+                  "assembleUat"
+                when "bau"
+                  "assembleBau"
+                when "prod"
+                  "assembleProd"
+                else
+                  ""
+                end
+
+    gradle(task: 'clean', project_dir: 'android/')
+    gradle(
+      project_dir: 'android/',
+      task: task_name,
+      build_type: 'Release',
+    )
+  end
+
+  private_lane :upload do |options|
+    app_id = 'com.fbu.placemakerstrade'
+    package = case options[:env]
+              when "dev"
+                app_id + ".dev"
+              when "sit"
+                app_id + ".stc"
+              when "uat"
+                app_id + ".uat"
+              when "bau"
+                app_id + ".bau"
+              when "prod"
+                app_id
+              else
+                ""
+              end
+
+    apk_path = 'android/app/build/outputs/apk/' + options[:env] + '/release/app-' + options[:env] + '-release.apk'
+    upload_to_play_store(
+      track: 'alpha',
+      skip_upload_metadata: true,
+      skip_upload_aab: true,
+      skip_upload_changelogs: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true,
+      package_name: package,
+      apk: apk_path
+    )
+  end
+end

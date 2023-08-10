@@ -1,0 +1,68 @@
+{
+  "otherCostList": [
+    [
+      {
+        "costAdded": true,
+        "costType": "Labour",
+        "entries": [
+          {
+            "name": "Testo",
+            "notes": "Testing",
+            "price": 0.98,
+            "quantity": 3,
+            "subTotal": {
+              "currencyIso": "NZD",
+              "formattedValue": "$2.94",
+              "value": 2.94
+            },
+            "type": "Labour"
+          }
+        ],
+        "total": {
+          "currencyIso": "NZD",
+          "formattedValue": "$2.94",
+          "value": 2.94
+        }
+      },
+      {
+        "costAdded": false,
+        "costType": "SubContractor",
+        "entries": [],
+        "total": {
+          "currencyIso": "NZD",
+          "formattedValue": "$0.00",
+          "value": 0
+        }
+      },
+      {
+        "costAdded": false,
+        "costType": "Overheads",
+        "entries": [],
+        "total": {
+          "currencyIso": "NZD",
+          "formattedValue": "$0.00",
+          "value": 0
+        }
+      },
+      {
+        "costAdded": false,
+        "costType": "OtherCosts",
+        "entries": [],
+        "total": {
+          "currencyIso": "NZD",
+          "formattedValue": "$0.00",
+          "value": 0
+        }
+      }
+    ]
+  ],
+  "quoteId": "03208003",
+  "isLoading": false,
+  "quotesListDetails": {},
+  "costType": "Labour",
+  "params": [
+    {
+      "costType": "Labour"
+    }
+  ]
+}

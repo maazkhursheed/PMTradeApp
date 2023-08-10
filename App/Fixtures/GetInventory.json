@@ -1,0 +1,232 @@
+{
+  "TransactionId": "00000000000000000001576755976677",
+  "Branch": {
+    "BranchId": "151",
+    "Products": [
+      {
+        "Sku": "1015258",
+        "Description": "100 X 50 (90X45) RAD SG8 H1.2 PG KD 4.8",
+        "Barcode": "10152584",
+        "UnitOfMeasure": "LM",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "3456",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "1015262",
+        "Description": "100 X 50 (90X45) RAD SG8 H1.2 PG KD 6.0",
+        "Barcode": "10152621",
+        "UnitOfMeasure": "LM",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "4613.6",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "2800027",
+        "Description": "GIB STANDARD 2400X1200 10MM WALLBOARD",
+        "Barcode": "9416463115358",
+        "UnitOfMeasure": "ST",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "138",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "4508305",
+        "Description": "WASHER SQUARE GALV M12 50MMX 3MM EA",
+        "Barcode": "9337357025792",
+        "UnitOfMeasure": "EA",
+        "StatusCode": "2",
+        "StockMessage": "Limited Stock Available",
+        "Quantity": "399",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "3200029",
+        "Description": "GOLDEN BAY 40KG BAG GP PREMIUM CEMENT GP40 PM40",
+        "Barcode": "9417004473012",
+        "UnitOfMeasure": "BG",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "271",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "2260016",
+        "Description": "WINSTONE GIB PLSTR PALLET 1.2 - 3.6 X 1.2M",
+        "Barcode": "",
+        "UnitOfMeasure": "EA",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "72",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "2260045",
+        "Description": "JAMES HARDIE RETURNABLE PALLET 302688",
+        "Barcode": "",
+        "UnitOfMeasure": "EA",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "180",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "2801884",
+        "Description": "GIB AQUALINE 2400X1200 10MM WALLBOARD",
+        "Barcode": "9416463125562",
+        "UnitOfMeasure": "ST",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "46",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "1032121",
+        "Description": "50 X 25 RAD FJ H3.1 KD BATTEN",
+        "Barcode": "10321218",
+        "UnitOfMeasure": "LM",
+        "StatusCode": "2",
+        "StockMessage": "Limited Stock Available",
+        "Quantity": "2509.6",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "2339323",
+        "Description": "FENCE RAIL RAD H3.2CCA RS 4.8M 100 X 50MM",
+        "Barcode": "23393233",
+        "UnitOfMeasure": "EA",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "125",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "5080999",
+        "Description": "IMPULSE 90MM BRIGHT COLL NAIL DH 3000PK B20550V",
+        "Barcode": "9315104000025",
+        "UnitOfMeasure": "EA",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "54",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "4410239",
+        "Description": "SIKA SIKAFLEX MS WHITE 300ML 415197",
+        "Barcode": "9418535001675",
+        "UnitOfMeasure": "CQ",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "47",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "2804672",
+        "Description": "GIBFIX ONE ADHESIVE 375ML 15037",
+        "Barcode": "9416463150373",
+        "UnitOfMeasure": "CQ",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "73",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "1015615",
+        "Description": "100 X 50 (90X45) RAD SG8 H3.2 PG KD 4.8 CCA",
+        "Barcode": "",
+        "UnitOfMeasure": "LM",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "1236",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "1353262",
+        "Description": "75 X 40 (70X35) RAD MERCH H1.2 FJ KD PG BATTEN",
+        "Barcode": "",
+        "UnitOfMeasure": "LM",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "3362.4",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "1015260",
+        "Description": "100 X 50 (90X45) RAD SG8 H1.2 PG KD 5.4",
+        "Barcode": "10152607",
+        "UnitOfMeasure": "LM",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "745.2",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "3200038",
+        "Description": "GOLDEN BAY GP PREMIUM CEMENT 20KG",
+        "Barcode": "9417004000003",
+        "UnitOfMeasure": "BG",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "219",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "3410421",
+        "Description": "MALTHOID DLM 50MM X 20M BITU SANDED DPC",
+        "Barcode": "9416487210756",
+        "UnitOfMeasure": "RO",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "211",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "1074749",
+        "Description": " 150 X  50 MM RAD NO2 H4 RS",
+        "Barcode": "9417513058427",
+        "UnitOfMeasure": "LM",
+        "StatusCode": "3",
+        "StockMessage": "Ring Branch for Availability",
+        "Quantity": "0",
+        "Code": "0",
+        "Message": ""
+      },
+      {
+        "Sku": "4514741",
+        "Description": "GIB GRABBER SCREW 32 X 6 COARSE COLL 1000BX 13964",
+        "Barcode": "9416463139644",
+        "UnitOfMeasure": "BX",
+        "StatusCode": "1",
+        "StockMessage": "Stock Available",
+        "Quantity": "87",
+        "Code": "0",
+        "Message": ""
+      }
+    ]
+  },
+  "ServiceResult": {
+    "Code": 0,
+    "Message": ""
+  }
+}

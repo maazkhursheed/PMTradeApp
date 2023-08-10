@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+  <!--Hybris prod-->
+  <domain-config cleartextTrafficPermitted="false">
+    <domain includeSubdomains="true">
+      api.crre-fletcherb1-p1-public.model-t.cc.commerce.ondemand.com
+    </domain>
+   <!-- <trust-anchors>
+      <certificates src="@raw/hybris_prod"/>
+    </trust-anchors>-->
+  </domain-config>
+
+  <!--Hybris SIT-->
+  <domain-config cleartextTrafficPermitted="false">
+    <domain includeSubdomains="true">
+      api.crre-fletcherb1-s2-public.model-t.cc.commerce.ondemand.com
+    </domain>
+   <!-- <trust-anchors>
+      <certificates src="@raw/hybris_sit"/>
+    </trust-anchors>-->
+  </domain-config>
+
+  <!--Hybris UAT-->
+  <domain-config cleartextTrafficPermitted="false">
+    <domain includeSubdomains="true">
+      api.crre-fletcherb1-s3-public.model-t.cc.commerce.ondemand.com
+    </domain>
+    <!--<trust-anchors>
+      <certificates src="@raw/hybris_uat"/>
+    </trust-anchors>-->
+  </domain-config>
+
+  <!--ACE-->
+  <domain-config cleartextTrafficPermitted="false">
+    <domain includeSubdomains="true">fbnzd.co.nz</domain>
+   <!-- <trust-anchors>
+      <certificates src="@raw/ace"/>
+    </trust-anchors>-->
+  </domain-config>
+
+</network-security-config>
+

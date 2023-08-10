@@ -1,0 +1,2369 @@
+{
+  "customer": {
+    "accountCode": "ANDLA",
+    "accountName": "Andrews Landscaping Limited",
+    "branchId": "362",
+    "products": [
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9414724662986",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "placemakersClassification/1.0/Specification.width",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Centimetre",
+                  "symbol": "CMT"
+                },
+                "featureValues": [
+                  {
+                    "value": "4"
+                  }
+                ],
+                "name": "Width",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/Specification.height",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Centimetre",
+                  "symbol": "CMT"
+                },
+                "featureValues": [
+                  {
+                    "value": "150"
+                  }
+                ],
+                "name": "Height",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/Specification.depth",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Centimetre",
+                  "symbol": "CMT"
+                },
+                "featureValues": [
+                  {
+                    "value": "4"
+                  }
+                ],
+                "name": "Depth",
+                "range": false
+              },
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "3.0"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Product Specifications"
+          }
+        ],
+        "code": "3500437",
+        "description": "The  7-Hole Heavy-Duty Steel Y-Post meets all temporary and permanent fencing requirements. This 1.5 m Y-Post features steel construction that offers excellent resistance to corrosion. It is an economical alternative to wood posts.",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020837_Cyclone_8580012.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020837_Cyclone_8580012.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020837_Cyclone_8580012.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020837_Cyclone_8580012.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "Cyclone",
+        "manufacturerId": "8580012",
+        "name": "Y Post 1.5m x 8 Hole Steel 8580012",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$13.38",
+          "priceType": "BUY",
+          "value": 13.38
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "11",
+          "statusCode": "2",
+          "stockLevelStatus": "lowStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9414724616057",
+        "code": "3501459",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "kitProductFlag": false,
+        "manufacturer": "Fletcher Reinforcing",
+        "manufacturerId": "7550020",
+        "name": "Tie Wire Annealed 1kg Bundle 300mm",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$5.08",
+          "priceType": "BUY",
+          "value": 5.08
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "10",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "BD",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9415495010464",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.14"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "5520812",
+        "expressOrder": true,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1009099_CELawford_JUG1L.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1009099_CELawford_JUG1L.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1009099_CELawford_JUG1L.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1009099_CELawford_JUG1L.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "C E Lawford",
+        "manufacturerId": "JUG1L",
+        "name": "PLASTIC MEASURER 1L JUG1L",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$8.86",
+          "priceType": "BUY",
+          "value": 8.86
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "5",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "6940902000514",
+        "classifications": [
+          {
+            "code": "WebFeature",
+            "features": [
+              {
+                "code": "placemakersClassification/1.0/WebFeature.feature1",
+                "comparable": true,
+                "featureValues": [
+                  {
+                    "value": "Suitable to use for domestic and commercial purposes"
+                  }
+                ],
+                "name": "Feature 1",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/WebFeature.feature2",
+                "comparable": true,
+                "featureValues": [
+                  {
+                    "value": "Allows even distribution of the paint"
+                  }
+                ],
+                "name": "Feature 2",
+                "range": false
+              }
+            ],
+            "name": "Web Features"
+          }
+        ],
+        "code": "3971115",
+        "description": "The Paintmates 230mm roller sleeve is designed for domestic and commercial purposes.",
+        "expressOrder": true,
+        "hasNoQuantity": 0,
+        "kitProductFlag": false,
+        "manufacturer": "Paint Mates",
+        "manufacturerId": "689996",
+        "name": "230mm Roller Sleeve",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$3.37",
+          "priceType": "BUY",
+          "value": 3.37
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "12",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9416342521317",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "999999.0"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "3970596",
+        "description": "The PAL Premium Series 230 mm roller tray made of heavy-duty polypropylene comes with large capacity to hold the paint and roller accessories. This rigid tray withstands paint solvents and acids. It is ideal for all paints.",
+        "expressOrder": true,
+        "hasNoQuantity": 1,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002588_3970596.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002588_3970596.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002588_3970596.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002588_3970596.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "PAL",
+        "manufacturerId": "521317",
+        "name": "Premium 230mm Roller Tray",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$12.74",
+          "priceType": "BUY",
+          "value": 12.74
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "5",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9416342521126",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "999999.0"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "3971701",
+        "description": "The No.3 roller sleeve is suitable for water-based paints. This 230mm wide fabric roller sleeve suits various paints and surface types. It has phenolic core and is epoxy bonded to give perfect finish. The 1 to 6 system makes it easy for the user to identify the roller types.",
+        "expressOrder": true,
+        "hasNoQuantity": 1,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002810_PAL_521126.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002810_PAL_521126.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002810_PAL_521126.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002810_PAL_521126.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "PAL",
+        "manufacturerId": "521126",
+        "name": "No.3 230mm Knitted Polyblend Roller Sleeve",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$20.57",
+          "priceType": "BUY",
+          "value": 20.57
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "7",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9416342540257",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "999999.0"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "3970949",
+        "description": "The PAL Value Disposable Chip 75 mm paint brush is suitable for paints, resins and glues. The raw wooden handle offers great user comfort. Tin plated ferrule ensures great paint pick up and coverage on large surfaces. This disposable brush is great for craft work. The pure hog bristle ensures excellent finish.",
+        "expressOrder": true,
+        "hasNoQuantity": 1,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002715_PAL_540257.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002715_PAL_540257.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002715_PAL_540257.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002715_PAL_540257.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "PAL",
+        "manufacturerId": "540257",
+        "name": "Value 75mm Disposable Chip Paint Brush",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$5.47",
+          "priceType": "BUY",
+          "value": 5.47
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "8",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9416342522659",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.2"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "3971525",
+        "description": "The Value Range 75mm flexible tool is suitable for painting applications. This polished tool features steel construction. The comfort grip offers great user comfort.",
+        "expressOrder": true,
+        "hasNoQuantity": 1,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002759_PAL_522635.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002759_PAL_522635.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002759_PAL_522635.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1002759_PAL_522635.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "PAL",
+        "manufacturerId": "522659",
+        "name": "Value 75mm Flexible Tool",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$5.45",
+          "priceType": "BUY",
+          "value": 5.45
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "4",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9421026910592",
+        "code": "5360199",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1008888_The-Gardener-BT35.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1008888_The-Gardener-BT35.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1008888_The-Gardener-BT35.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1008888_The-Gardener-BT35.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturerId": "BT35",
+        "name": "Big Tub with Handles 35L",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$11.87",
+          "priceType": "BUY",
+          "value": 11.87
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "0",
+          "statusCode": "3",
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "6940902006820",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "placemakersClassification/1.0/Specification.width",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Centimetre",
+                  "symbol": "CMT"
+                },
+                "featureValues": [
+                  {
+                    "value": "3.2"
+                  }
+                ],
+                "name": "Width",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/Specification.height",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Centimetre",
+                  "symbol": "CMT"
+                },
+                "featureValues": [
+                  {
+                    "value": "3"
+                  }
+                ],
+                "name": "Height",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/Specification.depth",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Centimetre",
+                  "symbol": "CMT"
+                },
+                "featureValues": [
+                  {
+                    "value": "7"
+                  }
+                ],
+                "name": "Depth",
+                "range": false
+              },
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "4.0"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Product Specifications"
+          }
+        ],
+        "code": "4548058",
+        "expressOrder": true,
+        "hasNoQuantity": 0,
+        "kitProductFlag": false,
+        "manufacturer": "Eclipse",
+        "manufacturerId": "690013",
+        "name": "Cable Ties 3.2 x 300mm 100 Pack Black",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$10.85",
+          "priceType": "BUY",
+          "value": 10.85
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "2",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "PA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "6940902006837",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "placemakersClassification/1.0/Specification.width",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Centimetre",
+                  "symbol": "CMT"
+                },
+                "featureValues": [
+                  {
+                    "value": "22"
+                  }
+                ],
+                "name": "Width",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/Specification.height",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Centimetre",
+                  "symbol": "CMT"
+                },
+                "featureValues": [
+                  {
+                    "value": "3"
+                  }
+                ],
+                "name": "Height",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/Specification.depth",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Centimetre",
+                  "symbol": "CMT"
+                },
+                "featureValues": [
+                  {
+                    "value": "7"
+                  }
+                ],
+                "name": "Depth",
+                "range": false
+              },
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.4"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Product Specifications"
+          }
+        ],
+        "code": "4548059",
+        "expressOrder": true,
+        "hasNoQuantity": 0,
+        "kitProductFlag": false,
+        "manufacturer": "Eclipse",
+        "manufacturerId": "690014",
+        "name": "Cable Ties 4.8 x 200mm 100 Pack Black",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$10.85",
+          "priceType": "BUY",
+          "value": 10.85
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "19",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "PA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "6940902006844",
+        "code": "4548060",
+        "expressOrder": true,
+        "hasNoQuantity": 0,
+        "kitProductFlag": false,
+        "manufacturer": "Eclipse",
+        "manufacturerId": "690015",
+        "name": "Cable Ties 4.8 x 380mm 100 Pack Black",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$18.36",
+          "priceType": "BUY",
+          "value": 18.36
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "9",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "PA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9418651049261",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "999999.0"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "4099035",
+        "description": "The PAL 1 kg painters rag in white colour, is suitable for paint cleaning and polishing applications. It features 100% recycled cotton construction and exhibits high absorbency.",
+        "expressOrder": true,
+        "hasNoQuantity": 1,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1006067_PAL_DM4926.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1006067_PAL_DM4926.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1006067_PAL_DM4926.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1006067_PAL_DM4926.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "PAL",
+        "manufacturerId": "DM4926",
+        "name": "1kg Painters Rags Cotton White",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$15.35",
+          "priceType": "BUY",
+          "value": 15.35
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "6",
+          "statusCode": "2",
+          "stockLevelStatus": "lowStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "code": "7503603",
+        "description": "The Novadrain 200mm Gully Dish Riser is designed for use in various plumbing and piping applications. It helps to elevate the top level of the entry grate by inserting into the top of a 1575 gully dish and makes the assembly more resistant to entry of surface of storm water or flood water. The solvent cement joint helps to connect the riser and the gully dish body. This dish riser made of PVC-U is suitable for use with SN16 PVC-U DWV pipe.",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1145997_Strata_1575.200R.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1145997_Strata_1575.200R.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1145997_Strata_1575.200R.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1145997_Strata_1575.200R.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "Strata",
+        "manufacturerId": "1575.200R",
+        "name": "Riser Gully Dish Dwv Fits",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$123.70",
+          "priceType": "BUY",
+          "value": 123.7
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "0",
+          "statusCode": "3",
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9414940001811",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.075"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "7504254",
+        "description": "The Hansen True Fit HSRS Series Black Reducing Hex Socket is designed to use for piping and plumbing applications. Threaded fittings provides great results in both above or below ground and ensures efficient performance extreme pressures and temperatures. Strong and compact design provides good durability and facilitates use in tight spaces. It ensures a smooth operating flow within a pipe system for optimum results. Heavy-duty tapered threads gives a strong seal and prevents leaking.It is made from raw materials to facilitate use with portable water. High-quality glass fibre and the reinforced nylon construction offers superior resistance to termites and prevents the inhibition of fungi and bacteria. Material strong enough to minimise potential cross threading. Reducing hex socket with a nominal size of 20 mm x 15 mm measures 42.5 mm and has a connection type of Female BSPT. It operates at a pressure of 16 bar and at a temperature of 20 deg C.",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1141626_Hansen_HSRS2015.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1141626_Hansen_HSRS2015.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1141626_Hansen_HSRS2015.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1141626_Hansen_HSRS2015.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturerId": "HSRS2015",
+        "name": "Hansen True Fit HSRS Series Reducing Hex Socket 20 x 15 mm Female BSPT Glass Fibre Reinforced Nylon Black Poly HSRS2015",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$3.88",
+          "priceType": "BUY",
+          "value": 3.88
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "0",
+          "statusCode": "3",
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9414804001810",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "placemakersClassification/1.0/Specification.width",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Centimetre",
+                  "symbol": "CMT"
+                },
+                "featureValues": [
+                  {
+                    "value": "45"
+                  }
+                ],
+                "name": "Width",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/Specification.height",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Centimetre",
+                  "symbol": "CMT"
+                },
+                "featureValues": [
+                  {
+                    "value": "5"
+                  }
+                ],
+                "name": "Height",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/Specification.depth",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Centimetre",
+                  "symbol": "CMT"
+                },
+                "featureValues": [
+                  {
+                    "value": "45"
+                  }
+                ],
+                "name": "Depth",
+                "range": false
+              },
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "19.84"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Product Specifications"
+          }
+        ],
+        "code": "3280825",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "kitProductFlag": false,
+        "manufacturer": "Firth",
+        "manufacturerId": "FS050VAS",
+        "name": "Classic Courtyard Flagstone Paver 450 x 450 x 450 Volcanic Ash",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$17.62",
+          "priceType": "BUY",
+          "value": 17.62
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "3",
+          "statusCode": "2",
+          "stockLevelStatus": "lowStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "3165140642248",
+        "code": "6146208",
+        "description": "The Bosch 300 mm Cutting Disc is perfect for longer-lasting and fast, energy-saving work. This A 30 S BF disc with 25.4 mm Dia bore, offers a smooth, clean, precise cut with hand-held angle grinders. The straight disc of thickness 3 mm is designed to work on metals. Disc works with chop saws and stationary pendulum action cutters.",
+        "expressOrder": true,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1086528_Bosch_2608603041.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1086528_Bosch_2608603041.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1086528_Bosch_2608603041.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1086528_Bosch_2608603041.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "BOSCH",
+        "manufacturerId": "2608603041",
+        "name": "Bosch Straight Cutting Disc For Metal 300 x 3 x 25.4mm 2608603041",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$16.95",
+          "priceType": "BUY",
+          "value": 16.95
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "12",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11",
+        "specSheet": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1086528_Bosch_2608603041_tds.pdf"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9310357283485",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.14"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "7612058",
+        "description": "The Norton cup grinder works well on concrete and masonry products for grinding and re-surfacing applications. Grinder delivers a smoother finish for longer periods of time and helps in the removal of coatings such as paint, epoxy glue and tile adhesive.",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1089690_Norton_70184601164.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1089690_Norton_70184601164.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1089690_Norton_70184601164.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1089690_Norton_70184601164.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "Norton",
+        "manufacturerId": "70184601164",
+        "name": "125x22.2mm Essential Double Row Cup Grinder",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$123.57",
+          "priceType": "BUY",
+          "value": 123.57
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "0",
+          "statusCode": "3",
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9415787018208",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "placemakersClassification/1.0/Specification.volume",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Cubic metre",
+                  "symbol": "MTQ"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.0002"
+                  }
+                ],
+                "name": "Volume",
+                "range": false
+              },
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.025"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Product Specifications"
+          }
+        ],
+        "code": "3970903",
+        "expressOrder": false,
+        "hasNoQuantity": 1,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1023780_HAYDN_PASCWR.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1023780_HAYDN_PASCWR.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1023780_HAYDN_PASCWR.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1023780_HAYDN_PASCWR.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "Haydn",
+        "manufacturerId": "PASCWR",
+        "name": "Window Scraper with Protective Cover PASCWR",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$4.46",
+          "priceType": "BUY",
+          "value": 4.46
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "6",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "classifications": [
+          {
+            "code": "WebFeature",
+            "features": [
+              {
+                "code": "placemakersClassification/1.0/WebFeature.feature1",
+                "comparable": true,
+                "featureValues": [
+                  {
+                    "value": "Perfect for jobsite applications"
+                  }
+                ],
+                "name": "Feature 1",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/WebFeature.feature2",
+                "comparable": true,
+                "featureValues": [
+                  {
+                    "value": "Adapter with SDS Max shank and SDS-Plus reception"
+                  }
+                ],
+                "name": "Feature 2",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/WebFeature.feature3",
+                "comparable": true,
+                "featureValues": [
+                  {
+                    "value": "Required when wanting to use an SDS Max rotary hammer with an SDS-Plus accessory"
+                  }
+                ],
+                "name": "Feature 3",
+                "range": false
+              }
+            ],
+            "name": "Web Features"
+          }
+        ],
+        "code": "4737335",
+        "description": "The Milwaukee SDS Max to SDS Plus chunk adapter is used for the application of SDS Max rotary hammer with an SDS Plus accessory.",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1086837_Milwaukee_4932359490.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1086837_Milwaukee_4932359490.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1086837_Milwaukee_4932359490.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1086837_Milwaukee_4932359490.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "Milwaukee",
+        "manufacturerId": "4932359490",
+        "name": "SDS Max to SDS Plus Chunk Adapter",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$191.73",
+          "priceType": "BUY",
+          "value": 191.73
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "0",
+          "statusCode": "3",
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "4892210169914",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "1.0"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "4914376",
+        "description": "The Milwaukee M18 FUEL 1/4 Inch Hex Cordless Impact Driver is suitable for all fastening applications. The POWERSTATE brushless motor that offers up to 226 Nm torque for high productivity in demanding industrial applications. This compactly designed 116 mm wrench allows to easily work in confined scapes. The RedLink Plus intelligence offers excellent protection from overloads, heating and over discharge.Wrench is powered by a REDLITHIUM battery that delivers fade-free performance and more runtime. 4-Mode Drive Control offers enhanced control over the fasteners. This tool operates at a speed of 0 to 3600 rpm. It comes with belt clip that is convenient for temporary tool hanging. The included bit holder allows to rest the tool safely during break.",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1087908_Milwaukee_M18FID2-0.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1087908_Milwaukee_M18FID2-0.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1087908_Milwaukee_M18FID2-0.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1087908_Milwaukee_M18FID2-0.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "MILWAUKEE",
+        "manufacturerId": "M18FID2-0",
+        "name": "Milwaukee M18 FUEL GEN 3 Li-Ion Cordless Impact Driver Skin Only 1/4in Hex 18V 0-4300ipm M18FID2-0",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$360.87",
+          "priceType": "BUY",
+          "value": 360.87
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "1",
+          "statusCode": "2",
+          "stockLevelStatus": "lowStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9319022034070",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.4"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "7750061",
+        "expressOrder": true,
+        "hasNoQuantity": 0,
+        "kitProductFlag": false,
+        "manufacturer": "RELN",
+        "manufacturerId": "R003407",
+        "name": "Storm Drain End Cap R003407",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$11.66",
+          "priceType": "BUY",
+          "value": 11.66
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "8",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "6940902001108",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "placemakersClassification/1.0/Specification.volume",
+                "comparable": true,
+                "featureUnit": {
+                  "name": "Cubic metre",
+                  "symbol": "MTQ"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.0026"
+                  }
+                ],
+                "name": "Volume",
+                "range": false
+              },
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "2.5"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Product Specifications"
+          }
+        ],
+        "code": "5759923",
+        "expressOrder": true,
+        "hasNoQuantity": 0,
+        "images": [],
+        "kitProductFlag": false,
+        "manufacturerId": "690117",
+        "name": "Tarp Blue 6 x 8ft 1.8 x 2.4m",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$4.11",
+          "priceType": "BUY",
+          "value": 4.11
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "39",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "93932160010",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.4"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "4691655",
+        "description": "The Intruder The Better Mouse Trap is designed to use in homes and gardens. Eco-friendly design is safe to use for children and pets. Unique grooved tongue of the trap provides secure catching of the bait to guarantee a successful catch. Squeeze-and-eject design of the tongue lifts mouse up and out during disposal. The tough plastic construction offers added strength and a longer life. Trap ensures a mess-free operation by just suffocating the mice cleanly.",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1006607_Intruder_MIDC.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1006607_Intruder_MIDC.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1006607_Intruder_MIDC.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1006607_Intruder_MIDC.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturerId": "MISC",
+        "name": "Intruder The Better Single Mouse Trap MISC",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$5.93",
+          "priceType": "BUY",
+          "value": 5.93
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "6",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9418448002059",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "5.0"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "3262854",
+        "description": "The Cemix milky white cemkey concentrate is perfect for bonding Portland cement screeds and renders to brick, concrete and concrete masonry. This concentrate can be added to the mixing water to enhance the resistance. It helps to resist trace acids and alkali as well as reduces surface dusting. The cemkey concentrate covers 8 to 12 sq-m/L area and depends on the porosity of the substrate. It comes in a 5 Litres bottle.",
+        "expressOrder": true,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1015166_CEMIX_20828.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1015166_CEMIX_20828.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1015166_CEMIX_20828.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1015166_CEMIX_20828.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "Cemix",
+        "manufacturerId": "20828",
+        "name": "5L Bottle Cemkey Concentrate Additive Milky White Liquid",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$117.05",
+          "priceType": "BUY",
+          "value": 117.05
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "3",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "LM",
+        "uomFormat": "7.2",
+        "specSheet": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1015166_Cemix_20826_tds.pdf"
+      },
+      {
+        "availableForPickup": true,
+        "classifications": [
+          {
+            "code": "WebFeature",
+            "features": [
+              {
+                "code": "placemakersClassification/1.0/WebFeature.feature2",
+                "comparable": true,
+                "featureValues": [
+                  {
+                    "value": "'Higher ductility"
+                  }
+                ],
+                "name": "Feature 2",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/WebFeature.feature3",
+                "comparable": true,
+                "featureValues": [
+                  {
+                    "value": "lower tensile strength Grade 300E plain carbon steel for the reinforcing of concrete'"
+                  }
+                ],
+                "name": "Feature 3",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/WebFeature.feature4",
+                "comparable": true,
+                "featureValues": [
+                  {
+                    "value": "Available as plain and deformed rebars"
+                  }
+                ],
+                "name": "Feature 4",
+                "range": false
+              },
+              {
+                "code": "placemakersClassification/1.0/WebFeature.feature5",
+                "comparable": true,
+                "featureValues": [
+                  {
+                    "value": "Meets the requirements of the seismic structural design methods employed in New Zealand as required by local Standards"
+                  }
+                ],
+                "name": "Feature 5",
+                "range": false
+              }
+            ],
+            "name": "Web Features"
+          }
+        ],
+        "code": "3501145",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "images": [],
+        "kitProductFlag": false,
+        "name": "Grade 300E Deformed Reinforcing Rebar D12 6m",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$15.78",
+          "priceType": "BUY",
+          "value": 15.78
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "0",
+          "statusCode": "3",
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "LN",
+        "uomFormat": "11",
+        "specSheet": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020928_PACST Product Chart for Reinforcing.pdf"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9311381322461",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.275"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "3393857",
+        "expressOrder": true,
+        "hasNoQuantity": 0,
+        "kitProductFlag": false,
+        "manufacturerId": "1575L.100",
+        "name": "Gully Dish Lid 100mm 1575L.100",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$21.23",
+          "priceType": "BUY",
+          "value": 21.23
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "2",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9315712000066",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.285"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "3392362",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "kitProductFlag": false,
+        "manufacturerId": "503067",
+        "name": "Plain Bend 100mm x 45 Deg 101.100.45",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$13.21",
+          "priceType": "BUY",
+          "value": 13.21
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "0",
+          "statusCode": "3",
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9323714055731",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.098"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "3391596",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "kitProductFlag": false,
+        "manufacturerId": "701.90.45",
+        "name": "Stormfit Plain Bend 90mm x 45 Deg 701.90.45",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$18.23",
+          "priceType": "BUY",
+          "value": 18.23
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "1",
+          "statusCode": "2",
+          "stockLevelStatus": "lowStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9311381151955",
+        "code": "3655073",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "kitProductFlag": false,
+        "manufacturerId": "110.1",
+        "name": "Straight Coupling 100mm 110.100",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$20.82",
+          "priceType": "BUY",
+          "value": 20.82
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "0",
+          "statusCode": "3",
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9415825030827",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.7"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "4834529",
+        "description": "The XCEL Handle measuring 1.65 mm x 28 mm, is suitable for use with rake.",
+        "expressOrder": true,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1092693_XCEL_RAKEH165.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1092693_XCEL_RAKEH165.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1092693_XCEL_RAKEH165.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1092693_XCEL_RAKEH165.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "XCEL",
+        "manufacturerId": "RAKEH165",
+        "name": "XCEL Xcel Chucked Rake Handle 28 mm x 1.65 m Wood RAKEH165",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$13.13",
+          "priceType": "BUY",
+          "value": 13.13
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "3",
+          "statusCode": "2",
+          "stockLevelStatus": "lowStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "9315712000110",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.3"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "3391380",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "kitProductFlag": false,
+        "manufacturerId": "503061",
+        "name": "Plain Bend 100mm x 88 Deg 101.100.88",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$13.21",
+          "priceType": "BUY",
+          "value": 13.21
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "0",
+          "statusCode": "3",
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "barcodesPM": "42944195084",
+        "classifications": [
+          {
+            "code": "Specification",
+            "features": [
+              {
+                "code": "Weight",
+                "comparable": false,
+                "featureUnit": {
+                  "name": "Kilogram",
+                  "symbol": "KGM",
+                  "unitType": "KGM"
+                },
+                "featureValues": [
+                  {
+                    "value": "0.7"
+                  }
+                ],
+                "name": "Weight",
+                "range": false
+              }
+            ],
+            "name": "Specifications"
+          }
+        ],
+        "code": "4890273",
+        "description": "The Fuller Professional 200 mm end nipper pliers in red/silver colour, is used for general carpentry and offers smooth, non-sticking lever mechanism. These are suitable for cutting nails and fasteners in general carpentry applications. The precision milled pliers with a sturdy head design provides maximum leverage. The slim grip handle of pliers allows maximum control.",
+        "expressOrder": true,
+        "hasNoQuantity": 0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1084241_405-1958.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1084241_405-1958.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1084241_405-1958.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1084241_405-1958.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "Fuller",
+        "manufacturerId": "405-1958",
+        "name": "Professional 200mm End Cutting Plier",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$27.97",
+          "priceType": "BUY",
+          "value": 27.97
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "2",
+          "statusCode": "2",
+          "stockLevelStatus": "lowStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      },
+      {
+        "availableForPickup": true,
+        "code": "3510246",
+        "expressOrder": false,
+        "hasNoQuantity": 0,
+        "images": [],
+        "kitProductFlag": false,
+        "manufacturer": "FREO",
+        "manufacturerId": "7600030",
+        "name": "FR668L 4.65x1.97 7.525M2 NON STRUCTURAL MESH FLETCHER REO",
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$88.62",
+          "priceType": "BUY",
+          "value": 88.62
+        },
+        "productTypeCodeEnum": "N",
+        "sellOrderMultiple": 0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "89",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "11"
+      }
+    ]
+  },
+  "serviceResult": {
+    "code": "0",
+    "message": ""
+  },
+  "transactionId": "00000000000000008leypV88k14G95Eq"
+}

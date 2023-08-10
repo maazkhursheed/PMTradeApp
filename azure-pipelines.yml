@@ -1,0 +1,130 @@
+schedules:
+  - cron: "00 19 * * Mon,Tue,Wed,Thu,Sun"
+    displayName: Daily mid-night build
+    branches:
+      include:
+        - SIT
+trigger:
+  branches:
+    exclude:
+      - "*"
+  tags:
+    include:
+      - "sit-*"
+      - "dev-*"
+      - "uat-*"
+      - "pvt-*"
+      - "release-*"
+
+variables:
+  IS_SCHEDULED: eq(variables['Build.Reason'], 'Schedule')
+  IS_PR: eq(variables['Build.Reason'], 'PullRequest')
+  ${{ if startsWith(variables['Build.SourceBranch'], 'refs/tags/sit-') }}:
+    ENV: "sit"
+  ${{ elseif startsWith(variables['Build.SourceBranch'], 'refs/tags/uat-') }}:
+    ENV: "uat"
+  ${{ elseif startsWith(variables['Build.SourceBranch'], 'refs/tags/dev-') }}:
+    ENV: "dev"
+  ${{ elseif startsWith(variables['Build.SourceBranch'], 'refs/tags/pvt-') }}:
+    ENV: "prod"
+  ${{ elseif startsWith(variables['Build.SourceBranch'], 'refs/tags/release-') }}:
+    ENV: "bau"
+  ${{ else }}:
+    ENV: "sit"
+jobs:
+  - job: GitCommit
+    pool:
+      vmImage: "macOS-12"
+    condition: eq(${{ variables.IS_SCHEDULED }}, true)
+    steps:
+      - template: ci/git-bump-commit.yml
+  - job: GetVersionNumbers
+    pool:
+      vmImage: "macOS-12"
+    condition: and(eq(${{ variables.IS_PR }}, false), eq(${{ variables.IS_SCHEDULED }}, false))
+    steps:
+      - template: ci/dependencies.yml
+      - script: |
+          VERSION_NAME_ANDROID=$(grep -o "versionName\s\+.*" android/app/build.gradle | awk '{ print $2 }' | tr -d \''"\')
+          VERSION_CODE_ANDROID=$(grep -o "versionCode\s\+.*" android/app/build.gradle | awk '{ print $2 }' | tr -d \''"\')
+          echo "##vso[task.setvariable variable=VERSION_NAME_ANDROID;isOutput=true]$VERSION_NAME_ANDROID"
+          echo "##vso[task.setvariable variable=VERSION_CODE_ANDROID;isOutput=true]$VERSION_CODE_ANDROID"
+        name: "versionAndroid"
+      - script: |
+          VERSION_NAME_IOS=`/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "ios/FletcherBuilderTradeApp/Info.plist"`
+          VERSION_BUILD_IOS=`/usr/libexec/PlistBuddy -c "Print :CFBundleVersion" "ios/FletcherBuilderTradeApp/Info.plist"`
+          echo "##vso[task.setvariable variable=VERSION_NAME_IOS;isOutput=true]$VERSION_NAME_IOS"
+          echo "##vso[task.setvariable variable=VERSION_BUILD_IOS;isOutput=true]$VERSION_BUILD_IOS"
+        name: "versionIos"
+      - script: |
+          GIT_TICKETS_NUMBER=$(node bin/get-tickets.js --env=${{  variables.ENV }})
+          echo "##vso[task.setvariable variable=GIT_TICKETS_NUMBER;isOutput=true]$GIT_TICKETS_NUMBER"
+        name: "ticketNumber"
+  - job: BuildIOS
+    timeoutInMinutes: 90
+    pool:
+      vmImage: "macOS-12"
+    condition: and(eq(${{ variables.IS_PR }}, false), eq(${{ variables.IS_SCHEDULED }}, false))
+    steps:
+      - template: ci/ios-distribution.yml
+        parameters:
+          env: ${{ variables.ENV }}
+
+  - job: DistributeIOS
+    timeoutInMinutes: 90
+    continueOnError: true
+    pool:
+      vmImage: "macOS-12"
+    condition: and(eq(${{ variables.IS_PR }}, false), eq(${{ variables.IS_SCHEDULED }}, false))
+    steps:
+      - template: ci/ios-distribution.yml
+        parameters:
+          publish: true
+          env: ${{ variables.ENV }}
+  - job: BuildAndroid
+    timeoutInMinutes: 90
+    pool:
+      vmImage: "macOS-12"
+    condition: and(eq(${{ variables.IS_PR }}, false), eq(${{ variables.IS_SCHEDULED }}, false))
+    steps:
+      - template: ci/android-distribution.yml
+        parameters:
+          env: ${{ variables.ENV }}
+  - job: Notify
+    pool:
+      vmImage: "macOS-12"
+    condition: and(eq(${{ variables.IS_PR }}, false), eq(${{ variables.IS_SCHEDULED }}, false))
+    dependsOn:
+      - BuildIOS
+      - DistributeIOS
+      - BuildAndroid
+      - GetVersionNumbers
+    variables:
+      VERSION_NAME_ANDROID: $[ dependencies.GetVersionNumbers.outputs['versionAndroid.VERSION_NAME_ANDROID'] ]
+      VERSION_CODE_ANDROID: $[ dependencies.GetVersionNumbers.outputs['versionAndroid.VERSION_CODE_ANDROID'] ]
+      VERSION_NAME_IOS: $[ dependencies.GetVersionNumbers.outputs['versionIos.VERSION_NAME_IOS'] ]
+      VERSION_BUILD_IOS: $[ dependencies.GetVersionNumbers.outputs['versionIos.VERSION_BUILD_IOS'] ]
+      GIT_TICKETS_NUMBER: $[ dependencies.GetVersionNumbers.outputs['ticketNumber.GIT_TICKETS_NUMBER'] ]
+    steps:
+      - template: ci/dependencies.yml
+        parameters:
+          INSTALL_APP_CENTRE: true
+      - template: ci/notify.yml
+        parameters:
+          env: ${{ variables.ENV }}
+      - template: ci/publish-app-center.yml
+        parameters:
+          tickets: $(GIT_TICKETS_NUMBER)
+          platform: "android"
+          env: ${{ variables.ENV }}
+      - template: ci/publish-app-center.yml
+        parameters:
+          tickets: $(GIT_TICKETS_NUMBER)
+          platform: "ios"
+          env: ${{ variables.ENV }}
+  - job: BuildOnPR
+    pool:
+      vmImage: "macOS-12"
+    condition: eq(${{ variables.IS_PR }}, true)
+    steps:
+      - template: ci/pull-request-build.yml

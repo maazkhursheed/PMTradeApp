@@ -1,0 +1,248 @@
+{
+  "quoteDetails": [
+    {
+      "appliedTaxPercent": "15.00",
+      "code": "03439009",
+      "consumerAddress": {
+        "country": {
+          "isocode": "NZ",
+          "name": "New Zealand"
+        },
+        "defaultAddress": false,
+        "email": "",
+        "firstName": "",
+        "formattedAddress": "",
+        "id": "8880470753303",
+        "phone": "",
+        "shippingAddress": false,
+        "visibleInAddressBook": false
+      },
+      "createdby": "shashika.abeysuriya@fbu.com",
+      "creationTime": "2022-10-05T01:16:21+0000",
+      "estimateFlag": false,
+      "jobAddress": {
+        "country": {
+          "isocode": "NZ",
+          "name": "New Zealand"
+        },
+        "defaultAddress": false,
+        "firstName": "Teal",
+        "formattedAddress": "18 Teal Way, Hobsonville, Auckland, 0616",
+        "id": "8880470720535",
+        "line1": "18 Teal Way",
+        "line2": "Hobsonville",
+        "postalCode": "0616",
+        "shippingAddress": false,
+        "town": "Auckland",
+        "visibleInAddressBook": false
+      },
+      "jobName": "Teal",
+      "markupPercentage": 0,
+      "markupPrice": {
+        "currencyIso": "NZD",
+        "formattedValue": "$0.00",
+        "value": 0
+      },
+      "materialPrice": {
+        "currencyIso": "NZD",
+        "formattedValue": "$1,573.04",
+        "value": 1573.04
+      },
+      "materialsAddedFlag": false,
+      "materialsCount": 2,
+      "mediaFormats": "PDF,JPEG,PNG,MP4,MOV,WMV,docx,gdoc,txt,xlsx,xlsm,xls,pptx,JPG,gslides,Gsheet,Pages,numbers,key,doc,ppt,tiff,zip",
+      "mediaIncluded": false,
+      "notes": "",
+      "otherCostPrice": {
+        "currencyIso": "NZD",
+        "formattedValue": "$0.00",
+        "value": 0
+      },
+      "otherCostsAddedFlag": false,
+      "scopeOfWork": "",
+      "status": "NOTSENT",
+      "totalPrice": {
+        "currencyIso": "NZD",
+        "formattedValue": "$1,573.04",
+        "value": 1573.04
+      },
+      "totalPriceWithTax": {
+        "currencyIso": "NZD",
+        "formattedValue": "$1,809.00",
+        "value": 1809
+      },
+      "totalTax": {
+        "currencyIso": "NZD",
+        "formattedValue": "$235.96",
+        "value": 235.96
+      },
+      "updatedTime": "2022-10-05T01:18:44+0000"
+    }
+  ],
+  "sobId": "8805563092528",
+  "SOBQuotesList": [
+    [
+      {
+        "availableForPickup": true,
+        "basePrice": {
+          "currencyIso": "NZD",
+          "formattedValue": "$0.00",
+          "priceType": "BUY",
+          "value": 0
+        },
+        "cancellableQuantity": 0,
+        "configurationInfos": [],
+        "customProductFlag": false,
+        "decimalQty": 1,
+        "deliveryOrder": true,
+        "entryNumber": 0,
+        "estimateProductStock": 0,
+        "product": {
+          "appUomFormat": "7.2",
+          "availableForPickup": true,
+          "baseOptions": [],
+          "categories": [
+            {
+              "code": "AH02ID",
+              "name": "NST Box/Ind/Col Untreated Kiln Dried",
+              "url": "/timber-panels/non-structural-timber-all-grades/nst-merch-boxing-battens/nst-boxindcol-untreated-kiln-dried/c/AH02ID"
+            }
+          ],
+          "code": "1165141",
+          "configurable": false,
+          "description": "Machine gauged box grade timber suitable for interior or short term external applications such as temporary framing for concrete paths, driveways and pads.",
+          "expressOrder": false,
+          "hasNoQuantity": 0,
+          "manufacturerId": "190 x 22 IND G DAR",
+          "name": "Radiata Gauged Box Grade Timber Untreated 200 x 25mm (190 x 19mm)",
+          "pmExclusive": false,
+          "purchasable": true,
+          "sellOrderMultiple": 0,
+          "specialProdWithAlphaSkuFlag": false,
+          "specialProduct": false,
+          "stock": {
+            "isValueRounded": false,
+            "stockLevel": 0,
+            "stockLevelStatus": "outOfStock"
+          },
+          "timberProductFlag": true,
+          "unitCode": "LM",
+          "uomFormat": "z,zzz,zzz.99-",
+          "url": "/timber-panels/non-structural-timber-all-grades/nst-merch-boxing-battens/nst-boxindcol-untreated-kiln-dried/radiata-gauged-box-grade-timber-untreated-200-x-25mm-190-x-19mm/p/1165141"
+        },
+        "quantity": 1,
+        "retailPrice": {
+          "currencyIso": "NZD",
+          "formattedValue": "$0.00",
+          "priceType": "BUY",
+          "value": 0
+        },
+        "returnableQuantity": 0,
+        "selectedConfiguration": [],
+        "statusSummaryList": [],
+        "totalPrice": {
+          "currencyIso": "NZD",
+          "formattedValue": "$0.00",
+          "priceType": "BUY",
+          "value": 0
+        },
+        "unit": "LM",
+        "updateable": true
+      },
+      {
+        "availableForPickup": true,
+        "basePrice": {
+          "currencyIso": "NZD",
+          "formattedValue": "$1,573.04",
+          "priceType": "BUY",
+          "value": 1573.04
+        },
+        "cancellableQuantity": 0,
+        "configurationInfos": [],
+        "customProductFlag": false,
+        "decimalQty": 1,
+        "deliveryOrder": true,
+        "entryNumber": 1,
+        "estimateProductStock": 0,
+        "product": {
+          "appUomFormat": "11",
+          "availableForPickup": true,
+          "baseOptions": [],
+          "categories": [
+            {
+              "code": "CO29JA",
+              "name": "Concrete Guns Actuated",
+              "url": "/tools-safety-consumables/power-tools/nailersbradders-concrete-gunsstaplers/concrete-guns-actuated/c/CO29JA"
+            }
+          ],
+          "code": "4521771",
+          "configurable": false,
+          "description": "The  Spitfire Nail Gun is suitable for framing and general builder applications. It offers up to 5000 pins piston life time and 1500 to 5000 pins spring life time. Magazine is designed to fit 15 to 75 mm drive pins. Automatic piston return ensures rapid firing in both magazine and single shot mode. 10-pin magazine has a capacity to fire 1 pin per second.Power can be adjusted based on the working surface. Easy to clean design ensure minimal maintenance and downtime. Gun has a capacity to pin 10 pins and delivers impact force of 360 J.",
+          "expressOrder": true,
+          "hasNoQuantity": 0,
+          "images": [
+            {
+              "altText": "Spitfire Powder Actuated Tool Gun 10 Pin Capacity SPITFIRE-C75",
+              "format": "zoom",
+              "imageType": "PRIMARY",
+              "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1096903_Ramset_SPITFIRE-C75.jpg"
+            },
+            {
+              "altText": "Spitfire Powder Actuated Tool Gun 10 Pin Capacity SPITFIRE-C75",
+              "format": "product",
+              "imageType": "PRIMARY",
+              "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1096903_Ramset_SPITFIRE-C75.jpg"
+            },
+            {
+              "altText": "Spitfire Powder Actuated Tool Gun 10 Pin Capacity SPITFIRE-C75",
+              "format": "thumbnail",
+              "imageType": "PRIMARY",
+              "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1096903_Ramset_SPITFIRE-C75.jpg"
+            },
+            {
+              "altText": "Spitfire Powder Actuated Tool Gun 10 Pin Capacity SPITFIRE-C75",
+              "format": "cartIcon",
+              "imageType": "PRIMARY",
+              "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1096903_Ramset_SPITFIRE-C75.jpg"
+            }
+          ],
+          "manufacturer": "Ramset",
+          "manufacturerId": "SPITFIRE-C75",
+          "name": "Spitfire Powder Actuated Tool Gun 10 Pin Capacity SPITFIRE-C75",
+          "pmExclusive": false,
+          "purchasable": true,
+          "sellOrderMultiple": 0,
+          "specialProdWithAlphaSkuFlag": false,
+          "specialProduct": false,
+          "stock": {
+            "isValueRounded": false,
+            "stockLevel": 0,
+            "stockLevelStatus": "outOfStock"
+          },
+          "timberProductFlag": false,
+          "unitCode": "EA",
+          "uomFormat": "zz,zzz,zzz,zz9-",
+          "url": "/tools-safety-consumables/power-tools/nailersbradders-concrete-gunsstaplers/concrete-guns-actuated/spitfire-powder-actuated-tool-gun-10-pin-capacity-spitfire-c75/p/4521771"
+        },
+        "quantity": 1,
+        "retailPrice": {
+          "currencyIso": "NZD",
+          "formattedValue": "$1,809.00",
+          "priceType": "BUY",
+          "value": 1809
+        },
+        "returnableQuantity": 0,
+        "selectedConfiguration": [],
+        "statusSummaryList": [],
+        "totalPrice": {
+          "currencyIso": "NZD",
+          "formattedValue": "$1,573.04",
+          "priceType": "BUY",
+          "value": 1573.04
+        },
+        "unit": "EA",
+        "updateable": true
+      }
+    ]
+  ]
+}

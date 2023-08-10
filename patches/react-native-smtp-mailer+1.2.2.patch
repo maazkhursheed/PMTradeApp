@@ -1,0 +1,22 @@
+diff --git a/node_modules/react-native-smtp-mailer/android/build.gradle b/node_modules/react-native-smtp-mailer/android/build.gradle
+index 822b5a0..4750d34 100644
+--- a/node_modules/react-native-smtp-mailer/android/build.gradle
++++ b/node_modules/react-native-smtp-mailer/android/build.gradle
+@@ -32,6 +32,7 @@ repositories {
+ 
+ dependencies {
+     implementation 'com.facebook.react:react-native:+'
++    implementation 'com.sun.mail:android-mail:1.6.6'
++    implementation 'com.sun.mail:android-activation:1.6.6'
+     implementation fileTree(dir: 'libs', include: '*.jar')
+ }
+-  
+\ No newline at end of file
+diff --git a/node_modules/react-native-smtp-mailer/android/libs/android-activation-1.6.0.jar b/node_modules/react-native-smtp-mailer/android/libs/android-activation-1.6.0.jar
+deleted file mode 100644
+index 53385e1..0000000
+Binary files a/node_modules/react-native-smtp-mailer/android/libs/android-activation-1.6.0.jar and /dev/null differ
+diff --git a/node_modules/react-native-smtp-mailer/android/libs/android-mail-1.6.0.jar b/node_modules/react-native-smtp-mailer/android/libs/android-mail-1.6.0.jar
+deleted file mode 100644
+index 01358e0..0000000
+Binary files a/node_modules/react-native-smtp-mailer/android/libs/android-mail-1.6.0.jar and /dev/null differ

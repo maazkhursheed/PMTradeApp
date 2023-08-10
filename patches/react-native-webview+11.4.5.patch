@@ -1,0 +1,21 @@
+diff --git a/node_modules/react-native-webview/android/src/main/res/xml/file_provider_paths.xml b/node_modules/react-native-webview/android/src/main/res/xml/file_provider_paths.xml
+index aba5f56..f513b07 100644
+--- a/node_modules/react-native-webview/android/src/main/res/xml/file_provider_paths.xml
++++ b/node_modules/react-native-webview/android/src/main/res/xml/file_provider_paths.xml
+@@ -1,6 +1,11 @@
+ <?xml version="1.0" encoding="utf-8"?>
++
+ <paths>
++
+   <external-path
++
+     name="shared"
+-    path="." />
++
++    path="Download/" />
++
+ </paths>
+diff --git a/node_modules/react-native-webview/windows/.npmignore b/node_modules/react-native-webview/windows/.gitignore
+similarity index 100%
+rename from node_modules/react-native-webview/windows/.npmignore
+rename to node_modules/react-native-webview/windows/.gitignore

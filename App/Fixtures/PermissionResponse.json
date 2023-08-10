@@ -1,0 +1,23 @@
+{
+  "accountID": "289BROMA",
+  "customerID": "abc2@royalcyber.com",
+  "permissionList": [
+    {
+      "name": "Place Order User Group",
+      "uid": "placeOrderGroup"
+    },
+    {
+      "name": "Account Admin User Group",
+      "uid": "accountAdminGroup"
+    },
+    {
+      "name": "Restrict Price Group",
+      "uid": "restrictPriceGroup"
+    },
+    {
+      "name": "View Orders group",
+      "uid": "viewOrderGroup"
+    }
+  ],
+  "temporaryAccess": false
+}

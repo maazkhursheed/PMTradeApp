@@ -1,0 +1,12 @@
+diff --git a/node_modules/react-native-elements/dist/searchbar/SearchBar.js b/node_modules/react-native-elements/dist/searchbar/SearchBar.js
+index 43db650..533be81 100644
+--- a/node_modules/react-native-elements/dist/searchbar/SearchBar.js
++++ b/node_modules/react-native-elements/dist/searchbar/SearchBar.js
+@@ -12,6 +12,7 @@ class SearchBar extends React.Component {
+     constructor() {
+         super(...arguments);
+         this.focus = () => {
++            if(this.searchbar)
+             this.searchbar.focus();
+         };
+         this.blur = () => {

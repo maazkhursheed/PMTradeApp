@@ -1,0 +1,319 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+# default_platform(:android)
+
+fastlane_require 'ramda'
+fastlane_require 'rubygems'
+#fastlane_require 'jira-ruby'
+fastlane_require 'mail'
+fastlane_require 'dotenv'
+
+import '../android/fastlane/Fastfile'
+import '../ios/fastlane/Fastfile'
+
+def upload_android(env)
+  prompted = prompt text: "Have you updated the change_request.txt file?", boolean: true
+  if prompted
+    build env: env
+    upload_files(env: env, platform: "android")
+    notify_teams platform: "android", env: env
+    upload env: env
+  end
+end
+
+def upload_ios(env, security)
+  prompted = prompt text: "Have you updated the change_request.txt file?", boolean: true
+  if prompted
+    Dotenv.load '.env.' + env
+
+    if (security) then
+      ios_deploy(env: env, deploy_type: "security")
+      upload_files(env: env, platform: "ios")
+      reset_git_repo(force: true, files: ["./ios/FletcherBuilderTradeApp.xcodeproj/project.pbxproj"])
+      notify_teams platform: "ios", env: env
+    else
+      ios_deploy(env: env, deploy_type: "deploy")
+      ios_deploy(env: env, deploy_type: "automation")
+      upload_files(env: env, platform: "ios")
+      reset_git_repo(force: true, files: ["./ios/FletcherBuilderTradeApp.xcodeproj/project.pbxproj"])
+      notify_teams platform: "ios", env: env
+    end
+  end
+end
+
+platform :android do
+  lane :dev do
+    upload_android "dev"
+  end
+
+  lane :sit do
+    upload_android "sit"
+  end
+
+  lane :uat do
+    upload_android "uat"
+  end
+
+  lane :bau do
+    upload_android "bau"
+  end
+
+  lane :prod do
+    upload_android "prod"
+  end
+end
+
+platform :ios do
+  lane :dev do |options|
+    upload_ios("dev", options[:security] === true)
+  end
+
+  lane :sit do |options|
+    upload_ios("sit", options[:security] === true)
+  end
+
+  lane :uat do |options|
+    upload_ios("uat", options[:security] === true)
+  end
+
+  lane :bau do |options|
+    upload_ios("bau", options[:security] === true)
+  end
+
+  lane :prod do |options|
+    upload_ios("prod", options[:security] === true)
+  end
+end
+
+#desc "Moves all the tickets in change_request.txt to Ready To test in JIRA"
+#lane :jira_tickets do
+#  change_request = "./change_request.txt"
+#  file_data = File.read(change_request).split
+#
+#  if file_data.length() > 0
+#    R = Ramda
+#
+#    options = {
+#      :username => 'syed.shahnawaz@royalcyber.com',
+#      :password => ENV["JIRA_APP_KEY"],
+#      :site => 'https://fletcher-digitalplatform.atlassian.net/',
+#      :context_path => '',
+#      :auth_type => :basic
+#    }
+#
+#    client = JIRA::Client.new(options)
+#
+#    begin
+#      R.map(R.pipe(R.split("/"), R.last), file_data).each do |issue_id|
+#        issue = client.Issue.find(issue_id)
+#
+#        transitions = client.Transition.all(issue: issue)
+#        transition = transitions.find { |elem| elem.name == 'Ready to Test' }
+#
+#        new_transition = issue.transitions.build
+#        new_transition.save!("transition" => {"id" => transition.id})
+#      end
+#    rescue
+#      UI.error "Some error occurred while transferring the tickets"
+#    else
+#      File.open(change_request, "w") { |f| f.write "" }
+#    end
+#
+#  else
+#    UI.error "No tickets found in change request text file please provide first to run this lane"
+#  end
+#end
+
+lane :notify_teams do |options|
+  configuration = case options[:env]
+                  when "dev"
+                    "DEV.Release"
+                  when "sit"
+                    "SIT.Release"
+                  when "uat"
+                    "UAT.Release"
+                  when "prod"
+                    "Release"
+                  when "bau"
+                    "BAU.Release"
+                  end
+  ios_public_link = case options[:env]
+                    when "dev"
+                      "Dev link not available for testflight"
+                    when "sit"
+                      "https://testflight.apple.com/join/DXmi3ond"
+                    when "uat"
+                      "https://testflight.apple.com/join/gQjitIHu"
+                    when "prod"
+                      "https://testflight.apple.com/join/IJWXOVTL"
+                    when "bau"
+                      "https://testflight.apple.com/join/56I2wCfg"
+                    end
+
+  teams_url_fbu = "https://fbu.webhook.office.com/webhookb2/1145b9b2-69d8-4774-92e7-597e04af37bb@bbe1e397-1cd5-4367-86a3-5fb678c03a4f/IncomingWebhook/32d9ff98de3a4ff88dae2671e1cc1455/b37575fc-f117-4a59-915a-5d18176de572"
+  # teams_url = "https://rcyber.webhook.office.com/webhookb2/379dc887-d4a5-450e-b58e-f0a6191c3322@d508624f-a0b7-4fd3-9511-05b18ca02784/IncomingWebhook/6d056e127af54289ad5ecf3f20b33afc/8b44f6da-15ed-4bc4-a760-534aa02d35ea"
+  version_value = case options[:platform]
+                  when "ios"
+                    get_version_number(xcodeproj: "ios/FletcherBuilderTradeApp.xcodeproj", configuration: configuration) + " (" + get_build_number(xcodeproj: "ios/FletcherBuilderTradeApp.xcodeproj") + ")"
+                  when "android"
+                    android_get_version_name(gradle_file: 'android/app/build.gradle') + " (" + android_get_version_code(gradle_file: 'android/app/build.gradle') + ")"
+                  else
+                    ""
+                  end
+
+  urls = lane_context[SharedValues::GDRIVE_UPLOADED_FILE_URLS]
+  t = Time.now
+
+  link = case options[:platform]
+         when "ios"
+           ios_public_link + "\n\r\n\r" + urls[0]
+         when "android"
+           urls[0]
+         end
+
+  file_data = File.read("./change_request.txt")
+
+  teams(
+    title: "Trade App Release Notes: " + t.strftime("%A, %B-%d-%Y"),
+    message: "Description:\n\r" + file_data,
+    facts: [
+      {
+        "name" => "Platform",
+        "value" => options[:platform]
+      },
+      {
+        "name" => "Version",
+        "value" => version_value
+      },
+      {
+        "name" => "Environment",
+        "value" => options[:env].upcase
+      },
+      {
+        "name" => "Link",
+        "value" => link
+      }
+    ],
+    teams_url: teams_url_fbu
+  )
+end
+
+lane :upload_files do |options|
+  if options[:platform] === "ios"
+    configuration = case options[:env]
+                    when "dev"
+                      "DEV.Release"
+                    when "sit"
+                      "SIT.Release"
+                    when "uat"
+                      "UAT.Release"
+                    when "prod"
+                      "Release"
+                    when "bau"
+                      "BAU.Release"
+                    end
+    create_google_drive_folder(
+      drive_keyfile: "fastlane/google-service.json",
+      service_account: true,
+      folder_id: "12YeN8QKK-S7Fda10vzDB07ji-ebAyn6D",
+      folder_title: "ipa-" + options[:env] + '-' + get_version_number(xcodeproj: "ios/FletcherBuilderTradeApp.xcodeproj", configuration: configuration) + "-" + get_build_number(xcodeproj: "ios/FletcherBuilderTradeApp.xcodeproj")
+    )
+
+    upload_to_google_drive(
+      drive_keyfile: 'fastlane/google-service.json',
+      service_account: true,
+      folder_id: lane_context[SharedValues::GDRIVE_CREATED_FOLDER_ID],
+      upload_files: [lane_context[SharedValues::IPA_OUTPUT_PATH]]
+    )
+  else
+    create_google_drive_folder(
+      drive_keyfile: "fastlane/google-service.json",
+      service_account: true,
+      folder_id: "12YeN8QKK-S7Fda10vzDB07ji-ebAyn6D",
+      folder_title: options[:env] + '-' + android_get_version_name(gradle_file: 'android/app/build.gradle') + "-" + android_get_version_code(gradle_file: 'android/app/build.gradle')
+    )
+    upload_to_google_drive(
+      drive_keyfile: 'fastlane/google-service.json',
+      service_account: true,
+      folder_id: lane_context[SharedValues::GDRIVE_CREATED_FOLDER_ID],
+      upload_files: ['android/app/build/outputs/apk/' + options[:env] + '/release/app-' + options[:env] + '-release.apk']
+    )
+  end
+end
+
+desc 'Increment versionCode and set versionName to package.json version.'
+package = read_json(json_path: "#{__dir__}/package.json")
+lane :commit_bump do |options|
+  if options[:bump]
+    year = Date.today.strftime("%y").to_i
+    month = Date.today.month
+    patch = package[:version].split(".")
+
+    inc = patch[-1].to_i + 1
+    package[:version] = "#{year}.#{month}.#{inc}"
+    if year != patch[0].to_i || month != patch[1].to_i
+      package[:version] = "#{year}.#{month}.1"
+    end
+    write_json(
+      file_path: "#{__dir__}/package.json",
+      hash: package
+    )
+    #package[]
+  end
+
+  android_set_version_code(
+    gradle_file: "./android/app/build.gradle"
+  )
+
+  if options[:bump]
+    increment_build_number(
+      xcodeproj: './ios/FletcherBuilderTradeApp.xcodeproj',
+      build_number: 0
+    )
+    increment_version_number(
+      xcodeproj: './ios/FletcherBuilderTradeApp.xcodeproj',
+      version_number: package[:version],
+
+    )
+    android_set_version_name(
+      gradle_file: "./android/app/build.gradle",
+      version_name: package[:version]
+    )
+  else
+    increment_build_number(
+      xcodeproj: './ios/FletcherBuilderTradeApp.xcodeproj'
+    )
+  end
+
+  configuration = case options[:env]
+                  when "dev"
+                    "DEV.Release"
+                  when "sit"
+                    "SIT.Release"
+                  when "uat"
+                    "UAT.Release"
+                  when "prod"
+                    "Release"
+                  when "bau"
+                    "BAU.Release"
+                  end
+
+  git_commit(path: %w[./package.json ./android/app/build.gradle ./ios/FletcherBuilderTradeApp.xcodeproj ./ios/FletcherBuilderTradeApp/*.plist], message: "bumped version")
+  add_git_tag(
+    tag: options[:env] + "-" + get_version_number(xcodeproj: "ios/FletcherBuilderTradeApp.xcodeproj", configuration: configuration) + "-" + get_build_number(xcodeproj: "ios/FletcherBuilderTradeApp.xcodeproj")
+  )
+
+end

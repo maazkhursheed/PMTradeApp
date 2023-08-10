@@ -1,0 +1,124 @@
+parameters:
+  - name: env
+    default: "sit"
+    type: string
+    values:
+      - "sit"
+      - "uat"
+      - "bau"
+      - "dev"
+      - "prod"
+  - name: publish
+    default: false
+    type: boolean
+steps:
+  - script: echo "IS_ADHOC=true" >> .env.${{ parameters.env }}
+    condition: eq(${{ parameters.publish }}, false)
+  - task: InstallAppleCertificate@2
+    inputs:
+      keychain: temp
+      certSecureFile: "fb.p12"
+      certPwd: $(CertificatePassword)
+  - task: InstallAppleProvisioningProfile@1
+    inputs:
+      removeProfile: true
+      provisioningProfileLocation: "secureFiles"
+      ${{ if and(eq(parameters.env, 'sit'), eq(parameters.publish, true)) }}:
+        provProfileSecureFile: "PMTASIT.mobileprovision"
+      ${{ elseif and(eq(parameters.env, 'sit'), eq(parameters.publish, false)) }}:
+        provProfileSecureFile: "PMTASITAdhoc.mobileprovision"
+      ${{ if and(eq(parameters.env, 'uat'), eq(parameters.publish, true)) }}:
+        provProfileSecureFile: "PMTAUAT.mobileprovision"
+      ${{ elseif and(eq(parameters.env, 'uat'), eq(parameters.publish, false)) }}:
+        provProfileSecureFile: "PMTAUATAdhoc.mobileprovision"
+      ${{ if and(eq(parameters.env, 'dev'), eq(parameters.publish, true)) }}:
+        provProfileSecureFile: "PMTADEV.mobileprovision"
+      ${{ elseif and(eq(parameters.env, 'dev'), eq(parameters.publish, false)) }}:
+        provProfileSecureFile: "PMTADEVAdhoc.mobileprovision"
+      ${{ if and(eq(parameters.env, 'bau'), eq(parameters.publish, true)) }}:
+        provProfileSecureFile: "PMTABAU.mobileprovision"
+      ${{ elseif and(eq(parameters.env, 'bau'), eq(parameters.publish, false)) }}:
+        provProfileSecureFile: "PMTABAUAdhoc.mobileprovision"
+      ${{ if and(eq(parameters.env, 'prod'), eq(parameters.publish, true)) }}:
+        provProfileSecureFile: "PMTAProd.mobileprovision"
+      ${{ elseif and(eq(parameters.env, 'prod'), eq(parameters.publish, false)) }}:
+        provProfileSecureFile: "PMTAProdAdhoc.mobileprovision"
+  - template: dependencies.yml
+    parameters:
+      pods: true
+  - task: Xcode@5
+    inputs:
+      actions: "build"
+      packageApp: true
+      sdk: $(SDK)
+      xcWorkspacePath: "ios/FletcherBuilderTradeApp.xcworkspace"
+      xcodeVersion: "default" # Options: 8, 9, 10, 11, 12, default, specifyPath
+      exportPath: "ios/output/export"
+      # teamId: "3H49YJX8WY"
+      # exportOptions: specify
+      # exportMethod: "app-store"
+      # exportTeamId: "3H49YJX8WY"
+      # exportOptionsPlist: ""
+      signingOption: "manual"
+      signingIdentity: "$(APPLE_CERTIFICATE_SIGNING_IDENTITY)"
+      provisioningProfileUuid: "$(APPLE_PROV_PROFILE_UUID)"
+      ${{ if eq(parameters.env, 'sit') }}:
+        scheme: "SIT"
+        configuration: "SIT.Release"
+      ${{ elseif eq(parameters.env, 'uat') }}:
+        scheme: "UAT"
+        configuration: "UAT.Release"
+      ${{ elseif eq(parameters.env, 'bau') }}:
+        scheme: "BAU"
+        configuration: "BAU.Release"
+      ${{ elseif eq(parameters.env, 'dev') }}:
+        scheme: "DEV"
+        configuration: "DEV.Release"
+      ${{ elseif eq(parameters.env, 'prod') }}:
+        scheme: "FletcherBuilderTradeApp"
+        configuration: "Release"
+  - task: CopyFiles@2
+    inputs:
+      contents: "**/*.ipa"
+      targetFolder: "$(Build.ArtifactStagingDirectory)"
+      overWrite: true
+  - publish: $(Build.ArtifactStagingDirectory)
+    artifact: ios
+    condition: and(succeeded(), eq(${{ parameters.publish }}, false))
+  - task: AppStoreRelease@1
+    condition: and(succeeded(), eq(${{ parameters.publish }}, true))
+    inputs:
+      serviceEndpoint: "iOSDistribution"
+      ipaPath: "$(Build.ArtifactStagingDirectory)/**/*.ipa"
+      shouldSkipWaitingForProcessing: true
+      releaseTrack: TestFlight
+      shouldSkipSubmission: false
+      distributedToExternalTesters: false
+      ${{ if eq(parameters.env, 'sit') }}:
+        appSpecificId: "1508230171"
+        releaseNotes: "Test SIT build"
+        appIdentifier: com.fbu.placemakerstrade.stc
+      ${{ elseif eq(parameters.env, 'uat') }}:
+        appSpecificId: "1513626084"
+        releaseNotes: "Test UAT build"
+        appIdentifier: com.fbu.placemakerstrade.stc.s3
+      ${{ elseif eq(parameters.env, 'bau') }}:
+        appSpecificId: "1536361199"
+        releaseNotes: "Test BAU build"
+        appIdentifier: com.fbu.placemakerstrade.bau
+      ${{ elseif eq(parameters.env, 'prod') }}:
+        appSpecificId: "1475114151"
+        releaseNotes: "Test PROD build"
+        appIdentifier: com.fbu.placemakerstrade
+      ${{ elseif eq(parameters.env, 'dev') }}:
+        appSpecificId: "1603363620"
+        releaseNotes: "Test Dev build"
+        appIdentifier: com.fbu.placemakerstrade.dev
+  - task: ostorlab-azure-security-scanner@1
+    condition: and(eq('${{ parameters.env }}', 'bau'), eq(${{ parameters.publish }}, false))
+    inputs:
+      apiKey: $(SECURITY_SCAN_KEY)
+      filepath: "$(Build.ArtifactStagingDirectory)/**/*.ipa"
+      platform: "ios"
+      artifactsDir: "$(build.artifactStagingDirectory)/ostorlabArtifacts"
+      scanProfile: "Full Scan"

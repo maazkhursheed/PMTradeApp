@@ -1,0 +1,552 @@
+{
+  "duration": 709,
+  "problem": null,
+  "originalError": null,
+  "ok": true,
+  "status": 200,
+  "headers": {
+    "content-type": "application/json;charset=UTF-8",
+    "x-xss-protection": "1; mode=block",
+    "x-anonymous-consents": "%5B%5D",
+    "connection": "Keep-Alive",
+    "etag": "\"06e41e49fa33d6db5c6dd63ff81e093ab-gzip\"",
+    "keep-alive": "timeout=5, max=93",
+    "content-encoding": "gzip",
+    "cache-control": "private",
+    "date": "Fri, 30 Sep 2022 14:41:56 GMT",
+    "strict-transport-security": "max-age=16070400 ; includeSubDomains",
+    "server": "*",
+    "content-length": "3026",
+    "x-content-type-options": "nosniff",
+    "vary": "Origin,Accept-Encoding,User-Agent,Access-Control-Request-Method,Access-Control-Request-Headers",
+    "x-frame-options": ""
+  },
+  "config": {
+    "url": "/fbcommercewebservices/v2/placemakers/cms/pages?pagetype=ContentPage&pageLabelOrId=mobileLandingPage",
+    "method": "get",
+    "headers": {
+      "Accept": "application/json",
+      "Authorization": "Bearer mIyzbsDoP3LdDWnzTf1g2lk7XHM",
+      "hybristoken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjU4a2RxYl9LdksxNjJqeHZodHUteCJ9.eyJodHRwczovL2Vjb21tZXJjZS5wbGFjZW1ha2Vycy5jby5uei9lbWFpbCI6InNoYXNoaWthLmFiZXlzdXJpeWFAZmJ1LmNvbSIsImh0dHBzOi8vZWNvbW1lcmNlLnBsYWNlbWFrZXJzLmNvLm56L2Zyb21TaWdudXAiOmZhbHNlLCJodHRwczovL2Vjb21tZXJjZS5wbGFjZW1ha2Vycy5jby5uei9waG9uZU51bWJlciI6Iis2NDIyMzAwOTQ1OCIsImh0dHBzOi8vZWNvbW1lcmNlLnBsYWNlbWFrZXJzLmNvLm56L3N1cm5hbWUiOiJBYmV5c3VyaXlhIiwiaHR0cHM6Ly9lY29tbWVyY2UucGxhY2VtYWtlcnMuY28ubnovZmlyc3ROYW1lIjoic2hhc2hpa2EiLCJodHRwczovL2Vjb21tZXJjZS5wbGFjZW1ha2Vycy5jby5uei90cmFkZUFjY291bnRzIjp7InRyYWRlQWNjb3VudHMiOlt7ImJyYW5jaENvZGUiOiIxNTAiLCJjdXN0SWQiOiJKRU5DQSIsInVpZCI6IjE1MEpFTkNBIn0seyJicmFuY2hDb2RlIjoiMzYyIiwiY3VzdElkIjoiQTFKVU4iLCJ1aWQiOiIzNjJBMUpVTiJ9LHsiYnJhbmNoQ29kZSI6IjM2MiIsImN1c3RJZCI6IlRXSTdoIiwidWlkIjoiMzYyVFdJN2gifSx7ImJyYW5jaENvZGUiOiIzNjIiLCJjdXN0SWQiOiJBUkk5RiIsInVpZCI6IjM2MkFSSTlGIn0seyJicmFuY2hDb2RlIjoiMzYyIiwiY3VzdElkIjoiQU5UR0EiLCJ1aWQiOiIzNjJBTlRHQSJ9LHsiYnJhbmNoQ29kZSI6IjQ3MyIsImN1c3RJZCI6IkFBRFJBIiwidWlkIjoiNDczQUFEUkEifSx7ImJyYW5jaENvZGUiOiIzNjIiLCJjdXN0SWQiOiJIQURBQSIsInVpZCI6IjM2MkhBREFBIn0seyJicmFuY2hDb2RlIjoiMzYyIiwiY3VzdElkIjoiQU5ETEEiLCJ1aWQiOiIzNjJBTkRMQSJ9LHsiYnJhbmNoQ29kZSI6IjE0NiIsImN1c3RJZCI6IkJMQUFFIiwidWlkIjoiMTQ2QkxBQUUifSx7ImJyYW5jaENvZGUiOiIxODciLCJjdXN0SWQiOiJCTEFBRSIsInVpZCI6IjE4N0JMQUFFIn1dfSwiaXNzIjoiaHR0cHM6Ly90c3QtYXV0aC5wbGFjZW1ha2Vycy5jby5uei8iLCJzdWIiOiJhdXRoMHw1ZmIxYjg0NjUwODhmODAwNzVjZDIxOTIiLCJhdWQiOlsiaHR0cHM6Ly90ZXN0LWFwaXNlcnZpY2VzLmZibnpkLmNvLm56L2FwaSIsImh0dHBzOi8vbnpkaXN0cmlidXRpb24tZWNvbW1lcmNlLXRzdC5hdS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNjY0NTQ4OTA1LCJleHAiOjE2NjQ2MzUzMDUsImF6cCI6IkJnV2xlRmtPTHZiNHlGR0JwWWxPQ0E1d3MzRVVnM1VCIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyJ9.OCHg3YBqD07byhsxstkHK3x5XJNV-rrJ4OcgbBGX_PtrSCrIk80W1pq1KnaeN3Dn99gWYpUDn9NTwviTNN-5v7rdzguModLWJOQ7JBgHWTUlWF3OVt6DkjqwP1RsDcZafdXIrQBWvX-_jEVPGkO_3nUFLEkWt3M8jA0lx_lRwIUgCoe4vFonO-BPfoq1YJSVtNoWPdMTpn7bqk-kz-nuK3gWNDU-OMRHpbiE2VHlLQnWYqgv8T2pHtM5QVPPydlJchzalxFZ0C1oGnzhUH_s7fxk-6yVSlroxJVGiX0n4T0bZrwwtnOh_3D0KEZEXRuJbJEn3YtqN2ZUldnh2b11tA",
+      "email": "shashika.abeysuriya@fbu.com"
+    },
+    "params": {},
+    "baseURL": "https://api.crre-fletcherb1-s2-public.model-t.cc.commerce.ondemand.com",
+    "transformRequest": [" transformRequest() "],
+    "transformResponse": [" transformResponse() "],
+    "timeout": 20000,
+    "adapter": " xhrAdapter() ",
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "validateStatus": " validateStatus() ",
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    }
+  },
+  "data": {
+    "uid": "mobileLandingPage",
+    "uuid": "eyJpdGVtSWQiOiJtb2JpbGVMYW5kaW5nUGFnZSIsImNhdGFsb2dJZCI6InBsYWNlbWFrZXJzQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+    "title": "TradeApp Landing Page",
+    "template": "TradeAppLandingPageTemplate",
+    "typeCode": "ContentPage",
+    "name": "Mobile Landing Page",
+    "contentSlots": {
+      "contentSlot": [
+        {
+          "slotId": "PMAppFooterSlot",
+          "slotUuid": "eyJpdGVtSWQiOiJQTUFwcEZvb3RlclNsb3QiLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+          "position": "PMAppFooter",
+          "name": "Footer",
+          "slotShared": false,
+          "components": {
+            "component": []
+          }
+        },
+        {
+          "slotId": "PMMarketingTilesSlot",
+          "slotUuid": "eyJpdGVtSWQiOiJQTU1hcmtldGluZ1RpbGVzU2xvdCIsImNhdGFsb2dJZCI6InBsYWNlbWFrZXJzQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+          "position": "PMMarketingTiles",
+          "name": "Placemaker Marketing Tiles slot",
+          "slotShared": false,
+          "components": {
+            "component": [
+              {
+                "uid": "cmsitem_00005000",
+                "uuid": "eyJpdGVtSWQiOiJjbXNpdGVtXzAwMDA1MDAwIiwiY2F0YWxvZ0lkIjoicGxhY2VtYWtlcnNDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode": "PMMarketingTileComponent",
+                "modifiedtime": "2020-12-15T22:29:34.026+13:00",
+                "name": "PM Marketing Tile3",
+                "container": "false",
+                "darkBackground": "true",
+                "ctaText": {},
+                "footerText": "cvcv",
+                "backgroundImage": {
+                  "container": "false",
+                  "uid": "PMMobileCollectionBackGroundImage",
+                  "name": "PMMobile Collection BackGround Image",
+                  "synchronizationBlocked": "false",
+                  "media": {
+                    "widescreen": {
+                      "code": "PM20-5776641521-Nov-Dec-Jan-UC-2020-TradeMade-Deal-1024x768px-v2-1-.jpg",
+                      "mime": "image/jpeg",
+                      "altText": ".",
+                      "url": "/medias/sys_master/root/hc7/h7b/8902622248990/PM20-577664152-Nov-Dec-Jan-UC-2020-TradeMade-Deal-1024x768px-v2-1-/PM20-577664152-Nov-Dec-Jan-UC-2020-TradeMade-Deal-1024x768px-v2-1-.jpg"
+                    }
+                  },
+                  "uuid": "eyJpdGVtSWQiOiJQTU1vYmlsZUNvbGxlY3Rpb25CYWNrR3JvdW5kSW1hZ2UiLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                  "typeCode": "SimpleResponsiveBannerComponent"
+                },
+                "promoType": "COLLECTION",
+                "source": "MOBILE",
+                "tagText": "PROMOTION",
+                "bodyText": "dfdsf",
+                "ctaAction": "CC1",
+                "mainTitle": "cvcxv",
+                "synchronizationBlocked": "false"
+              },
+              {
+                "uid": "cmsitem_00004002",
+                "uuid": "eyJpdGVtSWQiOiJjbXNpdGVtXzAwMDA0MDAyIiwiY2F0YWxvZ0lkIjoicGxhY2VtYWtlcnNDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode": "PMMarketingTileComponent",
+                "modifiedtime": "2020-12-15T22:29:34.023+13:00",
+                "name": "PM Marketing Tile Component2",
+                "container": "false",
+                "darkBackground": "true",
+                "ctaText": "Shop Now",
+                "footerText": "Shop online Now",
+                "backgroundImage": {
+                  "container": "false",
+                  "uid": "PMMobileProductBackGroundImage",
+                  "name": "PMMobile Product BackGround Image",
+                  "synchronizationBlocked": "false",
+                  "media": {
+                    "widescreen": {
+                      "code": "PM20-577664152-Nov-Dec-Jan-UC-2020-TradeMade-Deal-1024x768px-v2-1.jpg",
+                      "mime": "image/jpeg",
+                      "altText": ".",
+                      "url": "/medias/sys_master/root/he1/h1a/8902851559454/PM20-577664152-Nov-Dec-Jan-UC-2020-TradeMade-Deal-1024x768px-v2-1/PM20-577664152-Nov-Dec-Jan-UC-2020-TradeMade-Deal-1024x768px-v2-1.jpg"
+                    }
+                  },
+                  "uuid": "eyJpdGVtSWQiOiJQTU1vYmlsZVByb2R1Y3RCYWNrR3JvdW5kSW1hZ2UiLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                  "typeCode": "SimpleResponsiveBannerComponent"
+                },
+                "promoType": "PRODUCT",
+                "source": "MOBILE",
+                "tagText": "DeWalt Promotion",
+                "bodyText": "Offer ends 31st January",
+                "ctaAction": "5030508",
+                "mainTitle": "DeWalt 18v Brushless 3 piece kit",
+                "synchronizationBlocked": "false",
+                "tagImage": {
+                  "container": "false",
+                  "uid": "PMMobileTagImage",
+                  "name": "PM Mobile Tag Image",
+                  "synchronizationBlocked": "false",
+                  "media": {
+                    "code": "DeWalt-Logo1.svg.png",
+                    "mime": "image/png",
+                    "altText": ".",
+                    "url": "/medias/sys_master/root/h09/h4b/8902852411422/DeWalt-Logo.svg/DeWalt-Logo.svg.png"
+                  },
+                  "uuid": "eyJpdGVtSWQiOiJQTU1vYmlsZVRhZ0ltYWdlIiwiY2F0YWxvZ0lkIjoicGxhY2VtYWtlcnNDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                  "typeCode": "CMSImageComponent"
+                }
+              },
+              {
+                "uid": "cmsitem_00004001",
+                "uuid": "eyJpdGVtSWQiOiJjbXNpdGVtXzAwMDA0MDAxIiwiY2F0YWxvZ0lkIjoicGxhY2VtYWtlcnNDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode": "PMMarketingTileComponent",
+                "modifiedtime": "2020-12-15T15:47:19.212+13:00",
+                "name": "PM Marketing Tile Component1",
+                "container": "false",
+                "darkBackground": "false",
+                "ctaText": "Learn More",
+                "footerText": "T&Cs apply, find out more.",
+                "backgroundImage": {
+                  "container": "false",
+                  "uid": "PMMobileBackGroundImage",
+                  "name": "PMMobile BackGround Image",
+                  "synchronizationBlocked": "false",
+                  "media": {
+                    "widescreen": {
+                      "code": "PM20-577664152-Nov-Dec-Jan-UC-2020-TradeMade-Deal-1024x768px-v2-2.jpg",
+                      "mime": "image/jpeg",
+                      "altText": ".",
+                      "url": "/medias/sys_master/root/hdf/h1d/8902851493918/PM20-577664152-Nov-Dec-Jan-UC-2020-TradeMade-Deal-1024x768px-v2-2/PM20-577664152-Nov-Dec-Jan-UC-2020-TradeMade-Deal-1024x768px-v2-2.jpg"
+                    }
+                  },
+                  "uuid": "eyJpdGVtSWQiOiJQTU1vYmlsZUJhY2tHcm91bmRJbWFnZSIsImNhdGFsb2dJZCI6InBsYWNlbWFrZXJzQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                  "typeCode": "SimpleResponsiveBannerComponent"
+                },
+                "promoType": "OTHER",
+                "source": "MOBILE",
+                "tagText": "Promotion",
+                "bodyText": "Plus order online and go in the draw to win a Jetski",
+                "ctaAction": "www.placemakers.co.nz/pink-batts-and-gib-trademade-deal/",
+                "mainTitle": "Buy Pink Batts & GIB & reel in some family fun!",
+                "synchronizationBlocked": "false"
+              }
+            ]
+          }
+        },
+        {
+          "slotId": "PMAppHeaderSlot",
+          "slotUuid": "eyJpdGVtSWQiOiJQTUFwcEhlYWRlclNsb3QiLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+          "position": "PMAppHeader",
+          "name": "Header",
+          "slotShared": false,
+          "components": {
+            "component": []
+          }
+        },
+        {
+          "slotId": "PMCategoryTilesSlot1",
+          "slotUuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZXNTbG90MSIsImNhdGFsb2dJZCI6InBsYWNlbWFrZXJzQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+          "position": "PMCategoryTiles1",
+          "name": "PMCategory Tiles Slot1",
+          "slotShared": false,
+          "components": {
+            "component": [
+              {
+                "uid": "PMCategoryTile1",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTEiLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-04T17:15:37.152+12:00",
+                "name": "PM Category Tile 1",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Building-Products.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Building-Products.jpg",
+                    "url": "/medias/sys_master/root/hfe/hf2/8983428694046/Building-Products/Building-Products.jpg"
+                  }
+                },
+                "categoryName": "Building Products",
+                "urlLink": "/BB1",
+                "categoryDescription": "Building Products"
+              },
+              {
+                "uid": "PMCategoryTile2",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTIiLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-04T17:15:37.193+12:00",
+                "name": "PM Category Tile 2",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Doors-Joinery-Hardware.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Doors-Joinery-Hardware.jpg",
+                    "url": "/medias/sys_master/root/hfc/hf5/8983428759582/Doors-Joinery-Hardware/Doors-Joinery-Hardware.jpg"
+                  }
+                },
+                "categoryName": "Doors, Windows & Joinery Hardware",
+                "urlLink": "/BB2",
+                "categoryDescription": "Doors, Windows & Joinery Hardware"
+              },
+              {
+                "uid": "PMCategoryTile3",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTMiLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-04T17:42:04.178+12:00",
+                "name": "PM Category Tile 3",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Adhesives-Sealants.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Adhesives-Sealants.jpg",
+                    "url": "/medias/sys_master/root/hb7/hb4/8983429152798/Adhesives-Sealants/Adhesives-Sealants.jpg"
+                  }
+                },
+                "categoryName": "Adhesives & Sealants",
+                "urlLink": "/CC2",
+                "categoryDescription": "Adhesives & Sealants"
+              },
+              {
+                "uid": "PMCategoryTile4",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTQiLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-04T17:42:04.192+12:00",
+                "name": "PM Category Tile 4",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Sheds-Buildings1.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Sheds-Buildings.jpg",
+                    "url": "/medias/sys_master/root/hf8/hb0/8983429283870/Sheds-Buildings/Sheds-Buildings.jpg"
+                  }
+                },
+                "categoryName": "Sheds & Buildings",
+                "urlLink": "/BB3",
+                "categoryDescription": "Sheds & Buildings"
+              },
+              {
+                "uid": "PMCategoryTile5",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTUiLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-04T17:42:04.201+12:00",
+                "name": "PM Category Tile 5",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Fastenings-Hardware.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Fastenings-Hardware.jpg",
+                    "url": "/medias/sys_master/root/hf9/had/8983429349406/Fastenings-Hardware/Fastenings-Hardware.jpg"
+                  }
+                },
+                "categoryName": "Fastenings & General Hardware",
+                "urlLink": "/CC1",
+                "categoryDescription": "Fastenings & General Hardware"
+              },
+              {
+                "uid": "PMCategoryTile6",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTYiLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-10T13:22:59.035+12:00",
+                "name": "PM Category Tile 6",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Timber-Plywood.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Timber-Plywood.jpg",
+                    "url": "/medias/sys_master/root/h1f/hca/8984672927774/Timber-Plywood/Timber-Plywood.jpg"
+                  }
+                },
+                "categoryName": "Timber & Plywood",
+                "urlLink": "/AA1",
+                "categoryDescription": "Timber & Plywood"
+              },
+              {
+                "uid": "PMCategoryTile7",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTciLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-04T17:42:04.214+12:00",
+                "name": "PM Category Tile 7",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Landscaping-Outdoors.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Landscaping-Outdoors.jpg",
+                    "url": "/medias/sys_master/root/he9/haa/8983429414942/Landscaping-Outdoors/Landscaping-Outdoors.jpg"
+                  }
+                },
+                "categoryName": "Landscaping & Outdoors",
+                "urlLink": "/BB4",
+                "categoryDescription": "Landscaping & Outdoors"
+              },
+              {
+                "uid": "PMCategoryTile8",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTgiLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-10T13:28:19.959+12:00",
+                "name": "PM Category Tile 8",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Cladding1.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Cladding.jpg",
+                    "url": "/medias/sys_master/root/h7e/hdc/8984673484830/Cladding/Cladding.jpg"
+                  }
+                },
+                "categoryName": "Cladding",
+                "urlLink": "/AA2",
+                "categoryDescription": "Cladding"
+              }
+            ]
+          }
+        },
+        {
+          "slotId": "PMCategoryTilesSlot2",
+          "slotUuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZXNTbG90MiIsImNhdGFsb2dJZCI6InBsYWNlbWFrZXJzQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+          "position": "PMCategoryTiles2",
+          "name": "PMCategory Tiles Slot2",
+          "slotShared": false,
+          "components": {
+            "component": [
+              {
+                "uid": "PMCategoryTile9",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTkiLCJjYXRhbG9nSWQiOiJwbGFjZW1ha2Vyc0NvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-04T17:42:04.206+12:00",
+                "name": "PM Category Tile 9",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Safety-Ladders.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Safety-Ladders.jpg",
+                    "url": "/medias/sys_master/root/h27/haa/8983429480478/Safety-Ladders/Safety-Ladders.jpg"
+                  }
+                },
+                "categoryName": "Safety & Ladders",
+                "urlLink": "/CC4",
+                "categoryDescription": "Safety & Ladders"
+              },
+              {
+                "uid": "PMCategoryTile10",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTEwIiwiY2F0YWxvZ0lkIjoicGxhY2VtYWtlcnNDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-10T13:22:59.032+12:00",
+                "name": "PM Category Tile 10",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Tools2.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Tools.jpg",
+                    "url": "/medias/sys_master/root/he0/hca/8984672993310/Tools/Tools.jpg"
+                  }
+                },
+                "categoryName": "Tools",
+                "urlLink": "/CC3",
+                "categoryDescription": "Tools"
+              },
+              {
+                "uid": "PMCategoryTile11",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTExIiwiY2F0YWxvZ0lkIjoicGxhY2VtYWtlcnNDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-10T13:28:19.912+12:00",
+                "name": "PM Category Tile 11",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Cleaning-Site-consumables.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Cleaning-Site-consumables.jpg",
+                    "url": "/medias/sys_master/root/h6d/hd9/8984673550366/Cleaning-Site-consumables/Cleaning-Site-consumables.jpg"
+                  }
+                },
+                "categoryName": "Cleaning & Site Consumables",
+                "urlLink": "/CC5",
+                "categoryDescription": "Cleaning & Site Consumables"
+              },
+              {
+                "uid": "PMCategoryTile12",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTEyIiwiY2F0YWxvZ0lkIjoicGxhY2VtYWtlcnNDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-04T17:42:04.208+12:00",
+                "name": "PM Category Tile 12",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Electrical-Heating-Cooling.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Electrical-Heating-Cooling.jpg",
+                    "url": "/medias/sys_master/root/h29/ha7/8983429546014/Electrical-Heating-Cooling/Electrical-Heating-Cooling.jpg"
+                  }
+                },
+                "categoryName": "Electrical & Heating-Cooling",
+                "urlLink": "/DD1",
+                "categoryDescription": "Electrical & Heating-Cooling"
+              },
+              {
+                "uid": "PMCategoryTile13",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTEzIiwiY2F0YWxvZ0lkIjoicGxhY2VtYWtlcnNDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-04T17:42:04.223+12:00",
+                "name": "PM Category Tile 13",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Wardrobe, Storage &amp; Flooring.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Wardrobe, Storage &amp; Flooring.jpg",
+                    "url": "/medias/sys_master/root/h18/ha4/8983429611550/Wardrobe, Storage & Flooring/Wardrobe-Storage-Flooring.jpg"
+                  }
+                },
+                "categoryName": "Wardrobes, Storage & Flooring",
+                "urlLink": "/DD5",
+                "categoryDescription": "Wardrobes, Storage & Flooring"
+              },
+              {
+                "uid": "PMCategoryTile14",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTE0IiwiY2F0YWxvZ0lkIjoicGxhY2VtYWtlcnNDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-04T17:42:04.158+12:00",
+                "name": "PM Category Tile 14",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Bathrooms.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Bathrooms.jpg",
+                    "url": "/medias/sys_master/root/h6a/ha3/8983429677086/Bathrooms/Bathrooms.jpg"
+                  }
+                },
+                "categoryName": "Bathrooms & Plumbing",
+                "urlLink": "/DD2",
+                "categoryDescription": "Bathrooms & Plumbing"
+              },
+              {
+                "uid": "PMCategoryTile15",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTE1IiwiY2F0YWxvZ0lkIjoicGxhY2VtYWtlcnNDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-04T17:42:04.198+12:00",
+                "name": "PM Category Tile 15",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Paint-Decorating.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Paint-Decorating.jpg",
+                    "url": "/medias/sys_master/root/h59/ha0/8983429742622/Paint-Decorating/Paint-Decorating.jpg"
+                  }
+                },
+                "categoryName": "Paint & Decorating",
+                "urlLink": "/DD3",
+                "categoryDescription": "Paint & Decorating"
+              },
+              {
+                "uid": "PMCategoryTile16",
+                "uuid": "eyJpdGVtSWQiOiJQTUNhdGVnb3J5VGlsZTE2IiwiY2F0YWxvZ0lkIjoicGxhY2VtYWtlcnNDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                "typeCode": "PMCategoryComponent",
+                "modifiedtime": "2021-08-04T17:42:04.224+12:00",
+                "name": "PM Category Tile 16",
+                "container": "false",
+                "synchronizationBlocked": "false",
+                "media": {
+                  "widescreen": {
+                    "code": "Kitchens-Laundries.jpg",
+                    "mime": "image/jpeg",
+                    "altText": "Kitchens-Laundries.jpg",
+                    "url": "/medias/sys_master/root/h5b/h9d/8983429808158/Kitchens-Laundries/Kitchens-Laundries.jpg"
+                  }
+                },
+                "categoryName": "Kitchens & Laundries",
+                "urlLink": "/DD4",
+                "categoryDescription": "Kitchens & Laundries"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "label": "mobileLandingPage"
+  }
+}

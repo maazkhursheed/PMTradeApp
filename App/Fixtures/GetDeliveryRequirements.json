@@ -1,0 +1,26 @@
+{
+  "availableDSPOptions": [
+    {
+      "earliestDelivery": "1970-01-01T07:00:00",
+      "latestDelivery": "1970-01-01T17:00:00",
+      "name": "ANYTIME"
+    },
+    {
+      "earliestDelivery": "1970-01-01T07:00:00",
+      "latestDelivery": "1970-01-01T12:15:00",
+      "name": "AM"
+    },
+    {
+      "earliestDelivery": "1970-01-01T12:00:00",
+      "latestDelivery": "1970-01-01T17:15:00",
+      "name": "PM"
+    },
+    {
+      "earliestDelivery": "1970-01-01T07:00:00",
+      "latestDelivery": "1970-01-01T17:15:00",
+      "name": "Specific Time"
+    }
+  ],
+  "availableSiteRequirements": ["Crane On Site", "Extra Labour", "Front Mount Required", "Hand Unload", "Lift on site", "Restricted Access"],
+  "availableTruckRequirements": ["10WheelHIAB", "4x4HIAB", "SmallHiab", "StandardHIAB", "Tipper"]
+}

@@ -1,0 +1,274 @@
+{
+  "duration": 256,
+  "problem": null,
+  "originalError": null,
+  "ok": true,
+  "status": 200,
+  "headers": {
+    "content-type": "application/json;charset=UTF-8",
+    "x-xss-protection": "1; mode=block",
+    "connection": "Keep-Alive",
+    "etag": "\"00369079f4b29fc12cc0c94785931fe51-gzip\"",
+    "keep-alive": "timeout=5, max=93",
+    "content-encoding": "gzip",
+    "cache-control": "no-cache",
+    "date": "Fri, 30 Sep 2022 14:14:12 GMT",
+    "strict-transport-security": "max-age=16070400 ; includeSubDomains",
+    "server": "*",
+    "x-content-type-options": "nosniff",
+    "vary": "Origin,Accept-Encoding,User-Agent,Access-Control-Request-Method,Access-Control-Request-Headers",
+    "content-length": "1114",
+    "x-frame-options": ""
+  },
+  "config": {
+    "url": "/fbcommercewebservices/v2/placemakers/users/shashika.abeysuriya@fbu.com/carts/03416004",
+    "method": "get",
+    "headers": {
+      "Accept": "application/json",
+      "Authorization": "Bearer mIyzbsDoP3LdDWnzTf1g2lk7XHM",
+      "hybristoken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjU4a2RxYl9LdksxNjJqeHZodHUteCJ9.eyJodHRwczovL2Vjb21tZXJjZS5wbGFjZW1ha2Vycy5jby5uei9lbWFpbCI6InNoYXNoaWthLmFiZXlzdXJpeWFAZmJ1LmNvbSIsImh0dHBzOi8vZWNvbW1lcmNlLnBsYWNlbWFrZXJzLmNvLm56L2Zyb21TaWdudXAiOmZhbHNlLCJodHRwczovL2Vjb21tZXJjZS5wbGFjZW1ha2Vycy5jby5uei9waG9uZU51bWJlciI6Iis2NDIyMzAwOTQ1OCIsImh0dHBzOi8vZWNvbW1lcmNlLnBsYWNlbWFrZXJzLmNvLm56L3N1cm5hbWUiOiJBYmV5c3VyaXlhIiwiaHR0cHM6Ly9lY29tbWVyY2UucGxhY2VtYWtlcnMuY28ubnovZmlyc3ROYW1lIjoic2hhc2hpa2EiLCJodHRwczovL2Vjb21tZXJjZS5wbGFjZW1ha2Vycy5jby5uei90cmFkZUFjY291bnRzIjp7InRyYWRlQWNjb3VudHMiOlt7ImJyYW5jaENvZGUiOiIxNTAiLCJjdXN0SWQiOiJKRU5DQSIsInVpZCI6IjE1MEpFTkNBIn0seyJicmFuY2hDb2RlIjoiMzYyIiwiY3VzdElkIjoiQTFKVU4iLCJ1aWQiOiIzNjJBMUpVTiJ9LHsiYnJhbmNoQ29kZSI6IjM2MiIsImN1c3RJZCI6IlRXSTdoIiwidWlkIjoiMzYyVFdJN2gifSx7ImJyYW5jaENvZGUiOiIzNjIiLCJjdXN0SWQiOiJBUkk5RiIsInVpZCI6IjM2MkFSSTlGIn0seyJicmFuY2hDb2RlIjoiMzYyIiwiY3VzdElkIjoiQU5UR0EiLCJ1aWQiOiIzNjJBTlRHQSJ9LHsiYnJhbmNoQ29kZSI6IjQ3MyIsImN1c3RJZCI6IkFBRFJBIiwidWlkIjoiNDczQUFEUkEifSx7ImJyYW5jaENvZGUiOiIzNjIiLCJjdXN0SWQiOiJIQURBQSIsInVpZCI6IjM2MkhBREFBIn0seyJicmFuY2hDb2RlIjoiMzYyIiwiY3VzdElkIjoiQU5ETEEiLCJ1aWQiOiIzNjJBTkRMQSJ9LHsiYnJhbmNoQ29kZSI6IjE0NiIsImN1c3RJZCI6IkJMQUFFIiwidWlkIjoiMTQ2QkxBQUUifSx7ImJyYW5jaENvZGUiOiIxODciLCJjdXN0SWQiOiJCTEFBRSIsInVpZCI6IjE4N0JMQUFFIn1dfSwiaXNzIjoiaHR0cHM6Ly90c3QtYXV0aC5wbGFjZW1ha2Vycy5jby5uei8iLCJzdWIiOiJhdXRoMHw1ZmIxYjg0NjUwODhmODAwNzVjZDIxOTIiLCJhdWQiOlsiaHR0cHM6Ly90ZXN0LWFwaXNlcnZpY2VzLmZibnpkLmNvLm56L2FwaSIsImh0dHBzOi8vbnpkaXN0cmlidXRpb24tZWNvbW1lcmNlLXRzdC5hdS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNjY0NTQ3MjQ1LCJleHAiOjE2NjQ2MzM2NDUsImF6cCI6IkJnV2xlRmtPTHZiNHlGR0JwWWxPQ0E1d3MzRVVnM1VCIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyJ9.oQKJNCOo6KcpocsP-aEQDz_TZ2mL2kSJJuYuyqGJXbtvj_Fr4ZWpFd-bggvF2WhYrLhPxhnMij2ytZRmXld35TvV1TFCB-Hu3YOSIh2JfQbzHVgEeLex0x_jGIADp4d9-u0Nvw1WWIiSQLv_91KCCPauzfSq3Ed3nN7FX_gDFuGcU54tTvCtdPBBPWr8GRrtmHYbK7E1UhumoBe2P0ipri8ecKGTAQBdb7i1HSTdWoATQiZLMIpEs_N4RC3xse_1goabhxhj6sdsFhRv8UGM8y05heP3LZE5yhUTPjpyEcG3p9j2VB1dZ_2k-3gzIshkLy4GQXwL-azugotVfMFrfQ",
+      "email": "shashika.abeysuriya@fbu.com",
+      "fulfillmentbranch": "150",
+      "parentbranch": "362",
+      "tradeaccount": "362ANTGA",
+      "jobaccount": "362ANTGA"
+    },
+    "params": {
+      "fields": "FULL"
+    },
+    "baseURL": "https://api.crre-fletcherb1-s2-public.model-t.cc.commerce.ondemand.com",
+    "transformRequest": [" transformRequest() "],
+    "transformResponse": [" transformResponse() "],
+    "timeout": 20000,
+    "adapter": " xhrAdapter() ",
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "validateStatus": " validateStatus() ",
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    }
+  },
+  "data": {
+    "type": "cartWsDTO",
+    "appliedOrderPromotions": [],
+    "appliedProductPromotions": [],
+    "appliedVouchers": [],
+    "calculated": true,
+    "code": "03416004",
+    "deliveryItemsQuantity": 0,
+    "deliveryOrderGroups": [],
+    "deliveryPOS": {
+      "address": {
+        "country": {
+          "isocode": "NZ",
+          "name": "New Zealand"
+        },
+        "defaultAddress": false,
+        "email": "PMeComTestTeam@fbu.com",
+        "formattedAddress": "P O BOX 590, 100 ANTIGUA STREET, Christchurch",
+        "id": "8796126117911",
+        "line1": "P O BOX 590",
+        "line2": "100 ANTIGUA STREET",
+        "phone": "(03)365-7155",
+        "region": {
+          "countryIso": "NZ",
+          "isocode": "NZ-CHC",
+          "isocodeShort": "CHC",
+          "name": "Christchurch"
+        },
+        "shippingAddress": false,
+        "town": "Christchurch",
+        "visibleInAddressBook": true
+      },
+      "branchCode": "150",
+      "branchID": "P150",
+      "branchLegalName": "BUILDING CHOICES LIMITED",
+      "branchRegionalCode": "NZ-CHC",
+      "features": {},
+      "geoPoint": {
+        "latitude": -43.544372,
+        "longitude": 172.628665
+      },
+      "isActive": true,
+      "isBranch": false,
+      "name": "Antigua Street",
+      "openingHours": {
+        "code": "485-Working Hours",
+        "specialDayOpeningList": [],
+        "weekDayOpeningList": [
+          {
+            "closingTime": {
+              "formattedHour": "17:00",
+              "hour": 5,
+              "minute": 0
+            },
+            "openingTime": {
+              "formattedHour": "07:00",
+              "hour": 7,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Mon"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:00",
+              "hour": 5,
+              "minute": 0
+            },
+            "openingTime": {
+              "formattedHour": "07:00",
+              "hour": 7,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Tue"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:00",
+              "hour": 5,
+              "minute": 0
+            },
+            "openingTime": {
+              "formattedHour": "07:00",
+              "hour": 7,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Wed"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:00",
+              "hour": 5,
+              "minute": 0
+            },
+            "openingTime": {
+              "formattedHour": "07:00",
+              "hour": 7,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Thu"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "17:00",
+              "hour": 5,
+              "minute": 0
+            },
+            "openingTime": {
+              "formattedHour": "07:00",
+              "hour": 7,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Fri"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "16:00",
+              "hour": 4,
+              "minute": 0
+            },
+            "openingTime": {
+              "formattedHour": "08:00",
+              "hour": 8,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Sat"
+          },
+          {
+            "closingTime": {
+              "formattedHour": "16:00",
+              "hour": 4,
+              "minute": 0
+            },
+            "openingTime": {
+              "formattedHour": "09:00",
+              "hour": 9,
+              "minute": 0
+            },
+            "closed": false,
+            "weekDay": "Sun"
+          }
+        ]
+      },
+      "parentBranchID": "P167",
+      "storeImages": []
+    },
+    "entries": [],
+    "guid": "e8498c1f-8078-42a2-b8b9-cda89001c9a4",
+    "net": true,
+    "orderDiscounts": {
+      "currencyIso": "NZD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY",
+      "value": 0
+    },
+    "pickupItemsQuantity": 0,
+    "pickupOrderGroups": [],
+    "productDiscounts": {
+      "currencyIso": "NZD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY",
+      "value": 0
+    },
+    "site": "placemakers",
+    "store": "placemakers",
+    "subTotal": {
+      "currencyIso": "NZD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY",
+      "value": 0
+    },
+    "totalDiscounts": {
+      "currencyIso": "NZD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY",
+      "value": 0
+    },
+    "totalItems": 0,
+    "totalPrice": {
+      "currencyIso": "NZD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY",
+      "value": 0
+    },
+    "totalPriceWithTax": {
+      "currencyIso": "NZD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY",
+      "value": 0
+    },
+    "totalTax": {
+      "currencyIso": "NZD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY",
+      "value": 0
+    },
+    "unit": {
+      "uid": "362ANTGA"
+    },
+    "user": {
+      "name": "Shashika",
+      "uid": "shashika.abeysuriya@fbu.com"
+    },
+    "constrainedProductExist": false,
+    "courierEligible": true,
+    "deliveryEligible": true,
+    "estimatesIncluded": false,
+    "lastSelectedTradeAccount": "362ANTGA",
+    "pickupEligible": true,
+    "potentialOrderPromotions": [],
+    "potentialProductPromotions": [],
+    "remoteBranchSelected": true,
+    "totalUnitCount": 0
+  }
+}

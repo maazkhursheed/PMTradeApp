@@ -1,0 +1,23 @@
+{
+  "accountID": "584481",
+  "customerID": "rajeev.gvs@royalcyber.com",
+  "permissionList": [
+    {
+      "name": "Place Order User Group",
+      "uid": "placeOrderGroup"
+    },
+    {
+      "name": "Restrict Price Group",
+      "uid": "restrictPriceGroup"
+    },
+    {
+      "name": "Account owner Group",
+      "uid": "accountOwnerGroup"
+    },
+    {
+      "name": "View Orders group",
+      "uid": "viewOrderGroup"
+    }
+  ],
+  "temporaryAccess": false
+}

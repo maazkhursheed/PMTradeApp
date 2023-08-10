@@ -1,0 +1,218 @@
+{
+  "references": [
+    {
+      "referenceType": "ACCESSORIES",
+      "target": {
+        "availableForPickup": true,
+        "barcodesPM": "9337357049477",
+        "baseOptions": [],
+        "categories": [],
+        "code": "4525545",
+        "configurable": false,
+        "description": "The Bremick Thread Screw is suitable for metal fastening applications. This screw measuring 1/4 Inch x 1-1/2 Inch, has countersunk head and Phillips type drive. It features T302 stainless steel construction that offers excellent corrosion resistance.",
+        "display": "PURCHASABLE",
+        "expressOrder": false,
+        "hasNoQuantity": 0.0,
+        "images": [
+          {
+            "altText": "Bremick Metal Thread Screw 1/4 x 1-1/2in Countersunk Head Phillips Drive T302 Stainless Steel SKAW4061503",
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1033654_Bremick_SKAW4050503.jpg"
+          },
+          {
+            "altText": "Bremick Metal Thread Screw 1/4 x 1-1/2in Countersunk Head Phillips Drive T302 Stainless Steel SKAW4061503",
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1033654_Bremick_SKAW4050503.jpg"
+          },
+          {
+            "altText": "Bremick Metal Thread Screw 1/4 x 1-1/2in Countersunk Head Phillips Drive T302 Stainless Steel SKAW4061503",
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1033654_Bremick_SKAW4050503.jpg"
+          },
+          {
+            "altText": "Bremick Metal Thread Screw 1/4 x 1-1/2in Countersunk Head Phillips Drive T302 Stainless Steel SKAW4061503",
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1033654_Bremick_SKAW4050503.jpg"
+          },
+          {
+            "altText": "Bremick Metal Thread Screw 1/4 x 1-1/2in Countersunk Head Phillips Drive T302 Stainless Steel SKAW4061503",
+            "format": "zoom",
+            "galleryIndex": 0,
+            "imageType": "GALLERY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1033654_Bremick_SKAW4050503.jpg"
+          },
+          {
+            "altText": "Bremick Metal Thread Screw 1/4 x 1-1/2in Countersunk Head Phillips Drive T302 Stainless Steel SKAW4061503",
+            "format": "product",
+            "galleryIndex": 0,
+            "imageType": "GALLERY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1033654_Bremick_SKAW4050503.jpg"
+          },
+          {
+            "altText": "Bremick Metal Thread Screw 1/4 x 1-1/2in Countersunk Head Phillips Drive T302 Stainless Steel SKAW4061503",
+            "format": "thumbnail",
+            "galleryIndex": 0,
+            "imageType": "GALLERY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1033654_Bremick_SKAW4050503.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "BREMICK",
+        "manufacturerId": "SKAW4061503",
+        "multidimensional": false,
+        "name": "Bremick Metal Thread Screw 1/4 x 1-1/2in Countersunk Head Phillips Drive T302 Stainless Steel SKAW4061503",
+        "numberOfReviews": 0,
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "potentialPromotions": [],
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$3.48",
+          "priceType": "BUY",
+          "value": 3.48
+        },
+        "priceRange": {},
+        "productReferences": [],
+        "productTypeCodeEnum": "N",
+        "purchasable": true,
+        "retailPrice": {
+          "currencyIso": "NZD",
+          "formattedValue": "$6.04",
+          "priceType": "BUY",
+          "value": 6.04
+        },
+        "retailPriceGstInclusive": {
+          "currencyIso": "NZD",
+          "formattedValue": "$6.95",
+          "priceType": "BUY",
+          "value": 6.95
+        },
+        "reviews": [],
+        "sellOrderMultiple": 0.0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "0",
+          "statusCode": "3",
+          "stockLevelStatus": "outOfStock"
+        },
+        "summary": "",
+        "timberProductFlag": false,
+        "unitCode": "PA",
+        "uomFormat": "zz,zzz,zzz,zz9-",
+        "url": "/c/bremick-metal-thread-screw-14-x-1-12in-countersunk-head-phillips-drive-t302-stainless-steel-skaw4061503/p/4525545",
+        "volumePrices": []
+      }
+    },
+    {
+      "referenceType": "ACCESSORIES",
+      "target": {
+        "availableForPickup": true,
+        "barcodesPM": "9337357341724",
+        "baseOptions": [],
+        "categories": [],
+        "code": "4507182",
+        "configurable": false,
+        "description": "The Bremick Mudguard Washer is designed for use in applications with any nuts, bolts and screw products. It measures 1-1/4 Inch x 1/4 Inch. This 16 gauge washer helps to prevent a nut or bolt head from pulling through the material. Washer with a hole in the centre can be used as a spacer. It features zinc plated finish for superior corrosion resistance. This washer is suitable for enclosed dry areas. This washer helps to protect work surface from damages caused by the fastener.",
+        "display": "PURCHASABLE",
+        "expressOrder": true,
+        "hasNoQuantity": 0.0,
+        "images": [
+          {
+            "altText": "Bremick Washer Mudguard 1/4 x 1-1/4in x 16g Zinc Plated WMGIZ0600P6",
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1034338_Bremick_WMGIZ0500P6.jpg"
+          },
+          {
+            "altText": "Bremick Washer Mudguard 1/4 x 1-1/4in x 16g Zinc Plated WMGIZ0600P6",
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1034338_Bremick_WMGIZ0500P6.jpg"
+          },
+          {
+            "altText": "Bremick Washer Mudguard 1/4 x 1-1/4in x 16g Zinc Plated WMGIZ0600P6",
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1034338_Bremick_WMGIZ0500P6.jpg"
+          },
+          {
+            "altText": "Bremick Washer Mudguard 1/4 x 1-1/4in x 16g Zinc Plated WMGIZ0600P6",
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1034338_Bremick_WMGIZ0500P6.jpg"
+          },
+          {
+            "altText": "Bremick Washer Mudguard 1/4 x 1-1/4in x 16g Zinc Plated WMGIZ0600P6",
+            "format": "zoom",
+            "galleryIndex": 0,
+            "imageType": "GALLERY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1034338_Bremick_WMGIZ0500P6.jpg"
+          },
+          {
+            "altText": "Bremick Washer Mudguard 1/4 x 1-1/4in x 16g Zinc Plated WMGIZ0600P6",
+            "format": "product",
+            "galleryIndex": 0,
+            "imageType": "GALLERY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1034338_Bremick_WMGIZ0500P6.jpg"
+          },
+          {
+            "altText": "Bremick Washer Mudguard 1/4 x 1-1/4in x 16g Zinc Plated WMGIZ0600P6",
+            "format": "thumbnail",
+            "galleryIndex": 0,
+            "imageType": "GALLERY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1034338_Bremick_WMGIZ0500P6.jpg"
+          }
+        ],
+        "kitProductFlag": false,
+        "manufacturer": "BREMICK",
+        "manufacturerId": "WMGIZ0600P6",
+        "multidimensional": false,
+        "name": "Bremick Washer Mudguard 1/4 x 1-1/4in x 16g Zinc Plated WMGIZ0600P6",
+        "numberOfReviews": 0,
+        "perpetualFlag": false,
+        "pmExclusive": false,
+        "potentialPromotions": [],
+        "price": {
+          "currencyIso": "NZD",
+          "formattedValue": "$0.08",
+          "priceType": "BUY",
+          "value": 0.08
+        },
+        "priceRange": {},
+        "productReferences": [],
+        "productTypeCodeEnum": "N",
+        "purchasable": true,
+        "retailPrice": {
+          "currencyIso": "NZD",
+          "formattedValue": "$0.38",
+          "priceType": "BUY",
+          "value": 0.38
+        },
+        "retailPriceGstInclusive": {
+          "currencyIso": "NZD",
+          "formattedValue": "$0.44",
+          "priceType": "BUY",
+          "value": 0.44
+        },
+        "reviews": [],
+        "sellOrderMultiple": 0.0,
+        "stock": {
+          "isValueRounded": false,
+          "pmStockQuantity": "71",
+          "statusCode": "1",
+          "stockLevelStatus": "inStock"
+        },
+        "summary": "",
+        "timberProductFlag": false,
+        "unitCode": "EA",
+        "uomFormat": "zz,zzz,zzz,zz9-",
+        "url": "/c/bremick-washer-mudguard-14-x-1-14in-x-16g-zinc-plated-wmgiz0600p6/p/4507182",
+        "volumePrices": []
+      }
+    }
+  ]
+}

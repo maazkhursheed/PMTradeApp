@@ -1,0 +1,41 @@
+parameters:
+  - name: NPM_CACHE_FOLDER
+    default: $(Pipeline.Workspace)/.npm
+    type: string
+  - name: extra
+    default: ""
+    type: string
+  - name: pods
+    default: false
+    type: boolean
+  - name: INSTALL_APP_CENTRE
+    default: false
+    type: boolean
+steps:
+  #- task: Cache@2
+  #  inputs:
+  #    key: '"v2" | "npm" | "$(Agent.OS)" | package.json'
+  #    restoreKeys: |
+  #      npm | "$(Agent.OS)"
+  #      npm
+  #    path: ${{ parameters.NPM_CACHE_FOLDER }}
+  #  displayName: Cache NPM packages
+  - script: npm i --legacy-peer-deps ${{ parameters.extra }}
+    #- script: npm i --legacy-peer-deps ${{ parameters.extra }}
+    displayName: "Install npm dependencies"
+  #- task: Cache@2
+  #  condition: and(succeeded(), ${{ eq(parameters.pods, true) }})
+  # inputs:
+  #    key: '"pod" | "$(Agent.OS)" | ios/Podfile | package.json | patches/*.patch'
+  #    restoreKeys: |
+  #      pod | "$(Agent.OS"
+  #      pod
+  #    path: ./ios/Pods
+  - task: CocoaPods@0
+    condition: and(succeeded(), ${{ eq(parameters.pods, true) }})
+    inputs:
+      projectDirectory: "ios/"
+      workingDirectory: "ios/"
+  - script: npm install -g appcenter-cli
+    condition: and(succeeded(), ${{ eq(parameters.INSTALL_APP_CENTRE, true) }})
+    displayName: "Install app center cli"

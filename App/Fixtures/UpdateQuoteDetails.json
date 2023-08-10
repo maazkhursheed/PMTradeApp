@@ -1,0 +1,29 @@
+{
+  "code": "00188001",
+  "createdby": "anonymous",
+  "creationTime": "2021-10-06T08:12:21+0000",
+  "estimateFlag": false,
+  "jobAddress": {
+    "country": {
+      "isocode": "NZ",
+      "name": "New Zealand"
+    },
+    "defaultAddress": false,
+    "email": "shashika.abeysuriya@fbu.com",
+    "firstName": "s_Test Allens Fence",
+    "formattedAddress": "s_Test_Tairua, s_Test_167 Duke St, Tairua, 3544",
+    "id": "8798091935767",
+    "line1": "s_Test_Tairua",
+    "line2": "s_Test_167 Duke St",
+    "phone": "1234567890",
+    "postalCode": "3544",
+    "shippingAddress": false,
+    "town": "Tairua",
+    "visibleInAddressBook": false
+  },
+  "jobName": "s_Test Allens Fence",
+  "notes": "s_Updated House end of the street",
+  "status": "NOTSENT",
+  "updatedTime": "2021-10-06T08:12:22+0000",
+  "scopeOfWork": "aaaaaaaaaaaaaaaaaaaaaaaaa hdfjhasdkf akjdshfiausdf okajhdfiuadhsfkja dfkajhdsifujahds fikjahdsifjhadsjfhakdsjhfajkdhfiasdkjf oiakdsjhf  ahsoidufhaoid oiahfiuajdsh foiaudhfiuajdhf  aiduhfoiaudjhfi auhdsfiauhdfk ajhdfiuadhfhdkjad kajdhfkajhdsfo akjahdfoiaukjds lkjadhf oaiudskhfao dskljfhakdjfhaodkjfhsoifdkjhgskfdjhgoskfdljhgsklfjdhgksfdjhgsoi kfghsoikfjhgosikfjhgslkf hgpskfdhgnksjfglksjfhgkjsmdfhnlkgjs hfogk skdf aaaaaaaaaaaaaaaaaaaaaaaaa hdfjhasdkf akjdshfiausdf okajhdfiuadhsfkja dfkajhdsifujahds fikjahdsifjhadsjfhakdsjhfajkdhfiasdkjf oiakdsjhf"
+}

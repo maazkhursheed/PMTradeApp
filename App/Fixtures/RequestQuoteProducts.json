@@ -1,0 +1,113 @@
+{
+  "entries": [
+    {
+      "availableForPickup": true,
+      "basePrice": {
+        "currencyIso": "NZD",
+        "formattedValue": "$15.00",
+        "priceType": "BUY",
+        "value": 15.0
+      },
+      "configurationInfos": [],
+      "customProductFlag": false,
+      "decimalQty": 2.0,
+      "deliveryOrder": true,
+      "entryNumber": 4,
+      "product": {
+        "availableForPickup": true,
+        "baseOptions": [],
+        "categories": [],
+        "code": "3250867",
+        "configurable": false,
+        "expressOrder": false,
+        "hasNoQuantity": 40.0,
+        "manufacturer": "DRICON",
+        "manufacturerId": "HC40",
+        "name": "DrIcoN HANDICRETE CONCRETE 40KG 20MPA",
+        "purchasable": true,
+        "sellOrderMultiple": 0.0,
+        "stock": {
+          "stockLevel": 0,
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "BG",
+        "uomFormat": "zz,zzz,zzz,zz9-",
+        "url": "/c/DrIcoN-HANDICRETE-CONCRETE-40KG-20MPA/p/3250867"
+      },
+      "quantity": 1,
+      "retailPrice": {
+        "currencyIso": "NZD",
+        "formattedValue": "$12.00",
+        "priceType": "BUY",
+        "value": 12.0
+      },
+      "totalPrice": {
+        "currencyIso": "NZD",
+        "formattedValue": "$30.00",
+        "priceType": "BUY",
+        "value": 30.0
+      },
+      "unit": "BG",
+      "updateable": true
+    },
+    {
+      "availableForPickup": true,
+      "basePrice": {
+        "currencyIso": "NZD",
+        "formattedValue": "$10.00",
+        "priceType": "BUY",
+        "value": 10.0
+      },
+      "configurationInfos": [],
+      "customProductFlag": false,
+      "decimalQty": 1.0,
+      "deliveryOrder": true,
+      "entryNumber": 3,
+      "product": {
+        "availableForPickup": true,
+        "baseOptions": [],
+        "categories": [],
+        "code": "5080999",
+        "configurable": false,
+        "description": "The Paslode Cordless Impulse Nail and 3 Fuel Cells is suitable for use with Impulse FrameMaster-Li PowerVent nailer. This D-head nail measures 3.15 mm Dia x 90 mm. It features steel construction and bright steel finish for excellent corrosion resistance. The smooth shank provides superior holding power.",
+        "expressOrder": false,
+        "hasNoQuantity": 0.138,
+        "manufacturer": "PASLODE",
+        "manufacturerId": "B20550V",
+        "name": "D/H IMPULSE NAIL & 3 FUEL VALUE PACK 3.15 X 90MM BRIGHT 1000PK",
+        "purchasable": true,
+        "sellOrderMultiple": 0.0,
+        "stock": {
+          "stockLevel": 0,
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "KGM",
+        "uomFormat": "zzzzzzzzz",
+        "url": "/c/D-H-IMPULSE-NAIL-%26-3-FUEL-VALUE-PACK-3-15-X-90MM-BRIGHT-1000PK/p/5080999"
+      },
+      "quantity": 1,
+      "retailPrice": {
+        "currencyIso": "NZD",
+        "formattedValue": "$8.00",
+        "priceType": "BUY",
+        "value": 8.0
+      },
+      "totalPrice": {
+        "currencyIso": "NZD",
+        "formattedValue": "$10.00",
+        "priceType": "BUY",
+        "value": 10.0
+      },
+      "unit": "KGM",
+      "updateable": true
+    }
+  ],
+  "pagination": {
+    "currentPage": 0,
+    "pageSize": 10,
+    "totalPages": 1,
+    "totalResults": 2
+  }
+}

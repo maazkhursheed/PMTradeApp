@@ -1,0 +1,215 @@
+{
+  "type": "pmProductWsDTO",
+  "availableForPickup": false,
+  "barcodesPM": "09310428239137",
+  "baseOptions": [],
+  "grossWeight": [
+    {
+      "code": "placemakersClassification/1.0/Specification.weight",
+      "comparable": true,
+      "featureUnit": {
+        "name": "Kilogram",
+        "symbol": "KGM"
+      },
+      "featureValues": [
+        {
+          "value": "1.04"
+        }
+      ],
+      "name": "Weight",
+      "range": false
+    }
+  ],
+  "categories": [],
+  "classifications": [
+    {
+      "code": "WebFeature",
+      "features": [
+        {
+          "code": "placemakersClassification/1.0/WebFeature.feature1",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "Suitable to use in gardens"
+            }
+          ],
+          "name": "Feature 1",
+          "range": false
+        },
+        {
+          "code": "placemakersClassification/1.0/WebFeature.feature2",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "Easy to apply, hose-on"
+            }
+          ],
+          "name": "Feature 2",
+          "range": false
+        },
+        {
+          "code": "placemakersClassification/1.0/WebFeature.feature3",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "Selectively kills the most common broadleaf weeds in lawns, including bindii, clover, dandelions and thistles"
+            }
+          ],
+          "name": "Feature 3",
+          "range": false
+        },
+        {
+          "code": "placemakersClassification/1.0/WebFeature.feature4",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "Contains nitrogen and iron to promote a lush deep green lawn"
+            }
+          ],
+          "name": "Feature 4",
+          "range": false
+        },
+        {
+          "code": "placemakersClassification/1.0/WebFeature.feature5",
+          "comparable": true,
+          "featureValues": [
+            {
+              "value": "Contains wetting agent for improved spray coverage and leaf penetration"
+            }
+          ],
+          "name": "Feature 5",
+          "range": false
+        }
+      ],
+      "name": "Web Features"
+    },
+    {
+      "code": "Specification",
+      "features": [
+        {
+          "code": "placemakersClassification/1.0/Specification.width",
+          "comparable": true,
+          "featureUnit": {
+            "name": "Centimeter",
+            "symbol": "CMT"
+          },
+          "featureValues": [
+            {
+              "value": "34"
+            }
+          ],
+          "name": "Width",
+          "range": false
+        },
+        {
+          "code": "placemakersClassification/1.0/Specification.height",
+          "comparable": true,
+          "featureUnit": {
+            "name": "Centimeter",
+            "symbol": "CMT"
+          },
+          "featureValues": [
+            {
+              "value": "30"
+            }
+          ],
+          "name": "Height",
+          "range": false
+        },
+        {
+          "code": "placemakersClassification/1.0/Specification.depth",
+          "comparable": true,
+          "featureUnit": {
+            "name": "Centimeter",
+            "symbol": "CMT"
+          },
+          "featureValues": [
+            {
+              "value": "34"
+            }
+          ],
+          "name": "Depth",
+          "range": false
+        },
+        {
+          "code": "placemakersClassification/1.0/Specification.volume",
+          "comparable": true,
+          "featureUnit": {
+            "name": "Centimeter",
+            "symbol": "CMT"
+          },
+          "featureValues": [
+            {
+              "value": "0.0072"
+            }
+          ],
+          "name": "Volume",
+          "range": false
+        },
+        {
+          "code": "placemakersClassification/1.0/Specification.warrantyduration",
+          "comparable": true,
+          "featureUnit": {
+            "name": "Centimeter",
+            "symbol": "CMT"
+          },
+          "featureValues": [
+            {
+              "value": "1"
+            }
+          ],
+          "name": "Warranty Duration",
+          "range": false
+        }
+      ],
+      "name": "Product Specifications"
+    }
+  ],
+  "code": "5299140",
+  "configurable": false,
+  "description": "",
+  "expressOrder": false,
+  "hasNoQuantity": 4.0,
+  "images": [
+    {
+      "format": "product",
+      "imageType": "GALLERY",
+      "url": "https://stapoctransdocarchive01.blob.core.windows.net/placemakersassets/Markit_Graphics_SN.7.jpg"
+    },
+    {
+      "format": "product",
+      "imageType": "GALLERY",
+      "url": "https://stapoctransdocarchive01.blob.core.windows.net/placemakersassets/Showerdome_61635_1.2m_C.jpg"
+    },
+    {
+      "format": "product",
+      "imageType": "GALLERY",
+      "url": "https://stapoctransdocarchive01.blob.core.windows.net/placemakersassets/Ecko_JOG-50V8R.jpg"
+    },
+    {
+      "format": "product",
+      "imageType": "GALLERY",
+      "url": "https://stapoctransdocarchive01.blob.core.windows.net/placemakersassets/Aquatica_AJ_MSHSS.jpg"
+    }
+  ],
+  "kitProductFlag": false,
+  "name": "DOUBLE ACTION WEED 'N' FEED LIQUID HOSE-ON 4 L BROWN",
+  "numberOfReviews": 0,
+  "perpetualFlag": false,
+  "priceRange": {},
+  "productTypeCodeEnum": "N",
+  "purchasable": true,
+  "sellOrderMultiple": 0.0,
+  "stock": {
+    "stockLevel": 0,
+    "stockLevelStatus": "outOfStock"
+  },
+  "summary": "",
+  "timberProductFlag": false,
+  "unitCode": "EA",
+  "uomFormat": "zzzzzzzzzz9-",
+  "installationGuide": "installationguide",
+  "instructionManual": "instructinManual",
+  "specSheet": "specsheet",
+  "warrantySheet": "warrantysheet"
+}

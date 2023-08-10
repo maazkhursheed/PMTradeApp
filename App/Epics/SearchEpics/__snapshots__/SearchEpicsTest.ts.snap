@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+Array [
+  Object {
+    "Availability": "162 in stock",
+    "Brand": "Golden Bay",
+    "Image": "",
+    "IsExpressOrder": false,
+    "IsTimberProduct": false,
+    "Price": "7.82",
+    "ProductDescription": "Placemakers General Purpose Portland Cement Premium 20kg",
+    "SKU": "3200038",
+    "SelectedMultiple": "0",
+    "StockQuantity": "162",
+    "UOM": "BG",
+    "sellOrderMultiple": "0",
+    "timberProductFlag": false,
+    "uomFormat": "11",
+  },
+]
+`;

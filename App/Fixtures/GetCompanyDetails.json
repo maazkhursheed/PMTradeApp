@@ -1,0 +1,30 @@
+{
+    "companyAddress": {
+        "companyName": "Adtest Company pvt.ltd",
+        "country": {
+            "isocode": "NZ",
+            "name": "New Zealand"
+        },
+        "defaultAddress": false,
+        "email": "adtest@gmail.com",
+        "formattedAddress": "810 Great South Road, Auckland, 1061",
+        "id": "8852748992535",
+        "line1": "810 Great South Road",
+        "phone": "06473737373",
+        "postalCode": "1061",
+        "shippingAddress": false,
+        "town": "Auckland",
+        "visibleInAddressBook": false
+    },
+    "companyLogo": {
+        "catalogId": "Default",
+        "catalogVersion": "Online",
+        "code": "logo-social.png8mIHnQ",
+        "description": "file",
+        "downloadUrl": "/medias/sys_master/quotes/hd8/h49/9011935903774/logo-social/logo-social.png?attachment=true",
+        "mime": "image/png",
+        "url": "/medias/sys_master/quotes/hd8/h49/9011935903774/logo-social/logo-social.png"
+    },
+    "paymentTerms": "My payment terms ABCDYHY",
+    "termsAndConditions": "My terms and conditions"
+}

@@ -1,0 +1,9 @@
+{
+  "PMMyProductListWsDTOList": [
+    {
+      "listName": "Test List",
+      "productCount": 3,
+      "userID": "abc2@royalcyber.com"
+    }
+  ]
+}

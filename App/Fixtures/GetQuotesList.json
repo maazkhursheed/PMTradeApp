@@ -1,0 +1,82 @@
+{
+  "quoteList": [
+    {
+      "code": "00203002",
+      "consumerAddress": {
+        "country": {
+          "isocode": "NZ"
+        },
+        "defaultAddress": false,
+        "firstName": "Test3333 consumer address",
+        "formattedAddress": "Test_Tairua2222222, Test_167 Duke St, Tairua, 3544",
+        "id": "8800451231767",
+        "line1": "Test_Tairua2222222",
+        "line2": "Test_167 Duke St",
+        "phone": "1234567890",
+        "postalCode": "3544",
+        "town": "Tairua"
+      },
+      "createdby": "deepak.rama@fbu.com",
+      "creationTime": "2021-10-12T03:40:34+0000",
+      "estimateFlag": false,
+      "jobAddress": {
+        "country": {
+          "isocode": "NZ"
+        },
+        "defaultAddress": false,
+        "firstName": "Fence",
+        "formattedAddress": "test2, 167 Duke St, town, 3544",
+        "id": "8800451198999",
+        "line1": "test2",
+        "line2": "167 Duke St",
+        "postalCode": "3544",
+        "town": "town"
+      },
+      "jobName": "Fence",
+      "materialsAddedFlag": false,
+      "notes": "my house",
+      "otherCostsAddedFlag": false,
+      "status": "NOTSENT",
+      "updatedTime": "2021-10-12T03:40:34+0000"
+    },
+    {
+      "code": "00220000",
+      "consumerAddress": {
+        "country": {
+          "isocode": "NZ"
+        },
+        "defaultAddress": false,
+        "firstName": "Test Allens Fence",
+        "formattedAddress": "Test_Tairua, Test_167 Duke St, Tairua, 3544",
+        "id": "8800320159767",
+        "line1": "Test_Tairua",
+        "line2": "Test_167 Duke St",
+        "phone": "1234567890",
+        "postalCode": "3544",
+        "town": "Tairua"
+      },
+      "createdby": "deepak.rama@fbu.com",
+      "creationTime": "2021-10-08T05:42:56+0000",
+      "estimateFlag": false,
+      "jobAddress": {
+        "country": {
+          "isocode": "NZ"
+        },
+        "defaultAddress": false,
+        "firstName": "Allens Fence",
+        "formattedAddress": "Tairua, 167 Duke St, Tairua, 3544",
+        "id": "8800320126999",
+        "line1": "Tairua",
+        "line2": "167 Duke St",
+        "postalCode": "3544",
+        "town": "Tairua"
+      },
+      "jobName": "Allens Fence",
+      "materialsAddedFlag": false,
+      "notes": "House end of the street",
+      "otherCostsAddedFlag": false,
+      "status": "NOTSENT",
+      "updatedTime": "2021-10-08T05:42:57+0000"
+    }
+  ]
+}

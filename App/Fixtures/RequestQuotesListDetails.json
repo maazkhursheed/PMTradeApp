@@ -1,0 +1,56 @@
+{
+  "code": "01985019",
+  "consumerAddress": {
+    "defaultAddress": false,
+    "email": "abc@mail.com",
+    "firstName": "ABC",
+    "formattedAddress": "Delemere Place, Glen Innes, Auckland, 1072",
+    "id": "8854617161751",
+    "line1": "Delemere Place",
+    "line2": "Glen Innes",
+    "phone": "6423313122",
+    "postalCode": "1072",
+    "shippingAddress": false,
+    "town": "Auckland",
+    "visibleInAddressBook": false
+  },
+  "createdby": "shashika.abeysuriya@fbu.com",
+  "creationTime": "2021-10-10T12:25:16+0000",
+  "estimateFlag": false,
+  "jobAddress": {
+    "defaultAddress": false,
+    "firstName": "test123",
+    "formattedAddress": "test123",
+    "id": "8854617128983",
+    "line1": "test123",
+    "shippingAddress": false,
+    "visibleInAddressBook": false
+  },
+  "jobName": "test123",
+  "markupPercentage": 25,
+  "markupPrice": {
+    "currencyIso": "NZD",
+    "formattedValue": "$290.07",
+    "value": 290.07
+  },
+  "materialPrice": {
+    "currencyIso": "NZD",
+    "formattedValue": "$1,160.26",
+    "value": 1160.26
+  },
+  "materialsAddedFlag": true,
+  "otherCostPrice": {
+    "currencyIso": "NZD",
+    "formattedValue": "$70.00",
+    "value": 70
+  },
+  "otherCostsAddedFlag": true,
+  "scopeOfWork": "test",
+  "status": "NOTSENT",
+  "totalPrice": {
+    "currencyIso": "NZD",
+    "formattedValue": "$1,520.33",
+    "value": 1520.33
+  },
+  "updatedTime": "2021-12-28T21:23:27+0000"
+}

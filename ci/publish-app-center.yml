@@ -1,0 +1,45 @@
+parameters:
+  - name: env
+    default: "sit"
+    type: string
+    values:
+      - "sit"
+      - "uat"
+      - "bau"
+      - "dev"
+      - "prod"
+  - name: androidVersion
+    default: "0.0.0"
+    type: string
+  - name: tickets
+    default: ""
+    type: string
+  - name: platform
+    default: ""
+    type: string
+steps:
+  - script: appcenter login --token $(APPCENTER_LOGIN_TOKEN)
+    displayName: "Login App center"
+  - ${{ if eq(parameters.platform, 'android') }}:
+      - task: AppCenterDistribute@3
+        inputs:
+          serverEndpoint: "APPCENTER_${{upper(parameters.env)}}_ANDROID"
+          appSlug: "Placemakers/PlacemakersTradeApp_${{upper(parameters.env)}}_Android"
+          continueOnError: true
+          appFile: "$(Pipeline.Workspace)/android/android/app/build/outputs/apk/${{ parameters.env }}/release/app-${{ parameters.env }}-release.apk"
+          buildVersion: $(VERSION_NAME_ANDROID)
+          releaseNotesOption: "input"
+          releaseNotesInput: "Description:\n\r ${{parameters.tickets}}"
+          destinationType: "groups"
+          distributionGroupId: $(APPCENTER_GROUP_ID)
+  - ${{ else }}:
+      - task: AppCenterDistribute@3
+        inputs:
+          serverEndpoint: "APPCENTER_${{upper(parameters.env)}}_IOS"
+          appSlug: "Placemakers/PlacemakersTradeApp_${{upper(parameters.env)}}_IOS"
+          continueOnError: true
+          appFile: "$(Pipeline.Workspace)/ios/ios/output/export/PlaceMakers\ Trade\ App.ipa"
+          releaseNotesOption: "input"
+          releaseNotesInput: "Description:\n\r ${{parameters.tickets}}"
+          destinationType: "groups"
+          distributionGroupId: $(APPCENTER_GROUP_ID)

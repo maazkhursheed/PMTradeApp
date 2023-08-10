@@ -1,0 +1,284 @@
+{
+  "type": "orderWsDTO",
+  "appliedOrderPromotions": [],
+  "appliedProductPromotions": [],
+  "appliedVouchers": [],
+  "calculated": true,
+  "code": "01225003",
+  "deliveryCost": {
+    "currencyIso": "NZD",
+    "formattedValue": "$0.00",
+    "priceType": "BUY",
+    "value": 0.0
+  },
+  "deliveryItemsQuantity": 1,
+  "deliveryMode": {
+    "code": "pickup",
+    "deliveryCost": {
+      "currencyIso": "NZD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY",
+      "value": 0.0
+    }
+  },
+  "deliveryOrderGroups": [
+    {
+      "entries": [
+        {
+          "availableForPickup": true,
+          "configurationInfos": [],
+          "decimalQty": 1.0,
+          "deliveryOrder": true,
+          "entryNumber": 0,
+          "product": {
+            "availableForPickup": true,
+            "baseOptions": [],
+            "categories": [
+              {
+                "code": "BB11FB",
+                "name": "Malthoid"
+              }
+            ],
+            "code": "3410421",
+            "configurable": false,
+            "description": "The  2-Ply Damp-Proof Course Bituminous Flashing is suitable for waterproofing of flat roofs.This flashing prevents condensation corrosion when used under corrugated iron water tanks. It is flexible and easy to install. Fine sand on both surfaces minimizes sticking. Bitumen impregnated felt is designed for use as vapour barrier in structural elements which are exposed to ground.",
+            "expressOrder": true,
+            "hasNoQuantity": 0.0,
+            "images": [
+              {
+                "format": "zoom",
+                "imageType": "PRIMARY",
+                "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020349_Malthoid_7887730.jpg"
+              },
+              {
+                "format": "product",
+                "imageType": "PRIMARY",
+                "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020349_Malthoid_7887730.jpg"
+              },
+              {
+                "format": "thumbnail",
+                "imageType": "PRIMARY",
+                "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020349_Malthoid_7887730.jpg"
+              },
+              {
+                "format": "cartIcon",
+                "imageType": "PRIMARY",
+                "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020349_Malthoid_7887730.jpg"
+              }
+            ],
+            "manufacturer": "DLM",
+            "name": "Malthoid Damp Proof Course 50mm x 20m",
+            "purchasable": true,
+            "sellOrderMultiple": 0.0,
+            "stock": {
+              "stockLevel": 0,
+              "stockLevelStatus": "outOfStock"
+            },
+            "timberProductFlag": false,
+            "unitCode": "RO",
+            "uomFormat": "zz,zzz,zzz,zz9-",
+            "url": "/Building-Products/Building-Wraps%2C-Tapes-%26-Underlays/Damp-Proof-Course-Malthoid/Malthoid/Malthoid-Damp-Proof-Course-50mm-x-20m/p/3410421"
+          },
+          "quantity": 1,
+          "totalPrice": {
+            "currencyIso": "NZD",
+            "value": 8.59
+          },
+          "unit": "RO"
+        }
+      ],
+      "totalPriceWithTax": {
+        "currencyIso": "NZD",
+        "formattedValue": "$8.59",
+        "priceType": "BUY",
+        "value": 8.59
+      }
+    }
+  ],
+  "entries": [
+    {
+      "availableForPickup": true,
+      "configurationInfos": [],
+      "decimalQty": 1.0,
+      "deliveryOrder": true,
+      "entryNumber": 0,
+      "product": {
+        "availableForPickup": true,
+        "baseOptions": [],
+        "categories": [
+          {
+            "code": "BB11FB",
+            "name": "Malthoid"
+          }
+        ],
+        "code": "3410421",
+        "configurable": false,
+        "description": "The  2-Ply Damp-Proof Course Bituminous Flashing is suitable for waterproofing of flat roofs.This flashing prevents condensation corrosion when used under corrugated iron water tanks. It is flexible and easy to install. Fine sand on both surfaces minimizes sticking. Bitumen impregnated felt is designed for use as vapour barrier in structural elements which are exposed to ground.",
+        "expressOrder": true,
+        "hasNoQuantity": 0.0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020349_Malthoid_7887730.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020349_Malthoid_7887730.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020349_Malthoid_7887730.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020349_Malthoid_7887730.jpg"
+          }
+        ],
+        "manufacturer": "DLM",
+        "name": "Malthoid Damp Proof Course 50mm x 20m",
+        "purchasable": true,
+        "sellOrderMultiple": 0.0,
+        "stock": {
+          "stockLevel": 0,
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "RO",
+        "uomFormat": "zz,zzz,zzz,zz9-",
+        "url": "/Building-Products/Building-Wraps%2C-Tapes-%26-Underlays/Damp-Proof-Course-Malthoid/Malthoid/Malthoid-Damp-Proof-Course-50mm-x-20m/p/3410421"
+      },
+      "quantity": 1,
+      "totalPrice": {
+        "currencyIso": "NZD",
+        "value": 8.59
+      },
+      "unit": "RO"
+    }
+  ],
+  "guid": "61d9aab1-2941-48e4-8721-7c39ef1ce8ff",
+  "net": true,
+  "orderDiscounts": {
+    "currencyIso": "NZD",
+    "formattedValue": "$0.00",
+    "priceType": "BUY",
+    "value": 0.0
+  },
+  "pickupItemsQuantity": 0,
+  "pickupOrderGroups": [],
+  "productDiscounts": {
+    "currencyIso": "NZD",
+    "formattedValue": "$0.00",
+    "priceType": "BUY",
+    "value": 0.0
+  },
+  "site": "placemakers",
+  "store": "placemakers",
+  "subTotal": {
+    "currencyIso": "NZD",
+    "formattedValue": "$8.59",
+    "priceType": "BUY",
+    "value": 8.59
+  },
+  "totalDiscounts": {
+    "currencyIso": "NZD",
+    "formattedValue": "$0.00",
+    "priceType": "BUY",
+    "value": 0.0
+  },
+  "totalItems": 1,
+  "totalPrice": {
+    "currencyIso": "NZD",
+    "formattedValue": "$8.59",
+    "priceType": "BUY",
+    "value": 8.59
+  },
+  "totalPriceWithTax": {
+    "currencyIso": "NZD",
+    "formattedValue": "$8.59",
+    "priceType": "BUY",
+    "value": 8.59
+  },
+  "totalTax": {
+    "currencyIso": "NZD",
+    "formattedValue": "$0.00",
+    "priceType": "BUY",
+    "value": 0.0
+  },
+  "user": {
+    "name": "shashikaAbeysuriya",
+    "uid": "shashika.abeysuriya@fbu.com"
+  },
+  "consignments": [],
+  "created": "2021-05-05T02:06:59+0000",
+  "deliveryStatus": "READY_FOR_PICKUP",
+  "guestCustomer": false,
+  "statusDisplay": "processing",
+  "unconsignedEntries": [
+    {
+      "availableForPickup": true,
+      "configurationInfos": [],
+      "decimalQty": 1.0,
+      "deliveryOrder": true,
+      "entryNumber": 0,
+      "product": {
+        "availableForPickup": true,
+        "baseOptions": [],
+        "categories": [
+          {
+            "code": "BB11FB",
+            "name": "Malthoid"
+          }
+        ],
+        "code": "3410421",
+        "configurable": false,
+        "description": "The  2-Ply Damp-Proof Course Bituminous Flashing is suitable for waterproofing of flat roofs.This flashing prevents condensation corrosion when used under corrugated iron water tanks. It is flexible and easy to install. Fine sand on both surfaces minimizes sticking. Bitumen impregnated felt is designed for use as vapour barrier in structural elements which are exposed to ground.",
+        "expressOrder": true,
+        "hasNoQuantity": 0.0,
+        "images": [
+          {
+            "format": "zoom",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020349_Malthoid_7887730.jpg"
+          },
+          {
+            "format": "product",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020349_Malthoid_7887730.jpg"
+          },
+          {
+            "format": "thumbnail",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020349_Malthoid_7887730.jpg"
+          },
+          {
+            "format": "cartIcon",
+            "imageType": "PRIMARY",
+            "url": "https://pimstorageauesit.blob.core.windows.net/placemakers/media-assets/1020349_Malthoid_7887730.jpg"
+          }
+        ],
+        "manufacturer": "DLM",
+        "name": "Malthoid Damp Proof Course 50mm x 20m",
+        "purchasable": true,
+        "sellOrderMultiple": 0.0,
+        "stock": {
+          "stockLevel": 0,
+          "stockLevelStatus": "outOfStock"
+        },
+        "timberProductFlag": false,
+        "unitCode": "RO",
+        "uomFormat": "zz,zzz,zzz,zz9-",
+        "url": "/Building-Products/Building-Wraps%2C-Tapes-%26-Underlays/Damp-Proof-Course-Malthoid/Malthoid/Malthoid-Damp-Proof-Course-50mm-x-20m/p/3410421"
+      },
+      "quantity": 1,
+      "totalPrice": {
+        "currencyIso": "NZD",
+        "value": 8.59
+      },
+      "unit": "RO"
+    }
+  ]
+}

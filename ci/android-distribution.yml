@@ -1,0 +1,71 @@
+parameters:
+  - name: env
+    default: "sit"
+    type: string
+    values:
+      - "sit"
+      - "uat"
+      - "bau"
+      - "dev"
+      - "prod"
+steps:
+  - template: dependencies.yml
+  - task: JavaToolInstaller@0
+    inputs:
+      versionSpec: "11"
+      jdkArchitectureOption: "x64"
+      jdkSourceOption: "PreInstalled"
+  - task: Gradle@3
+    inputs:
+      workingDirectory: "android"
+      gradleOptions: "-Xmx3072m"
+      gradleWrapperFile: "android/gradlew"
+      publishJUnitResults: false
+      ${{ if eq(parameters.env, 'sit') }}:
+        tasks: "clean assembleSitRelease"
+      ${{ elseif eq(parameters.env, 'uat') }}:
+        tasks: "clean assembleUatRelease"
+      ${{ elseif eq(parameters.env, 'bau') }}:
+        tasks: "clean assembleBauRelease"
+      ${{ elseif eq(parameters.env, 'dev') }}:
+        tasks: "clean assembleDevRelease"
+      ${{ elseif eq(parameters.env, 'prod') }}:
+        tasks: "clean assembleProdRelease"
+  - task: CopyFiles@2
+    inputs:
+      contents: "**/release/*.apk"
+      targetFolder: "$(Build.ArtifactStagingDirectory)"
+      overWrite: true
+  - publish: $(Build.ArtifactStagingDirectory)
+    artifact: android
+  - task: DownloadSecureFile@1
+    name: GooglePlaySecure
+    inputs:
+      secureFile: "api.json"
+  - task: GooglePlayRelease@4
+    continueOnError: true
+    inputs:
+      authType: "JsonFile"
+      serviceAccountKey: $(GooglePlaySecure.secureFilePath)
+      ${{ if eq(parameters.env, 'sit') }}:
+        applicationId: "com.fbu.placemakerstrade.stc"
+      ${{ elseif eq(parameters.env, 'uat') }}:
+        applicationId: "com.fbu.placemakerstrade.uat"
+      ${{ elseif eq(parameters.env, 'bau') }}:
+        applicationId: "com.fbu.placemakerstrade.bau"
+      ${{ elseif eq(parameters.env, 'dev') }}:
+        applicationId: "com.fbu.placemakerstrade.uat"
+      ${{ elseif eq(parameters.env, 'prod') }}:
+        applicationId: "com.fbu.placemakerstrade"
+      changesNotSentForReview: true
+      action: "SingleApk"
+      apkFile: "**/release/*.apk"
+      track: "alpha"
+  - task: ostorlab-azure-security-scanner@1
+    condition: eq('${{ parameters.env }}', 'bau')
+    inputs:
+      apiKey: $(SECURITY_SCAN_KEY)
+      filepath: "$(Build.ArtifactStagingDirectory)**/release/*.apk"
+      platform: "android"
+      artifactsDir: "$(build.artifactStagingDirectory)/ostorlabArtifacts"
+      scanProfile: "Full Scan"

@@ -1,0 +1,83 @@
+{
+  "branchId": "362",
+  "customerId": "ANTGA",
+  "estimateList": [
+    {
+      "accountId": "ANTGA",
+      "accountName": "Ants General Contracting",
+      "custPo": "PARENT ACCT",
+      "estimateDate": "2021-03-30T00:00:00",
+      "estimateExpire": "2021-04-29T00:00:00",
+      "estimateNumber": "35396",
+      "estimateTotal": "500.35",
+      "projectName": "Ants General Contracting",
+      "projectNumber": "PARENT JOB NAME"
+    },
+    {
+      "accountId": "ANTGA",
+      "accountName": "Ants General Contracting",
+      "custPo": "DEEPAK",
+      "estimateDate": "2021-04-13T00:00:00",
+      "estimateExpire": "2021-05-13T00:00:00",
+      "estimateNumber": "35398",
+      "estimateTotal": "197.15",
+      "projectName": "Ants General Contracting",
+      "projectNumber": "DEE Project Number"
+    },
+    {
+      "accountId": "ANTGA000",
+      "accountName": "Ants General Job0",
+      "custPo": "Davoren - Yvonne",
+      "estimateDate": "2021-04-07T00:00:00",
+      "estimateExpire": "2021-05-07T00:00:00",
+      "estimateNumber": "35397",
+      "estimateTotal": "13774.49",
+      "projectName": "Ants General Job0",
+      "projectNumber": "555blah-blah555"
+    },
+    {
+      "accountId": "ANTGA001",
+      "accountName": "Ants General Contracting1",
+      "custPo": "",
+      "estimateDate": "0001-01-01T00:00:00",
+      "estimateExpire": "0001-01-01T00:00:00",
+      "estimateNumber": "",
+      "estimateTotal": "0",
+      "projectName": "",
+      "projectNumber": ""
+    },
+    {
+      "accountId": "ANTGA002",
+      "accountName": "Ants General Contracting2",
+      "custPo": "BLDT Gen002",
+      "estimateDate": "2021-04-16T00:00:00",
+      "estimateExpire": "2021-05-16T00:00:00",
+      "estimateNumber": "35399",
+      "estimateTotal": "283.44",
+      "projectName": "Ants General Contracting2",
+      "projectNumber": ""
+    },
+    {
+      "accountId": "ANTGA002",
+      "accountName": "Ants General Contracting2",
+      "custPo": "BLDT Special order",
+      "estimateDate": "2021-04-21T00:00:00",
+      "estimateExpire": "2021-05-21T00:00:00",
+      "estimateNumber": "35401",
+      "estimateTotal": "1912.57",
+      "projectName": "Ants General Contracting2",
+      "projectNumber": ""
+    },
+    {
+      "accountId": "ANTGA002",
+      "accountName": "Ants General Contracting2",
+      "custPo": "BLDT Deepak",
+      "estimateDate": "2021-04-22T00:00:00",
+      "estimateExpire": "2021-05-22T00:00:00",
+      "estimateNumber": "35403",
+      "estimateTotal": "2126.63",
+      "projectName": "Ants General Contracting2",
+      "projectNumber": ""
+    }
+  ]
+}

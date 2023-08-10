@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>383722755317-ssptipn76gcpuam3to9scr5fh2i8nsl7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.383722755317-ssptipn76gcpuam3to9scr5fh2i8nsl7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDNG4IwhVh_SSalUOIdqyfy8QfLCI7GhaM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>383722755317</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.fbu.placemakerstrade</string>
+	<key>PROJECT_ID</key>
+	<string>placemakers-trade-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>placemakers-trade-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:383722755317:ios:538cf45925741d24</string>
+	<key>DATABASE_URL</key>
+	<string>https://placemakers-trade-app.firebaseio.com</string>
+</dict>
+</plist>

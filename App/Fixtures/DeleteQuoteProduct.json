@@ -1,0 +1,41 @@
+{
+  "entriesCount": 0,
+  "entry": {
+    "availableForPickup": true,
+    "configurationInfos": [],
+    "customProductFlag": true,
+    "deliveryOrder": true,
+    "product": {
+      "availableForPickup": true,
+      "baseOptions": [],
+      "categories": [],
+      "code": "1fL0QK",
+      "configurable": false,
+      "description": "",
+      "expressOrder": false,
+      "name": "SASA",
+      "purchasable": true,
+      "sellOrderMultiple": 0,
+      "specialProduct": false,
+      "stock": {
+        "stockLevel": 0,
+        "stockLevelStatus": "outOfStock"
+      },
+      "timberProductFlag": false,
+      "unitCode": "LM",
+      "uomFormat": "z,zzz,zzz.99-",
+      "url": "/c/sasa/p/1fL0QK"
+    },
+    "selectedConfiguration": [],
+    "unit": ""
+  },
+  "isCustomProduct": true,
+  "quantity": 0,
+  "quantityAdded": -1,
+  "statusCode": "success",
+  "subTotal": {
+    "currencyIso": "NZD",
+    "formattedValue": "$0.00",
+    "value": 0
+  }
+}

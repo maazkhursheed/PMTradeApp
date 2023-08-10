@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sanitizeProductItem PDP Should have StockQuantity: 162 in product 1`] = `
+Object {
+  "Brand": "Golden Bay",
+  "Image": "",
+  "IsExpressOrder": false,
+  "IsTimberProduct": false,
+  "Price": "7.82",
+  "ProductDescription": "",
+  "Quantity": "1",
+  "SKU": undefined,
+  "SelectedMultiple": "0",
+  "SellOrderMultiple": 0,
+  "StockQuantity": "162",
+  "UOM": "",
+  "UniqueId": "undefined-0",
+  "sellOrderMultiple": "0",
+  "timberProductFlag": false,
+  "uomFormat": "11",
+}
+`;

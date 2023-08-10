@@ -1,0 +1,65 @@
+{
+  "entriesCount": 6,
+  "entry": {
+    "availableForPickup": true,
+    "basePrice": {
+      "currencyIso": "NZD",
+      "formattedValue": "$23.00",
+      "priceType": "BUY",
+      "value": 23
+    },
+    "configurationInfos": [],
+    "customProductFlag": true,
+    "decimalQty": 4,
+    "deliveryOrder": true,
+    "entryNumber": 5,
+    "estimateProductStock": 0,
+    "product": {
+      "availableForPickup": true,
+      "baseOptions": [],
+      "categories": [],
+      "code": "TGyBUZ",
+      "configurable": false,
+      "description": "",
+      "expressOrder": false,
+      "name": "Test PRod 3",
+      "purchasable": true,
+      "sellOrderMultiple": 0,
+      "specialProdWithAlphaSkuFlag": false,
+      "specialProduct": false,
+      "stock": {
+        "stockLevel": 0,
+        "stockLevelStatus": "outOfStock"
+      },
+      "timberProductFlag": false,
+      "unitCode": "LM",
+      "uomFormat": "z,zzz,zzz.99-",
+      "url": "/c/test-prod-3/p/TGyBUZ"
+    },
+    "quantity": 1,
+    "retailPrice": {
+      "currencyIso": "NZD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY",
+      "value": 0
+    },
+    "selectedConfiguration": [],
+    "totalPrice": {
+      "currencyIso": "NZD",
+      "formattedValue": "$92.00",
+      "priceType": "BUY",
+      "value": 92
+    },
+    "unit": "",
+    "updateable": true
+  },
+  "isCustomProduct": true,
+  "quantity": 0,
+  "quantityAdded": 0,
+  "statusCode": "success",
+  "subTotal": {
+    "currencyIso": "NZD",
+    "formattedValue": "$476.23",
+    "value": 476.23
+  }
+}

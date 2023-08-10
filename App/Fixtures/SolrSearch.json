@@ -1,0 +1,271 @@
+{
+  "type": "productCategorySearchPageWsDTO",
+  "currentQuery": {
+    "query": {
+      "value": ":relevance"
+    },
+    "url": "/search?q=%3Arelevance"
+  },
+  "freeTextSearch": "",
+  "pagination": {
+    "currentPage": 0,
+    "pageSize": 20,
+    "sort": "relevance",
+    "totalPages": 184,
+    "totalResults": 3674
+  },
+  "products": [
+    {
+      "code": "1001484",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "WISES  WATERPROOF JACKET ORANGE XL PHS85600-XL",
+      "priceRange": {},
+      "stock": {},
+      "url": "/SAFETY/APPARREL/SPECIAL-PREHUNG-DOOR-EXTERIOR-STEEL/WISES-WATERPROOF-JACKET-ORANGE-XL-PHS85600-XL/p/1001484",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1001485",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "WISES  WATERPROOF JACKET ORANGE 2XL PHS85600-2XL",
+      "priceRange": {},
+      "stock": {},
+      "url": "/SAFETY/APPARREL/SPECIAL-PREHUNG-DOOR-EXTERIOR-STEEL/WISES-WATERPROOF-JACKET-ORANGE-2XL-PHS85600-2XL/p/1001485",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1002487",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "90 X 21 RAD QTRSW CLR H3.2 MCA NAT/AMB",
+      "priceRange": {},
+      "stock": {},
+      "url": "/ADHESIVES-AND-SEALANTS/FOAM-PRODUCTS/PREMADE-BENCHTOP-SINKBOWL/90-X-21-RAD-QTRSW-CLR-H3-2-MCA-NAT-AMB/p/1002487",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1002489",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "110 X 21MM RAD QTRSW CLR H3.2 MCA NAT/AMB",
+      "priceRange": {},
+      "stock": {},
+      "url": "/ADHESIVES-AND-SEALANTS/FOAM-PRODUCTS/PREMADE-BENCHTOP-SINKBOWL/110-X-21MM-RAD-QTRSW-CLR-H3-2-MCA-NAT-AMB/p/1002489",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1003651",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "75 X 50 RAD SG8 H4 CCA RS WET 4.2M",
+      "priceRange": {},
+      "stock": {},
+      "url": "/ADHESIVES-AND-SEALANTS/FOAM-PRODUCTS/PREMADE-BENCHTOP-SINKBOWL/75-X-50-RAD-SG8-H4-CCA-RS-WET-4-2M/p/1003651",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1003652",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "75 X 50 RAD SG8 H4 CCA RS WET 4.8M",
+      "priceRange": {},
+      "stock": {},
+      "url": "/ADHESIVES-AND-SEALANTS/FOAM-PRODUCTS/PREMADE-BENCHTOP-SINKBOWL/75-X-50-RAD-SG8-H4-CCA-RS-WET-4-8M/p/1003652",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1005539",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "FSC MIX DOOR JAMB RAD FJ UT GVD (136X19) 150 X 25",
+      "priceRange": {},
+      "stock": {},
+      "url": "/STRUCTURAL-GRADE-%28SG%29-TIMBER-KD/SG-H3-2-RADIATA-KD/SPECIAL-ORDER-WINDOW-ACCESSORIES/FSC-MIX-DOOR-JAMB-RAD-FJ-UT-GVD-%28136X19%29-150-X-25/p/1005539",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1008045",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "100 X 40 CLR.DECK H3.2 CCA GT (88X32MM FIN)",
+      "priceRange": {},
+      "stock": {},
+      "url": "/ADHESIVES-AND-SEALANTS/FOAM-PRODUCTS/PREMADE-BENCHTOP-SINKBOWL/100-X-40-CLR-DECK-H3-2-CCA-GT-%2888X32MM-FIN%29/p/1008045",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1012492",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "TRIBOARD HD 10MM 2.4x1.2 KTA",
+      "priceRange": {},
+      "stock": {},
+      "url": "/PANELS/PRE-CUT-PANELS/LIFESTYLE-FRONTS-%26-PANELS-2118MM/TRIBOARD-HD-10MM-2-4x1-2-KTA/p/1012492",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1015037",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "100 X 50 (90X45) RAD SG8 H1.2 PG KD 4.2M UNDER",
+      "priceRange": {},
+      "stock": {},
+      "url": "/STRUCTURAL-GRADE-%28SG%29-TIMBER-KD/SG-H3-2-RADIATA-KD/SPECIAL-ORDER-WINDOW-ACCESSORIES/100-X-50-%2890X45%29-RAD-SG8-H1-2-PG-KD-4-2M-UNDER/p/1015037",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1015239",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "75 X 50  (70X45) RAD SG8 H1.2 PG KD 3.6",
+      "priceRange": {},
+      "stock": {},
+      "url": "/STRUCTURAL-GRADE-%28SG%29-TIMBER-KD/SG-H3-2-RADIATA-KD/SPECIAL-ORDER-WINDOW-ACCESSORIES/75-X-50-%2870X45%29-RAD-SG8-H1-2-PG-KD-3-6/p/1015239",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1015243",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "75 X 50  (70X45) RAD SG8 H1.2 PG KD 4.8",
+      "priceRange": {},
+      "stock": {},
+      "url": "/STRUCTURAL-GRADE-%28SG%29-TIMBER-KD/SG-H3-2-RADIATA-KD/SPECIAL-ORDER-WINDOW-ACCESSORIES/75-X-50-%2870X45%29-RAD-SG8-H1-2-PG-KD-4-8/p/1015243",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1015247",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "75 X 50  (70X45) RAD SG8 H1.2 PG KD 6.0",
+      "priceRange": {},
+      "stock": {},
+      "url": "/STRUCTURAL-GRADE-%28SG%29-TIMBER-KD/SG-H3-2-RADIATA-KD/SPECIAL-ORDER-WINDOW-ACCESSORIES/75-X-50-%2870X45%29-RAD-SG8-H1-2-PG-KD-6-0/p/1015247",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1015252",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "100 X 50 (90X45) RAD SG8 H1.2 PG KD 3.0",
+      "priceRange": {},
+      "stock": {},
+      "url": "/STRUCTURAL-GRADE-%28SG%29-TIMBER-KD/SG-H3-2-RADIATA-KD/SPECIAL-ORDER-WINDOW-ACCESSORIES/100-X-50-%2890X45%29-RAD-SG8-H1-2-PG-KD-3-0/p/1015252",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1015256",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "100 X 50 (90X45) RAD SG8 H1.2 PG KD 4.2",
+      "priceRange": {},
+      "stock": {},
+      "url": "/STRUCTURAL-GRADE-%28SG%29-TIMBER-KD/SG-H3-2-RADIATA-KD/SPECIAL-ORDER-WINDOW-ACCESSORIES/100-X-50-%2890X45%29-RAD-SG8-H1-2-PG-KD-4-2/p/1015256",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1015272",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "150 X 50 (140X45) RAD SG8 H1.2 PG KD 4.2",
+      "priceRange": {},
+      "stock": {},
+      "url": "/ADHESIVES-AND-SEALANTS/FOAM-PRODUCTS/PREMADE-BENCHTOP-SINKBOWL/150-X-50-%28140X45%29-RAD-SG8-H1-2-PG-KD-4-2/p/1015272",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1015278",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "150 X 50 (140X45) RAD SG8 H1.2 PG KD 4.8",
+      "priceRange": {},
+      "stock": {},
+      "url": "/ADHESIVES-AND-SEALANTS/FOAM-PRODUCTS/PREMADE-BENCHTOP-SINKBOWL/150-X-50-%28140X45%29-RAD-SG8-H1-2-PG-KD-4-8/p/1015278",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1015307",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "200 X 50 (190X45) RAD SG8 H1.2 PG KD 4.2",
+      "priceRange": {},
+      "stock": {},
+      "url": "/ADHESIVES-AND-SEALANTS/FOAM-PRODUCTS/PREMADE-BENCHTOP-SINKBOWL/200-X-50-%28190X45%29-RAD-SG8-H1-2-PG-KD-4-2/p/1015307",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1015319",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "200 X 50 (190X45) RAD SG8 H1.2 PG KD 5.4",
+      "priceRange": {},
+      "stock": {},
+      "url": "/ADHESIVES-AND-SEALANTS/FOAM-PRODUCTS/PREMADE-BENCHTOP-SINKBOWL/200-X-50-%28190X45%29-RAD-SG8-H1-2-PG-KD-5-4/p/1015319",
+      "volumePricesFlag": false
+    },
+    {
+      "code": "1015342",
+      "configurable": false,
+      "configuratorType": "",
+      "multidimensional": false,
+      "name": "250 X 50 (240X45) RAD SG8 H1.2 PG KD 4.2",
+      "priceRange": {},
+      "stock": {},
+      "url": "/ADHESIVES-AND-SEALANTS/FOAM-PRODUCTS/PREMADE-BENCHTOP-SINKBOWL/250-X-50-%28240X45%29-RAD-SG8-H1-2-PG-KD-4-2/p/1015342",
+      "volumePricesFlag": false
+    }
+  ],
+  "sorts": [
+    {
+      "code": "relevance",
+      "name": "Relevance",
+      "selected": true
+    },
+    {
+      "code": "topRated",
+      "name": "Top Rated",
+      "selected": false
+    },
+    {
+      "code": "name-asc",
+      "name": "Name (ascending)",
+      "selected": false
+    },
+    {
+      "code": "name-desc",
+      "name": "Name (descending)",
+      "selected": false
+    },
+    {
+      "code": "price-asc",
+      "name": "Price (lowest first)",
+      "selected": false
+    },
+    {
+      "code": "price-desc",
+      "name": "Price (highest first)",
+      "selected": false
+    }
+  ]
+}

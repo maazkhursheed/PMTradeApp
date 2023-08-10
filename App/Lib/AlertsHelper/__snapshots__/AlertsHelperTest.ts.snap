@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders ERROR_503_ELEMENT snapshot as expected 1`] = `
+<Text
+  style={
+    Object {
+      "alignSelf": "flex-start",
+      "color": "#8296aa",
+      "fontFamily": "OpenSans-Regular",
+      "fontSize": 16,
+      "marginBottom": 20,
+    }
+  }
+>
+  Service unavailable, try again later. If the problem persists, please contact
+  <Text
+    onPress={[Function]}
+    style={
+      Object {
+        "color": "#3b5998",
+      }
+    }
+  >
+    
+undefined
+  </Text>
+</Text>
+`;
+
+exports[`Renders ERROR_GENERIC_ELEMENT snapshot as expected 1`] = `
+<Text
+  style={
+    Object {
+      "alignSelf": "flex-start",
+      "color": "#8296aa",
+      "fontFamily": "OpenSans-Regular",
+      "fontSize": 14,
+      "marginBottom": 20,
+    }
+  }
+>
+  Oops! Something went wrong. If problem persists, contact us at 
+  <Text
+    onPress={[Function]}
+    style={
+      Object {
+        "color": "#3b5998",
+      }
+    }
+  >
+    
+undefined
+  </Text>
+</Text>
+`;
